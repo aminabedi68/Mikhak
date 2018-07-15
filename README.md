@@ -1,1 +1,1 @@
-a simple monoline Arabic-Latin semi handwriting typeface
+simple monoline Arabic-Latin semi handwriting typeface
