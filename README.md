@@ -1,2 +1,2 @@
 # Mikhak
-simple monoline Arabic-Latin semi handwriting typeface
+a simple monoline Arabic-Latin semi handwriting typeface
