@@ -1,4 +1,3 @@
 # Mikhak
-a simple monoline Arabic-Latin semi handwriting typeface
-
-![winword_2018-07-18_08-36-23](https://user-images.githubusercontent.com/25493297/42892160-fecb6320-8a65-11e8-81a7-250aee36f9b0.png)
+Mikhak is a simple monoline semi handwriting Arabic(arabic-persian)-Latin(Basic-latin_1 supplement) typeface for body text.
+for testing in your browser please go <a href="https://aminabedi68.github.io/Mikhak/">here</a>
