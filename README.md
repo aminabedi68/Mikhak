@@ -11,4 +11,4 @@ Mikhak has 5 Weights and 2 Axes:
 <br>
 ### Axes:
 Weights:100-900
-<br>Width:100-200(not a real width axis, affecting on Kashida value.)
+<br>Width:100-200(not a real width axis, affecting on Arabic Kashida value.)
