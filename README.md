@@ -7,8 +7,8 @@ Mikhak is a simple monoline semi handwriting Arabic-Latin typeface in <a href="h
 Mikhak has 5 Weights and 2 Axes:
 <br>
 ### Weights:
-<br>100/300/500/700/900
+100/300/500/700/900
 <br>
 ### Axes:
-<br>Weights:100-900
+Weights:100-900
 <br>Width:100-200(not a real width axis, affecting on Kashida value.)
