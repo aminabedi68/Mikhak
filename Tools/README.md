@@ -1,1 +1,1 @@
-a tiny script to fixing kerning input method written by fontforge in UFO. thanks to @rastikerdar for create it.
+a tiny script to fixing kerning pairs writing method in UFO by fontforge . thanks to @rastikerdar for create it.
