@@ -26,12 +26,8 @@ sudo apt install openssl libssl-dev
 ##### install kateb
 ```
 sudo cpan kateb
-```
-and
-```
+
 kateb install mikhak
-```
 or
-```
 kateb update mikhak
 ```
