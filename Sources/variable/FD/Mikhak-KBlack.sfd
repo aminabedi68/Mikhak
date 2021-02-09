@@ -1,7 +1,7 @@
-SplineFontDB: 3.0
-FontName: Mikhak-VF-KBlack
-FullName: Mikhak-VF KBlack
-FamilyName: Mikhak-VF KBlack
+SplineFontDB: 3.2
+FontName: Mikhak-VF-FD-KBlack
+FullName: Mikhak-VF-FD KBlack
+FamilyName: Mikhak-VF-FD KBlack
 Weight: Black
 Copyright: Copyright (c) 2019, Amin Abedi (www.fontamin.com|aminabedi68@gmail.com),\nwith Reserved Font Name Mikhak.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at: http://scripts.sil.org/OFL
 Version: 2.200
@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1497005464
-ModificationTime: 1569492827
+ModificationTime: 1612893513
 PfmFamily: 33
 TTFWeight: 900
 TTFWidth: 5
@@ -221,7 +221,7 @@ ChainSub2: coverage "'calt' Contextual Alternates lookup 9 subtable" 0 0 0 1
  1
   SeqLookup: 0 "Single Substitution 1"
 EndFPST
-LangName: 1033 "" "" "Regular" "" "" "" "" "" "" "Amin Abedi" "" "www.fontamin.com" "" "Copyright (c) 2019, Amin Abedi (www.fontamin.com|aminabedi68@gmail.com),+AAoA-with Reserved Font Name Mikhak.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "Mikhak-VF" "Black"
+LangName: 1033 "" "" "Regular" "" "" "" "" "" "" "Amin Abedi" "" "www.fontamin.com" "" "Copyright (c) 2019, Amin Abedi (www.fontamin.com|aminabedi68@gmail.com),+AAoA-with Reserved Font Name Mikhak.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "Mikhak-VF-FD" "Black"
 GaspTable: 1 65535 15 1
 Encoding: UnicodeFull
 Compacted: 1
@@ -229,8 +229,8 @@ UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
-FitToEm: 1
-WinInfo: 217 31 11
+FitToEm: 0
+WinInfo: 0 19 13
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1353,232 +1353,81 @@ EndChar
 StartChar: zero
 Encoding: 48 48 39
 GlifName: zero
-Width: 1141
+Width: 737
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-318 486 m 0
- 318 263 387 172 510 172 c 0
- 722 172 824 450 824 843 c 0
- 824 1055 711 1188 580 1188 c 0
- 429 1188 318 856 318 486 c 0
-2 486 m 0
- 2 774 43 1504 580 1504 c 0
- 959 1504 1138 1143 1138 843 c 0
- 1138 494 1064 -142 510 -142 c 0
- 121 -142 2 219 2 486 c 0
-EndSplineSet
+Refer: 286 1776 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: one
 Encoding: 49 49 40
 GlifName: one
-Width: 715
+Width: 580
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-505 -157 m 0
- 419 -156 348 -85 349 1 c 2
- 358 1317 l 2
- 359 1403 430 1474 516 1473 c 0
- 602 1472 673 1401 672 1315 c 2
- 663 -1 l 2
- 662 -87 591 -158 505 -157 c 0
-622 1432 m 0
- 685 1374 689 1272 631 1209 c 0
- 517 1085 383 982 230 907 c 0
- 153 869 57 901 19 978 c 0
- -19 1055 14 1151 91 1189 c 0
- 207 1246 308 1324 399 1423 c 0
- 457 1486 559 1490 622 1432 c 0
-EndSplineSet
+Refer: 287 1777 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: two
 Encoding: 50 50 41
 GlifName: two
-Width: 1171
+Width: 1014
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-208 746 m 0
- 122 746 50 818 50 904 c 0
- 50 1203 261 1504 609 1504 c 0
- 912 1504 1110 1267 1110 1021 c 0
- 1110 717 872 482 643 273 c 2
- 590 224 l 1
- 603 224 614 224 626 224 c 0
- 756 224 887 219 1018 213 c 0
- 1104 209 1172 135 1168 49 c 0
- 1164 -37 1090 -105 1004 -101 c 0
- 875 -95 748 -90 626 -90 c 0
- 472 -90 324 -97 176 -112 c 0
- 133 -116 85 -101 52 -70 c 0
- -14 -8 -13 100 54 161 c 2
- 431 505 l 2
- 664 718 796 897 796 1021 c 0
- 796 1101 736 1188 609 1188 c 0
- 471 1188 366 1071 366 904 c 0
- 366 818 294 746 208 746 c 0
-EndSplineSet
+Refer: 288 1778 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: three
 Encoding: 51 51 42
 GlifName: three
-Width: 1078
+Width: 1285
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-191 913 m 0
- 107 932 52 1017 71 1101 c 0
- 126 1347 336 1504 581 1504 c 0
- 814 1504 1028 1322 1028 1008 c 0
- 1028 618 590 544 383 515 c 0
- 298 503 217 564 205 649 c 0
- 193 734 255 815 340 827 c 0
- 597 862 712 917 712 1008 c 0
- 712 1129 648 1188 567 1188 c 0
- 470 1188 402 1135 379 1033 c 0
- 360 949 275 894 191 913 c 0
-38 226 m 0
- 93 292 194 303 260 248 c 0
- 318 201 401 172 484 172 c 0
- 646 172 760 258 760 382 c 1
- 756 490 689 532 531 532 c 0
- 488 532 438 525 388 516 c 0
- 303 501 221 560 206 644 c 0
- 191 728 249 811 334 826 c 0
- 386 835 456 846 533 846 c 0
- 761 846 1065 753 1076 415 c 1
- 1076 92 795 -142 484 -142 c 0
- 335 -142 182 -97 60 4 c 0
- -6 59 -17 160 38 226 c 0
-EndSplineSet
+Refer: 289 1779 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: four
 Encoding: 52 52 43
 GlifName: four
-Width: 1268
+Width: 1118
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-781 1462 m 0
- 861 1430 900 1337 868 1257 c 0
- 777 1031 596 712 443 470 c 1
- 663 468 903 493 1071 534 c 0
- 1154 554 1241 501 1261 418 c 0
- 1281 335 1228 248 1145 228 c 0
- 855 157 448 132 138 176 c 0
- 123 178 95 187 77 198 c 0
- 0 246 -21 353 33 426 c 0
- 172 614 470 1113 576 1375 c 0
- 608 1455 701 1494 781 1462 c 0
-842 806 m 0
- 927 798 992 719 984 634 c 2
- 915 -15 l 2
- 905 -100 828 -165 743 -157 c 0
- 658 -149 591 -70 601 15 c 2
- 670 664 l 2
- 678 749 757 814 842 806 c 0
-EndSplineSet
+Refer: 290 1780 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: five
 Encoding: 53 53 44
 GlifName: five
-Width: 1113
+Width: 1155
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-1097 1370 m 0
- 1115 1286 1060 1201 976 1183 c 0
- 888 1164 776 1158 637 1158 c 0
- 555 1158 471 1161 396 1166 c 1
- 383 1039 l 1
- 429 1049 473 1054 559 1054 c 0
- 796 1054 1110 887 1110 470 c 0
- 1110 86 813 -142 496 -142 c 0
- 344 -142 189 -92 62 9 c 0
- -5 62 -17 163 37 230 c 0
- 91 297 191 308 258 255 c 0
- 327 200 412 172 496 172 c 0
- 667 172 796 272 796 470 c 0
- 796 661 688 738 518 738 c 0
- 445 738 366 712 304 656 c 0
- 280 635 237 616 196 617 c 0
- 105 619 33 699 42 789 c 2
- 98 1356 l 2
- 106 1434 188 1515 286 1495 c 0
- 348 1483 499 1474 637 1474 c 0
- 764 1474 866 1482 910 1491 c 0
- 994 1509 1079 1454 1097 1370 c 0
-EndSplineSet
+Refer: 291 1781 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: six
 Encoding: 54 54 45
 GlifName: six
-Width: 1099
+Width: 976
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-548 172 m 0
- 686 172 784 276 782 414 c 0
- 779 602 682 654 576 654 c 0
- 458 654 319 549 304 524 c 0
- 259 451 161 427 88 472 c 0
- 15 517 -9 615 36 688 c 0
- 119 823 328 968 576 968 c 0
- 840 968 1089 770 1096 420 c 0
- 1102 114 866 -142 548 -142 c 0
- 168 -142 2 173 2 475 c 0
- 2 895 88 1474 619 1474 c 0
- 703 1474 793 1461 889 1432 c 0
- 971 1407 1019 1318 995 1236 c 0
- 971 1154 881 1105 799 1130 c 0
- 727 1151 667 1160 619 1160 c 0
- 422 1160 318 935 318 475 c 0
- 318 263 391 172 548 172 c 0
-EndSplineSet
+Refer: 292 1782 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: eight
 Encoding: 56 56 46
 GlifName: eight
-Width: 1079
+Width: 1168
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-511 800 m 0
- 678 733 964 588 964 295 c 0
- 964 37 738 -142 488 -142 c 0
- 229 -142 7 48 7 324 c 0
- 7 759 558 1069 856 1198 c 0
- 935 1232 1030 1196 1064 1117 c 0
- 1098 1038 1064 936 982 910 c 0
- 688 817 322 503 322 324 c 0
- 322 232 379 172 488 172 c 0
- 598 172 648 241 648 295 c 0
- 648 344 558 443 395 508 c 0
- 234 572 2 749 2 1024 c 0
- 2 1295 223 1504 504 1504 c 0
- 790 1504 955 1312 1043 1085 c 0
- 1074 1005 1032 913 952 882 c 0
- 872 851 779 893 749 973 c 0
- 684 1144 616 1188 500 1188 c 0
- 369 1188 318 1111 318 1024 c 0
- 318 949 417 837 511 800 c 0
-EndSplineSet
+Refer: 294 1784 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: period
@@ -6782,49 +6631,21 @@ EndChar
 StartChar: seven
 Encoding: 55 55 329
 GlifName: seven
-Width: 1080
+Width: 1158
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-3 1255 m 0
- -3 1341 64 1416 150 1422 c 2
- 904 1471 l 2
- 994 1477 1072 1403 1071 1312 c 0
- 1071 1288 1063 1260 1055 1244 c 0
- 885 904 771 421 698 -25 c 0
- 684 -110 602 -169 517 -155 c 0
- 432 -141 373 -60 387 25 c 0
- 447 396 533 794 666 1140 c 1
- 170 1108 l 2
- 84 1102 9 1169 3 1255 c 0
-EndSplineSet
+Refer: 293 1783 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: nine
 Encoding: 57 57 330
 GlifName: nine
-Width: 1208
+Width: 1022
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-556 1470 m 0
- 856 1469 1116 1226 1116 795 c 0
- 1116 444 938 17 552 -150 c 0
- 473 -184 379 -146 345 -67 c 0
- 311 12 348 106 427 140 c 0
- 657 239 802 534 802 795 c 0
- 802 1096 666 1155 556 1156 c 0
- 410 1156 318 1042 318 886 c 0
- 318 695 419 640 575 640 c 0
- 729 640 867 704 939 773 c 0
- 1001 833 1103 830 1162 768 c 0
- 1221 706 1219 605 1157 545 c 0
- 1021 414 811 324 575 324 c 0
- 305 324 2 495 2 886 c 0
- 2 1172 202 1470 556 1470 c 0
-EndSplineSet
+Refer: 295 1785 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFD3E

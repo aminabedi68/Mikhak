@@ -1,7 +1,7 @@
-SplineFontDB: 3.0
-FontName: Mikhak-VF-KBlack
-FullName: Mikhak-VF KBlack
-FamilyName: Mikhak-VF KBlack
+SplineFontDB: 3.2
+FontName: Mikhak-VF-FD-Black
+FullName: Mikhak-VF-FD Black
+FamilyName: Mikhak-VF-FD Black
 Weight: Black
 Copyright: Copyright (c) 2019, Amin Abedi (www.fontamin.com|aminabedi68@gmail.com),\nwith Reserved Font Name Mikhak.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at: http://scripts.sil.org/OFL
 Version: 2.200
@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1497005464
-ModificationTime: 1569492827
+ModificationTime: 1612893464
 PfmFamily: 33
 TTFWeight: 900
 TTFWidth: 5
@@ -221,7 +221,7 @@ ChainSub2: coverage "'calt' Contextual Alternates lookup 9 subtable" 0 0 0 1
  1
   SeqLookup: 0 "Single Substitution 1"
 EndFPST
-LangName: 1033 "" "" "Regular" "" "" "" "" "" "" "Amin Abedi" "" "www.fontamin.com" "" "Copyright (c) 2019, Amin Abedi (www.fontamin.com|aminabedi68@gmail.com),+AAoA-with Reserved Font Name Mikhak.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "Mikhak-VF" "Black"
+LangName: 1033 "" "" "Regular" "" "" "" "" "" "" "Amin Abedi" "" "www.fontamin.com" "" "Copyright (c) 2019, Amin Abedi (www.fontamin.com|aminabedi68@gmail.com),+AAoA-with Reserved Font Name Mikhak.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "Mikhak-VF-FD" "Black"
 GaspTable: 1 65535 15 1
 Encoding: UnicodeFull
 Compacted: 1
@@ -229,8 +229,8 @@ UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
-FitToEm: 1
-WinInfo: 217 31 11
+FitToEm: 0
+WinInfo: 0 15 11
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1353,232 +1353,81 @@ EndChar
 StartChar: zero
 Encoding: 48 48 39
 GlifName: zero
-Width: 1141
+Width: 737
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-318 486 m 0
- 318 263 387 172 510 172 c 0
- 722 172 824 450 824 843 c 0
- 824 1055 711 1188 580 1188 c 0
- 429 1188 318 856 318 486 c 0
-2 486 m 0
- 2 774 43 1504 580 1504 c 0
- 959 1504 1138 1143 1138 843 c 0
- 1138 494 1064 -142 510 -142 c 0
- 121 -142 2 219 2 486 c 0
-EndSplineSet
+Refer: 286 1776 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: one
 Encoding: 49 49 40
 GlifName: one
-Width: 715
+Width: 580
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-505 -157 m 0
- 419 -156 348 -85 349 1 c 2
- 358 1317 l 2
- 359 1403 430 1474 516 1473 c 0
- 602 1472 673 1401 672 1315 c 2
- 663 -1 l 2
- 662 -87 591 -158 505 -157 c 0
-622 1432 m 0
- 685 1374 689 1272 631 1209 c 0
- 517 1085 383 982 230 907 c 0
- 153 869 57 901 19 978 c 0
- -19 1055 14 1151 91 1189 c 0
- 207 1246 308 1324 399 1423 c 0
- 457 1486 559 1490 622 1432 c 0
-EndSplineSet
+Refer: 287 1777 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: two
 Encoding: 50 50 41
 GlifName: two
-Width: 1171
+Width: 1014
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-208 746 m 0
- 122 746 50 818 50 904 c 0
- 50 1203 261 1504 609 1504 c 0
- 912 1504 1110 1267 1110 1021 c 0
- 1110 717 872 482 643 273 c 2
- 590 224 l 1
- 603 224 614 224 626 224 c 0
- 756 224 887 219 1018 213 c 0
- 1104 209 1172 135 1168 49 c 0
- 1164 -37 1090 -105 1004 -101 c 0
- 875 -95 748 -90 626 -90 c 0
- 472 -90 324 -97 176 -112 c 0
- 133 -116 85 -101 52 -70 c 0
- -14 -8 -13 100 54 161 c 2
- 431 505 l 2
- 664 718 796 897 796 1021 c 0
- 796 1101 736 1188 609 1188 c 0
- 471 1188 366 1071 366 904 c 0
- 366 818 294 746 208 746 c 0
-EndSplineSet
+Refer: 288 1778 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: three
 Encoding: 51 51 42
 GlifName: three
-Width: 1078
+Width: 1285
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-191 913 m 0
- 107 932 52 1017 71 1101 c 0
- 126 1347 336 1504 581 1504 c 0
- 814 1504 1028 1322 1028 1008 c 0
- 1028 618 590 544 383 515 c 0
- 298 503 217 564 205 649 c 0
- 193 734 255 815 340 827 c 0
- 597 862 712 917 712 1008 c 0
- 712 1129 648 1188 567 1188 c 0
- 470 1188 402 1135 379 1033 c 0
- 360 949 275 894 191 913 c 0
-38 226 m 0
- 93 292 194 303 260 248 c 0
- 318 201 401 172 484 172 c 0
- 646 172 760 258 760 382 c 1
- 756 490 689 532 531 532 c 0
- 488 532 438 525 388 516 c 0
- 303 501 221 560 206 644 c 0
- 191 728 249 811 334 826 c 0
- 386 835 456 846 533 846 c 0
- 761 846 1065 753 1076 415 c 1
- 1076 92 795 -142 484 -142 c 0
- 335 -142 182 -97 60 4 c 0
- -6 59 -17 160 38 226 c 0
-EndSplineSet
+Refer: 289 1779 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: four
 Encoding: 52 52 43
 GlifName: four
-Width: 1268
+Width: 1118
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-781 1462 m 0
- 861 1430 900 1337 868 1257 c 0
- 777 1031 596 712 443 470 c 1
- 663 468 903 493 1071 534 c 0
- 1154 554 1241 501 1261 418 c 0
- 1281 335 1228 248 1145 228 c 0
- 855 157 448 132 138 176 c 0
- 123 178 95 187 77 198 c 0
- 0 246 -21 353 33 426 c 0
- 172 614 470 1113 576 1375 c 0
- 608 1455 701 1494 781 1462 c 0
-842 806 m 0
- 927 798 992 719 984 634 c 2
- 915 -15 l 2
- 905 -100 828 -165 743 -157 c 0
- 658 -149 591 -70 601 15 c 2
- 670 664 l 2
- 678 749 757 814 842 806 c 0
-EndSplineSet
+Refer: 290 1780 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: five
 Encoding: 53 53 44
 GlifName: five
-Width: 1113
+Width: 1155
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-1097 1370 m 0
- 1115 1286 1060 1201 976 1183 c 0
- 888 1164 776 1158 637 1158 c 0
- 555 1158 471 1161 396 1166 c 1
- 383 1039 l 1
- 429 1049 473 1054 559 1054 c 0
- 796 1054 1110 887 1110 470 c 0
- 1110 86 813 -142 496 -142 c 0
- 344 -142 189 -92 62 9 c 0
- -5 62 -17 163 37 230 c 0
- 91 297 191 308 258 255 c 0
- 327 200 412 172 496 172 c 0
- 667 172 796 272 796 470 c 0
- 796 661 688 738 518 738 c 0
- 445 738 366 712 304 656 c 0
- 280 635 237 616 196 617 c 0
- 105 619 33 699 42 789 c 2
- 98 1356 l 2
- 106 1434 188 1515 286 1495 c 0
- 348 1483 499 1474 637 1474 c 0
- 764 1474 866 1482 910 1491 c 0
- 994 1509 1079 1454 1097 1370 c 0
-EndSplineSet
+Refer: 291 1781 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: six
 Encoding: 54 54 45
 GlifName: six
-Width: 1099
+Width: 976
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-548 172 m 0
- 686 172 784 276 782 414 c 0
- 779 602 682 654 576 654 c 0
- 458 654 319 549 304 524 c 0
- 259 451 161 427 88 472 c 0
- 15 517 -9 615 36 688 c 0
- 119 823 328 968 576 968 c 0
- 840 968 1089 770 1096 420 c 0
- 1102 114 866 -142 548 -142 c 0
- 168 -142 2 173 2 475 c 0
- 2 895 88 1474 619 1474 c 0
- 703 1474 793 1461 889 1432 c 0
- 971 1407 1019 1318 995 1236 c 0
- 971 1154 881 1105 799 1130 c 0
- 727 1151 667 1160 619 1160 c 0
- 422 1160 318 935 318 475 c 0
- 318 263 391 172 548 172 c 0
-EndSplineSet
+Refer: 292 1782 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: eight
 Encoding: 56 56 46
 GlifName: eight
-Width: 1079
+Width: 1168
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-511 800 m 0
- 678 733 964 588 964 295 c 0
- 964 37 738 -142 488 -142 c 0
- 229 -142 7 48 7 324 c 0
- 7 759 558 1069 856 1198 c 0
- 935 1232 1030 1196 1064 1117 c 0
- 1098 1038 1064 936 982 910 c 0
- 688 817 322 503 322 324 c 0
- 322 232 379 172 488 172 c 0
- 598 172 648 241 648 295 c 0
- 648 344 558 443 395 508 c 0
- 234 572 2 749 2 1024 c 0
- 2 1295 223 1504 504 1504 c 0
- 790 1504 955 1312 1043 1085 c 0
- 1074 1005 1032 913 952 882 c 0
- 872 851 779 893 749 973 c 0
- 684 1144 616 1188 500 1188 c 0
- 369 1188 318 1111 318 1024 c 0
- 318 949 417 837 511 800 c 0
-EndSplineSet
+Refer: 294 1784 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: period
@@ -3161,7 +3010,7 @@ EndChar
 StartChar: uniFEB4
 Encoding: 65204 65204 115
 GlifName: uniF_E_B_4
-Width: 2767
+Width: 1767
 Flags: HMW
 AnchorPoint: "Anchor-3" 900 535 basechar 0
 AnchorPoint: "Anchor-1" 858 0 basechar 0
@@ -3173,7 +3022,7 @@ EndChar
 StartChar: uniFEB2
 Encoding: 65202 65202 116
 GlifName: uniF_E_B_2
-Width: 3402
+Width: 2402
 Flags: HMW
 AnchorPoint: "Anchor-3" 1607 559 basechar 0
 AnchorPoint: "Anchor-1" 644 -564 basechar 0
@@ -3257,7 +3106,7 @@ EndChar
 StartChar: uniFE98
 Encoding: 65176 65176 122
 GlifName: uniF_E_98
-Width: 1811
+Width: 811
 Flags: HMW
 AnchorPoint: "Anchor-3" 253 1016 basechar 0
 AnchorPoint: "Anchor-1" 211 0 basechar 0
@@ -3271,7 +3120,7 @@ EndChar
 StartChar: uniFE9C
 Encoding: 65180 65180 123
 GlifName: uniF_E_9C_
-Width: 1811
+Width: 811
 Flags: HMW
 AnchorPoint: "Anchor-3" 215 1237 basechar 0
 AnchorPoint: "Anchor-1" 211 0 basechar 0
@@ -3285,7 +3134,7 @@ EndChar
 StartChar: uniFEF4
 Encoding: 65268 65268 124
 GlifName: uniF_E_F_4
-Width: 1811
+Width: 811
 Flags: HMW
 AnchorPoint: "Anchor-3" 233 565 basechar 0
 AnchorPoint: "Anchor-1" 70 -432 basechar 0
@@ -3300,7 +3149,7 @@ EndChar
 StartChar: uniFEE8
 Encoding: 65256 65256 125
 GlifName: uniF_E_E_8
-Width: 1811
+Width: 811
 Flags: HMW
 AnchorPoint: "Anchor-3" 249 932 basechar 0
 AnchorPoint: "Anchor-1" 211 0 basechar 0
@@ -3313,7 +3162,7 @@ EndChar
 StartChar: uniFE92
 Encoding: 65170 65170 126
 GlifName: uniF_E_92
-Width: 1811
+Width: 811
 Flags: HMW
 AnchorPoint: "Anchor-3" 233 565 basechar 0
 AnchorPoint: "Anchor-1" 76 -399 basechar 0
@@ -3328,7 +3177,7 @@ EndChar
 StartChar: uniFE82
 Encoding: 65154 65154 127
 GlifName: uniF_E_82
-Width: 1531
+Width: 531
 Flags: HMW
 AnchorPoint: "Anchor-3" 231 1610 basechar 0
 AnchorPoint: "Anchor-1" 317 0 basechar 0
@@ -3343,7 +3192,7 @@ EndChar
 StartChar: uniFE84
 Encoding: 65156 65156 128
 GlifName: uniF_E_84
-Width: 1531
+Width: 531
 Flags: HMW
 AnchorPoint: "Anchor-3" 290 1775 basechar 0
 AnchorPoint: "Anchor-1" 317 0 basechar 0
@@ -3358,7 +3207,7 @@ EndChar
 StartChar: uniFE86
 Encoding: 65158 65158 129
 GlifName: uniF_E_86
-Width: 1931
+Width: 931
 Flags: HMW
 AnchorPoint: "Anchor-3" 408 1223 basechar 0
 AnchorPoint: "Anchor-1" 384 -408 basechar 0
@@ -3382,7 +3231,7 @@ EndChar
 StartChar: uniFE88
 Encoding: 65160 65160 130
 GlifName: uniF_E_88
-Width: 1531
+Width: 531
 Flags: HMW
 AnchorPoint: "Anchor-3" 214 1211 basechar 0
 AnchorPoint: "Anchor-1" 278 -529 basechar 0
@@ -3397,7 +3246,7 @@ EndChar
 StartChar: uniFE8A
 Encoding: 65162 65162 131
 GlifName: uniF_E_8A_
-Width: 2382
+Width: 1382
 Flags: HMW
 AnchorPoint: "Anchor-3" 886 644 basechar 0
 AnchorPoint: "Anchor-1" 619 -580 basechar 0
@@ -3423,7 +3272,7 @@ EndChar
 StartChar: uniFE8C
 Encoding: 65164 65164 133
 GlifName: uniF_E_8C_
-Width: 1811
+Width: 811
 Flags: HMW
 AnchorPoint: "Anchor-3" 253 1020 basechar 0
 AnchorPoint: "Anchor-1" 211 0 basechar 0
@@ -3436,7 +3285,7 @@ EndChar
 StartChar: uniFE8E
 Encoding: 65166 65166 134
 GlifName: uniF_E_8E_
-Width: 1531
+Width: 531
 Flags: HMW
 AnchorPoint: "Anchor-3" 214 1211 basechar 0
 AnchorPoint: "Anchor-1" 317 0 basechar 0
@@ -3450,7 +3299,7 @@ EndChar
 StartChar: uniFE90
 Encoding: 65168 65168 135
 GlifName: uniF_E_90
-Width: 2959
+Width: 1959
 Flags: HMW
 AnchorPoint: "Anchor-3" 805 577 basechar 0
 AnchorPoint: "Anchor-1" 766 -430 basechar 0
@@ -3463,7 +3312,7 @@ EndChar
 StartChar: uniFE94
 Encoding: 65172 65172 136
 GlifName: uniF_E_94
-Width: 2081
+Width: 1081
 Flags: HMW
 AnchorPoint: "Anchor-3" 529 1472 basechar 0
 AnchorPoint: "Anchor-1" 403 2 basechar 0
@@ -3476,7 +3325,7 @@ EndChar
 StartChar: uniFE96
 Encoding: 65174 65174 137
 GlifName: uniF_E_96
-Width: 2959
+Width: 1959
 Flags: HMW
 AnchorPoint: "Anchor-3" 816 852 basechar 0
 AnchorPoint: "Anchor-1" 749 -1 basechar 0
@@ -3489,7 +3338,7 @@ EndChar
 StartChar: uniFE9A
 Encoding: 65178 65178 138
 GlifName: uniF_E_9A_
-Width: 2959
+Width: 1959
 Flags: HMW
 AnchorPoint: "Anchor-3" 813 1011 basechar 0
 AnchorPoint: "Anchor-1" 749 -1 basechar 0
@@ -3502,7 +3351,7 @@ EndChar
 StartChar: uniFE9E
 Encoding: 65182 65182 139
 GlifName: uniF_E_9E_
-Width: 2332
+Width: 1332
 Flags: HMW
 AnchorPoint: "Anchor-3" 449 811 basechar 0
 AnchorPoint: "Anchor-1" 714 -744 basechar 0
@@ -3528,7 +3377,7 @@ EndChar
 StartChar: uniFEA0
 Encoding: 65184 65184 141
 GlifName: uniF_E_A_0
-Width: 2351
+Width: 1351
 Flags: HMW
 AnchorPoint: "Anchor-3" 396 811 basechar 0
 AnchorPoint: "Anchor-1" 597 -328 basechar 0
@@ -3541,7 +3390,7 @@ EndChar
 StartChar: uniFEA2
 Encoding: 65186 65186 142
 GlifName: uniF_E_A_2
-Width: 2332
+Width: 1332
 Flags: HMW
 AnchorPoint: "Anchor-3" 449 811 basechar 0
 AnchorPoint: "Anchor-1" 714 -744 basechar 0
@@ -3565,7 +3414,7 @@ EndChar
 StartChar: uniFEA4
 Encoding: 65188 65188 144
 GlifName: uniF_E_A_4
-Width: 2351
+Width: 1351
 Flags: HMW
 AnchorPoint: "Anchor-3" 396 811 basechar 0
 AnchorPoint: "Anchor-1" 510 0 basechar 0
@@ -3577,7 +3426,7 @@ EndChar
 StartChar: uniFEA6
 Encoding: 65190 65190 145
 GlifName: uniF_E_A_6
-Width: 2332
+Width: 1332
 Flags: HMW
 AnchorPoint: "Anchor-3" 438 1174 basechar 0
 AnchorPoint: "Anchor-1" 714 -744 basechar 0
@@ -3603,7 +3452,7 @@ EndChar
 StartChar: uniFEA8
 Encoding: 65192 65192 147
 GlifName: uniF_E_A_8
-Width: 2351
+Width: 1351
 Flags: HMW
 AnchorPoint: "Anchor-3" 374 1207 basechar 0
 AnchorPoint: "Anchor-1" 510 0 basechar 0
@@ -3616,7 +3465,7 @@ EndChar
 StartChar: uniFEAA
 Encoding: 65194 65194 148
 GlifName: uniF_E_A_A_
-Width: 2120
+Width: 1120
 Flags: HMW
 AnchorPoint: "Anchor-3" 587 877 basechar 0
 AnchorPoint: "Anchor-1" 391 -106 basechar 0
@@ -3640,7 +3489,7 @@ EndChar
 StartChar: uniFEAC
 Encoding: 65196 65196 149
 GlifName: uniF_E_A_C_
-Width: 2120
+Width: 1120
 Flags: HMW
 AnchorPoint: "Anchor-3" 543 1269 basechar 0
 AnchorPoint: "Anchor-1" 381 -106 basechar 0
@@ -3665,7 +3514,7 @@ EndChar
 StartChar: uniFEAE
 Encoding: 65198 65198 150
 GlifName: uniF_E_A_E_
-Width: 1917
+Width: 917
 Flags: HMW
 AnchorPoint: "Anchor-3" 472 566 basechar 0
 AnchorPoint: "Anchor-1" 493 -394 basechar 0
@@ -3777,7 +3626,7 @@ EndChar
 StartChar: uniFEB0
 Encoding: 65200 65200 151
 GlifName: uniF_E_B_0
-Width: 1917
+Width: 917
 Flags: HMW
 AnchorPoint: "Anchor-3" 438 1000 basechar 0
 AnchorPoint: "Anchor-1" 483 -394 basechar 0
@@ -3890,7 +3739,7 @@ EndChar
 StartChar: uniFEB6
 Encoding: 65206 65206 152
 GlifName: uniF_E_B_6
-Width: 3402
+Width: 2402
 Flags: HMW
 AnchorPoint: "Anchor-3" 1504 1143 basechar 0
 AnchorPoint: "Anchor-1" 584 -513 basechar 0
@@ -3916,7 +3765,7 @@ EndChar
 StartChar: uniFEB8
 Encoding: 65208 65208 154
 GlifName: uniF_E_B_8
-Width: 2767
+Width: 1767
 Flags: HMW
 AnchorPoint: "Anchor-3" 838 1194 basechar 0
 AnchorPoint: "Anchor-1" 829 0 basechar 0
@@ -3929,7 +3778,7 @@ EndChar
 StartChar: uniFEBA
 Encoding: 65210 65210 155
 GlifName: uniF_E_B_A_
-Width: 3424
+Width: 2424
 Flags: HMW
 AnchorPoint: "Anchor-3" 1879 811 basechar 0
 AnchorPoint: "Anchor-1" 589 -563 basechar 0
@@ -3953,7 +3802,7 @@ EndChar
 StartChar: uniFEBC
 Encoding: 65212 65212 157
 GlifName: uniF_E_B_C_
-Width: 2671
+Width: 1671
 Flags: HMW
 AnchorPoint: "Anchor-3" 1101 811 basechar 0
 AnchorPoint: "Anchor-1" 818 0 basechar 0
@@ -3965,7 +3814,7 @@ EndChar
 StartChar: uniFEBE
 Encoding: 65214 65214 158
 GlifName: uniF_E_B_E_
-Width: 3424
+Width: 2424
 Flags: HMW
 AnchorPoint: "Anchor-3" 1831 1080 basechar 0
 AnchorPoint: "Anchor-1" 617 -509 basechar 0
@@ -3991,7 +3840,7 @@ EndChar
 StartChar: uniFEC0
 Encoding: 65216 65216 160
 GlifName: uniF_E_C_0
-Width: 2671
+Width: 1671
 Flags: HMW
 AnchorPoint: "Anchor-3" 1057 1165 basechar 0
 AnchorPoint: "Anchor-1" 818 0 basechar 0
@@ -4004,7 +3853,7 @@ EndChar
 StartChar: uniFEC2
 Encoding: 65218 65218 161
 GlifName: uniF_E_C_2
-Width: 2656
+Width: 1656
 Flags: HMW
 AnchorPoint: "Anchor-3" 1128 811 basechar 0
 AnchorPoint: "Anchor-1" 450 0 basechar 0
@@ -4028,7 +3877,7 @@ EndChar
 StartChar: uniFEC4
 Encoding: 65220 65220 163
 GlifName: uniF_E_C_4
-Width: 2338
+Width: 1338
 Flags: HMW
 AnchorPoint: "Anchor-3" 885 841 basechar 0
 AnchorPoint: "Anchor-1" 596 0 basechar 0
@@ -4040,7 +3889,7 @@ EndChar
 StartChar: uniFEC6
 Encoding: 65222 65222 164
 GlifName: uniF_E_C_6
-Width: 2656
+Width: 1656
 Flags: HMW
 AnchorPoint: "Anchor-3" 1104 1150 basechar 0
 AnchorPoint: "Anchor-1" 428 0 basechar 0
@@ -4066,7 +3915,7 @@ EndChar
 StartChar: uniFEC8
 Encoding: 65224 65224 166
 GlifName: uniF_E_C_8
-Width: 2338
+Width: 1338
 Flags: HMW
 AnchorPoint: "Anchor-3" 861 1232 basechar 0
 AnchorPoint: "Anchor-1" 596 0 basechar 0
@@ -4079,7 +3928,7 @@ EndChar
 StartChar: uniFECA
 Encoding: 65226 65226 167
 GlifName: uniF_E_C_A_
-Width: 2092
+Width: 1092
 Flags: HMW
 AnchorPoint: "Anchor-3" 552 821 basechar 0
 AnchorPoint: "Anchor-1" 676 -740 basechar 0
@@ -4103,7 +3952,7 @@ EndChar
 StartChar: uniFECC
 Encoding: 65228 65228 169
 GlifName: uniF_E_C_C_
-Width: 2040
+Width: 1040
 Flags: HMW
 AnchorPoint: "Anchor-3" 506 821 basechar 0
 AnchorPoint: "Anchor-1" 515 0 basechar 0
@@ -4115,7 +3964,7 @@ EndChar
 StartChar: uniFECE
 Encoding: 65230 65230 170
 GlifName: uniF_E_C_E_
-Width: 2092
+Width: 1092
 Flags: HMW
 AnchorPoint: "Anchor-3" 527 1242 basechar 0
 AnchorPoint: "Anchor-1" 660 -740 basechar 0
@@ -4141,7 +3990,7 @@ EndChar
 StartChar: uniFED0
 Encoding: 65232 65232 172
 GlifName: uniF_E_D_0
-Width: 2040
+Width: 1040
 Flags: HMW
 AnchorPoint: "Anchor-3" 521 1234 basechar 0
 AnchorPoint: "Anchor-1" 495 0 basechar 0
@@ -4154,7 +4003,7 @@ EndChar
 StartChar: uniFED2
 Encoding: 65234 65234 173
 GlifName: uniF_E_D_2
-Width: 2829
+Width: 1829
 Flags: HMW
 AnchorPoint: "Anchor-3" 1484 1323 basechar 0
 AnchorPoint: "Anchor-1" 780 -30 basechar 0
@@ -4180,7 +4029,7 @@ EndChar
 StartChar: uniFED4
 Encoding: 65236 65236 175
 GlifName: uniF_E_D_4
-Width: 1945
+Width: 945
 Flags: HMW
 AnchorPoint: "Anchor-3" 485 1365 basechar 0
 AnchorPoint: "Anchor-1" 337 0 basechar 0
@@ -4193,7 +4042,7 @@ EndChar
 StartChar: uniFED6
 Encoding: 65238 65238 176
 GlifName: uniF_E_D_6
-Width: 2461
+Width: 1461
 Flags: HMW
 AnchorPoint: "Anchor-3" 979 1152 basechar 0
 AnchorPoint: "Anchor-1" 712 -526 basechar 0
@@ -4219,7 +4068,7 @@ EndChar
 StartChar: uniFED8
 Encoding: 65240 65240 178
 GlifName: uniF_E_D_8
-Width: 1945
+Width: 945
 Flags: HMW
 AnchorPoint: "Anchor-3" 478 1345 basechar 0
 AnchorPoint: "Anchor-1" 337 0 basechar 0
@@ -4232,7 +4081,7 @@ EndChar
 StartChar: uniFEDA
 Encoding: 65242 65242 179
 GlifName: uniF_E_D_A_
-Width: 2772
+Width: 1772
 Flags: HMW
 AnchorPoint: "Anchor-3" 781 903 basechar 0
 AnchorPoint: "Anchor-1" 716 -30 basechar 0
@@ -4257,7 +4106,7 @@ EndChar
 StartChar: uniFEDC
 Encoding: 65244 65244 181
 GlifName: uniF_E_D_C_
-Width: 2113
+Width: 1113
 Flags: HMW
 AnchorPoint: "Anchor-3" 489 1197 basechar 0
 AnchorPoint: "Anchor-1" 268 0 basechar 0
@@ -4269,7 +4118,7 @@ EndChar
 StartChar: uniFEDE
 Encoding: 65246 65246 182
 GlifName: uniF_E_D_E_
-Width: 2450
+Width: 1450
 Flags: HMW
 AnchorPoint: "Anchor-3" 400 596 basechar 0
 AnchorPoint: "Anchor-1" 623 -526 basechar 0
@@ -4293,7 +4142,7 @@ EndChar
 StartChar: uniFEE0
 Encoding: 65248 65248 184
 GlifName: uniF_E_E_0
-Width: 1674
+Width: 674
 Flags: HMW
 AnchorPoint: "Anchor-3" 293 1211 basechar 0
 AnchorPoint: "Anchor-1" 247 0 basechar 0
@@ -4305,7 +4154,7 @@ EndChar
 StartChar: uniFEE2
 Encoding: 65250 65250 185
 GlifName: uniF_E_E_2
-Width: 2365
+Width: 1365
 Flags: HMW
 AnchorPoint: "Anchor-3" 724 663 basechar 0
 AnchorPoint: "Anchor-1" 690 -169 basechar 0
@@ -4319,7 +4168,7 @@ EndChar
 StartChar: uniFEE4
 Encoding: 65252 65252 186
 GlifName: uniF_E_E_4
-Width: 2199
+Width: 1199
 Flags: HMW
 AnchorPoint: "Anchor-3" 589 675 basechar 0
 AnchorPoint: "Anchor-1" 561 0 basechar 0
@@ -4331,7 +4180,7 @@ EndChar
 StartChar: uniFEE6
 Encoding: 65254 65254 187
 GlifName: uniF_E_E_6
-Width: 2504
+Width: 1504
 Flags: HMW
 AnchorPoint: "Anchor-3" 666 424 basechar 0
 AnchorPoint: "Anchor-1" 651 -526 basechar 0
@@ -4345,7 +4194,7 @@ EndChar
 StartChar: uniFEEA
 Encoding: 65258 65258 188
 GlifName: uniF_E_E_A_
-Width: 2081
+Width: 1081
 Flags: HMW
 AnchorPoint: "Anchor-3" 443 936 basechar 0
 AnchorPoint: "Anchor-1" 425 2 basechar 0
@@ -4369,7 +4218,7 @@ EndChar
 StartChar: uniFEEC
 Encoding: 65260 65260 190
 GlifName: uniF_E_E_C_
-Width: 1930
+Width: 930
 Flags: HMW
 AnchorPoint: "Anchor-3" 465 782 basechar 0
 AnchorPoint: "Anchor-1" 418 -557 basechar 0
@@ -4381,7 +4230,7 @@ EndChar
 StartChar: uniFEEE
 Encoding: 65262 65262 191
 GlifName: uniF_E_E_E_
-Width: 1931
+Width: 931
 Flags: HMW
 AnchorPoint: "Anchor-3" 464 721 basechar 0
 AnchorPoint: "Anchor-1" 459 -408 basechar 0
@@ -4404,7 +4253,7 @@ EndChar
 StartChar: uniFEF2
 Encoding: 65266 65266 192
 GlifName: uniF_E_F_2
-Width: 2382
+Width: 1382
 Flags: HMW
 AnchorPoint: "Anchor-3" 765 214 basechar 0
 AnchorPoint: "Anchor-1" 665 -952 basechar 0
@@ -4436,7 +4285,7 @@ EndChar
 StartChar: uniFEF6
 Encoding: 65270 65270 194
 GlifName: uniF_E_F_6
-Width: 2282
+Width: 1282
 Flags: HMW
 AnchorPoint: "Anchor-2" 919 1157 baselig 0
 AnchorPoint: "Anchor-2" 386 1495 baselig 1
@@ -4474,7 +4323,7 @@ EndChar
 StartChar: uniFEF8
 Encoding: 65272 65272 196
 GlifName: uniF_E_F_8
-Width: 2282
+Width: 1282
 Flags: HMW
 AnchorPoint: "Anchor-2" 919 1157 baselig 0
 AnchorPoint: "Anchor-2" 323 1665 baselig 1
@@ -4512,7 +4361,7 @@ EndChar
 StartChar: uniFEFA
 Encoding: 65274 65274 198
 GlifName: uniF_E_F_A_
-Width: 2282
+Width: 1282
 Flags: HMW
 AnchorPoint: "Anchor-2" 350 1118 baselig 1
 AnchorPoint: "Anchor-2" 919 1157 baselig 0
@@ -4553,7 +4402,7 @@ EndChar
 StartChar: uniFEFC
 Encoding: 65276 65276 200
 GlifName: uniF_E_F_C_
-Width: 2282
+Width: 1282
 Flags: HMW
 AnchorPoint: "Anchor-2" 919 1157 baselig 0
 AnchorPoint: "Anchor-2" 350 1118 baselig 1
@@ -4590,7 +4439,7 @@ EndChar
 StartChar: uniFBFD
 Encoding: 64509 64509 202
 GlifName: uniF_B_F_D_
-Width: 2382
+Width: 1382
 Flags: HMW
 AnchorPoint: "Anchor-3" 724 206 basechar 0
 AnchorPoint: "Anchor-1" 690 -549 basechar 0
@@ -4617,7 +4466,7 @@ EndChar
 StartChar: uniFBFF
 Encoding: 64511 64511 204
 GlifName: uniF_B_F_F_
-Width: 1811
+Width: 811
 Flags: HMW
 AnchorPoint: "Anchor-3" 233 565 basechar 0
 AnchorPoint: "Anchor-1" 70 -432 basechar 0
@@ -4632,7 +4481,7 @@ EndChar
 StartChar: uniFB8F
 Encoding: 64399 64399 205
 GlifName: uniF_B_8F_
-Width: 2921
+Width: 1921
 Flags: HMW
 AnchorPoint: "Anchor-3" 1305 1197 basechar 0
 AnchorPoint: "Anchor-1" 768 -65 basechar 0
@@ -4656,7 +4505,7 @@ EndChar
 StartChar: uniFB91
 Encoding: 64401 64401 207
 GlifName: uniF_B_91
-Width: 2113
+Width: 1113
 Flags: HMW
 AnchorPoint: "Anchor-3" 489 1197 basechar 0
 AnchorPoint: "Anchor-1" 268 0 basechar 0
@@ -4668,7 +4517,7 @@ EndChar
 StartChar: uniFB93
 Encoding: 64403 64403 208
 GlifName: uniF_B_93
-Width: 2921
+Width: 1921
 Flags: HMW
 AnchorPoint: "Anchor-3" 1169 1565 basechar 0
 AnchorPoint: "Anchor-1" 768 -65 basechar 0
@@ -4694,7 +4543,7 @@ EndChar
 StartChar: uniFB95
 Encoding: 64405 64405 210
 GlifName: uniF_B_95
-Width: 2113
+Width: 1113
 Flags: HMW
 AnchorPoint: "Anchor-3" 359 1565 basechar 0
 AnchorPoint: "Anchor-1" 268 0 basechar 0
@@ -4707,7 +4556,7 @@ EndChar
 StartChar: uniFB8B
 Encoding: 64395 64395 211
 GlifName: uniF_B_8B_
-Width: 1917
+Width: 917
 Flags: HMW
 AnchorPoint: "Anchor-3" 509 1212 basechar 0
 AnchorPoint: "Anchor-1" 483 -394 basechar 0
@@ -4820,7 +4669,7 @@ EndChar
 StartChar: uniFB7B
 Encoding: 64379 64379 212
 GlifName: uniF_B_7B_
-Width: 2332
+Width: 1332
 Flags: HMW
 AnchorPoint: "Anchor-3" 449 811 basechar 0
 AnchorPoint: "Anchor-1" 714 -744 basechar 0
@@ -4846,7 +4695,7 @@ EndChar
 StartChar: uniFB7D
 Encoding: 64381 64381 214
 GlifName: uniF_B_7D_
-Width: 2351
+Width: 1351
 Flags: HMW
 AnchorPoint: "Anchor-3" 396 811 basechar 0
 AnchorPoint: "Anchor-1" 546 -666 basechar 0
@@ -4859,7 +4708,7 @@ EndChar
 StartChar: uniFB57
 Encoding: 64343 64343 215
 GlifName: uniF_B_57
-Width: 2959
+Width: 1959
 Flags: HMW
 AnchorPoint: "Anchor-3" 805 577 basechar 0
 AnchorPoint: "Anchor-1" 833 -691 basechar 0
@@ -4887,7 +4736,7 @@ EndChar
 StartChar: uniFB59
 Encoding: 64345 64345 217
 GlifName: uniF_B_59
-Width: 1811
+Width: 811
 Flags: HMW
 AnchorPoint: "Anchor-3" 233 565 basechar 0
 AnchorPoint: "Anchor-1" 85 -693 basechar 0
@@ -4914,7 +4763,7 @@ EndChar
 StartChar: uniFBE9
 Encoding: 64489 64489 219
 GlifName: uniF_B_E_9
-Width: 1811
+Width: 811
 Flags: HMW
 AnchorPoint: "Anchor-3" 233 565 basechar 0
 AnchorPoint: "Anchor-1" 211 0 basechar 0
@@ -5052,7 +4901,7 @@ EndChar
 StartChar: uniE004
 Encoding: 57348 57348 227
 GlifName: uniE_004
-Width: 2959
+Width: 1959
 Flags: HMW
 AnchorPoint: "Anchor-3" 852 553 basechar 0
 AnchorPoint: "Anchor-1" 796 -25 basechar 0
@@ -5076,7 +4925,7 @@ EndChar
 StartChar: uniE006
 Encoding: 57350 57350 229
 GlifName: uniE_006
-Width: 1945
+Width: 945
 Flags: HMW
 AnchorPoint: "Anchor-3" 552 921 basechar 0
 AnchorPoint: "Anchor-1" 367 0 basechar 0
@@ -5300,14 +5149,14 @@ EndChar
 StartChar: uniFE71
 Encoding: 65137 65137 245
 GlifName: uniF_E_71
-Width: 1668
+Width: 668
 Flags: HMW
-AnchorPoint: "Anchor-3" 831 1332 basechar 0
-AnchorPoint: "Anchor-1" 834 0 basechar 0
+AnchorPoint: "Anchor-3" 331 1332 basechar 0
+AnchorPoint: "Anchor-1" 334 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 267 1600 N 1 0 0 1 0 0 3
-Refer: 232 1611 N 1 0 0 1 618 -279 2
+Refer: 232 1611 N 1 0 0 1 118 -279 2
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 12 subtable" uni0640 uni064B
 LCarets2: 1 0
 EndChar
@@ -5315,14 +5164,14 @@ EndChar
 StartChar: uniFE79
 Encoding: 65145 65145 246
 GlifName: uniF_E_79
-Width: 1668
+Width: 668
 Flags: HMW
-AnchorPoint: "Anchor-3" 849 1287 basechar 0
-AnchorPoint: "Anchor-1" 834 0 basechar 0
+AnchorPoint: "Anchor-3" 349 1287 basechar 0
+AnchorPoint: "Anchor-1" 334 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 267 1600 N 1 0 0 1 0 0 3
-Refer: 234 1615 N 1 0 0 1 673 -256 2
+Refer: 234 1615 N 1 0 0 1 173 -256 2
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 12 subtable" uni0640 uni064F
 LCarets2: 1 0
 EndChar
@@ -5330,14 +5179,14 @@ EndChar
 StartChar: uniFE7B
 Encoding: 65147 65147 247
 GlifName: uniF_E_7B_
-Width: 1668
+Width: 668
 Flags: HMW
-AnchorPoint: "Anchor-3" 834 214 basechar 0
-AnchorPoint: "Anchor-1" 834 -499 basechar 0
+AnchorPoint: "Anchor-3" 334 214 basechar 0
+AnchorPoint: "Anchor-1" 334 -499 basechar 0
 LayerCount: 2
 Fore
 Refer: 267 1600 N 1 0 0 1 0 0 3
-Refer: 231 1616 N 1 0 0 1 618 19 2
+Refer: 231 1616 N 1 0 0 1 118 19 2
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 12 subtable" uni0640 uni0650
 LCarets2: 1 0
 EndChar
@@ -5345,14 +5194,14 @@ EndChar
 StartChar: uniFE77
 Encoding: 65143 65143 248
 GlifName: uniF_E_77
-Width: 1668
+Width: 668
 Flags: HMW
-AnchorPoint: "Anchor-3" 831 1332 basechar 0
-AnchorPoint: "Anchor-1" 834 0 basechar 0
+AnchorPoint: "Anchor-3" 331 1332 basechar 0
+AnchorPoint: "Anchor-1" 334 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 267 1600 N 1 0 0 1 0 0 3
-Refer: 230 1614 N 1 0 0 1 618 -80 2
+Refer: 230 1614 N 1 0 0 1 118 -80 2
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 12 subtable" uni0640 uni064E
 LCarets2: 1 0
 EndChar
@@ -5360,14 +5209,14 @@ EndChar
 StartChar: uniFE7D
 Encoding: 65149 65149 249
 GlifName: uniF_E_7D_
-Width: 1668
+Width: 668
 Flags: HMW
-AnchorPoint: "Anchor-3" 831 1190 basechar 0
-AnchorPoint: "Anchor-1" 834 0 basechar 0
+AnchorPoint: "Anchor-3" 331 1190 basechar 0
+AnchorPoint: "Anchor-1" 334 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 267 1600 N 1 0 0 1 0 0 3
-Refer: 235 1617 N 1 0 0 1 589 -131 2
+Refer: 235 1617 N 1 0 0 1 89 -131 2
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 12 subtable" uni0640 uni0651
 LCarets2: 1 0
 EndChar
@@ -5375,14 +5224,14 @@ EndChar
 StartChar: uniFE7F
 Encoding: 65151 65151 250
 GlifName: uniF_E_7F_
-Width: 1668
+Width: 668
 Flags: HMW
-AnchorPoint: "Anchor-3" 831 1243 basechar 0
-AnchorPoint: "Anchor-1" 834 0 basechar 0
+AnchorPoint: "Anchor-3" 331 1243 basechar 0
+AnchorPoint: "Anchor-1" 334 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 267 1600 N 1 0 0 1 0 0 3
-Refer: 238 1618 N 1 0 0 1 652 -184 2
+Refer: 238 1618 N 1 0 0 1 152 -184 2
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 12 subtable" uni0640 uni0652
 LCarets2: 1 0
 EndChar
@@ -5634,7 +5483,7 @@ EndChar
 StartChar: uniFBA5
 Encoding: 64421 64421 264
 GlifName: uniF_B_A_5
-Width: 2081
+Width: 1081
 Flags: HMW
 AnchorPoint: "Anchor-3" 500 1632 basechar 0
 AnchorPoint: "Anchor-1" 402 2 basechar 0
@@ -5675,10 +5524,10 @@ EndChar
 StartChar: uni0640
 Encoding: 1600 1600 267
 GlifName: uni0640
-Width: 1668
+Width: 668
 Flags: HMW
-AnchorPoint: "Anchor-3" 834 520 basechar 0
-AnchorPoint: "Anchor-1" 834 -169 basechar 0
+AnchorPoint: "Anchor-3" 334 520 basechar 0
+AnchorPoint: "Anchor-1" 334 -169 basechar 0
 LayerCount: 2
 Fore
 Refer: 525 57403 N 1 0 0 1 0 0 3
@@ -5687,7 +5536,7 @@ EndChar
 StartChar: uniFEF0
 Encoding: 65264 65264 268
 GlifName: uniF_E_F_0
-Width: 2382
+Width: 1382
 Flags: HMW
 AnchorPoint: "Anchor-3" 765 214 basechar 0
 AnchorPoint: "Anchor-1" 619 -580 basechar 0
@@ -6782,49 +6631,21 @@ EndChar
 StartChar: seven
 Encoding: 55 55 329
 GlifName: seven
-Width: 1080
+Width: 1158
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-3 1255 m 0
- -3 1341 64 1416 150 1422 c 2
- 904 1471 l 2
- 994 1477 1072 1403 1071 1312 c 0
- 1071 1288 1063 1260 1055 1244 c 0
- 885 904 771 421 698 -25 c 0
- 684 -110 602 -169 517 -155 c 0
- 432 -141 373 -60 387 25 c 0
- 447 396 533 794 666 1140 c 1
- 170 1108 l 2
- 84 1102 9 1169 3 1255 c 0
-EndSplineSet
+Refer: 293 1783 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: nine
 Encoding: 57 57 330
 GlifName: nine
-Width: 1208
+Width: 1022
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-556 1470 m 0
- 856 1469 1116 1226 1116 795 c 0
- 1116 444 938 17 552 -150 c 0
- 473 -184 379 -146 345 -67 c 0
- 311 12 348 106 427 140 c 0
- 657 239 802 534 802 795 c 0
- 802 1096 666 1155 556 1156 c 0
- 410 1156 318 1042 318 886 c 0
- 318 695 419 640 575 640 c 0
- 729 640 867 704 939 773 c 0
- 1001 833 1103 830 1162 768 c 0
- 1221 706 1219 605 1157 545 c 0
- 1021 414 811 324 575 324 c 0
- 305 324 2 495 2 886 c 0
- 2 1172 202 1470 556 1470 c 0
-EndSplineSet
+Refer: 295 1785 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFD3E
@@ -9243,7 +9064,7 @@ EndChar
 StartChar: uniFD18
 Encoding: 64792 64792 462
 GlifName: uniF_D_18
-Width: 3681
+Width: 2681
 Flags: HMW
 AnchorPoint: "Anchor-2" 1856 531 baselig 0
 AnchorPoint: "Anchor-2" 464 511 baselig 1
@@ -9293,7 +9114,7 @@ EndChar
 StartChar: uniFD22
 Encoding: 64802 64802 465
 GlifName: uniF_D_22
-Width: 3690
+Width: 2690
 Flags: HMW
 AnchorPoint: "Anchor-2" 2098 780 baselig 0
 AnchorPoint: "Anchor-2" 464 511 baselig 1
@@ -9397,15 +9218,15 @@ EndChar
 StartChar: uniFC31
 Encoding: 64561 64561 468
 GlifName: uniF_C_31
-Width: 2857
+Width: 1857
 Flags: HMW
-AnchorPoint: "Anchor-2" 2441 1573 baselig 0
+AnchorPoint: "Anchor-2" 1441 1573 baselig 0
 AnchorPoint: "Anchor-2" 724 206 baselig 1
-AnchorPoint: "Anchor-0" 2490 -348 baselig 0
+AnchorPoint: "Anchor-0" 1490 -348 baselig 0
 AnchorPoint: "Anchor-0" 690 -549 baselig 1
 LayerCount: 2
 Fore
-Refer: 223 57344 N 1 0 0 1 2215 1444 2
+Refer: 223 57344 N 1 0 0 1 1215 1444 2
 Refer: 472 57374 N 1 0 0 1 0 0 3
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" uniFED3 uniFEF0
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" uniFED3 uniFBFD
@@ -9415,16 +9236,16 @@ EndChar
 StartChar: uniFC32
 Encoding: 64562 64562 469
 GlifName: uniF_C_32
-Width: 2857
+Width: 1857
 Flags: HMW
-AnchorPoint: "Anchor-2" 2441 1573 baselig 0
+AnchorPoint: "Anchor-2" 1441 1573 baselig 0
 AnchorPoint: "Anchor-2" 724 206 baselig 1
 AnchorPoint: "Anchor-0" 665 -952 baselig 1
-AnchorPoint: "Anchor-0" 2490 -348 baselig 0
+AnchorPoint: "Anchor-0" 1490 -348 baselig 0
 LayerCount: 2
 Fore
 Refer: 224 57345 N 1 0 0 1 341 -1070 2
-Refer: 223 57344 N 1 0 0 1 2215 1444 2
+Refer: 223 57344 N 1 0 0 1 1215 1444 2
 Refer: 472 57374 N 1 0 0 1 0 0 3
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" uniFED3 uniFEF2
 EndChar
@@ -9432,15 +9253,15 @@ EndChar
 StartChar: uniFC35
 Encoding: 64565 64565 470
 GlifName: uniF_C_35
-Width: 2857
+Width: 1857
 Flags: HMW
 AnchorPoint: "Anchor-2" 724 206 baselig 1
-AnchorPoint: "Anchor-2" 2424 1547 baselig 0
+AnchorPoint: "Anchor-2" 1424 1547 baselig 0
 AnchorPoint: "Anchor-0" 690 -549 baselig 1
-AnchorPoint: "Anchor-0" 2490 -348 baselig 0
+AnchorPoint: "Anchor-0" 1490 -348 baselig 0
 LayerCount: 2
 Fore
-Refer: 224 57345 N 1 0 0 1 2090 1424 2
+Refer: 224 57345 N 1 0 0 1 1090 1424 2
 Refer: 472 57374 N 1 0 0 1 0 0 3
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" uniFED7 uniFBFD
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" uniFED7 uniFEF0
@@ -9450,15 +9271,15 @@ EndChar
 StartChar: uniFC36
 Encoding: 64566 64566 471
 GlifName: uniF_C_36
-Width: 2857
+Width: 1857
 Flags: HMW
 AnchorPoint: "Anchor-2" 724 206 baselig 1
-AnchorPoint: "Anchor-2" 2424 1547 baselig 0
+AnchorPoint: "Anchor-2" 1424 1547 baselig 0
 AnchorPoint: "Anchor-0" 665 -952 baselig 1
-AnchorPoint: "Anchor-0" 2490 -348 baselig 0
+AnchorPoint: "Anchor-0" 1490 -348 baselig 0
 LayerCount: 2
 Fore
-Refer: 224 57345 N 1 0 0 1 2090 1424 2
+Refer: 224 57345 N 1 0 0 1 1090 1424 2
 Refer: 224 57345 N 1 0 0 1 341 -1070 2
 Refer: 472 57374 N 1 0 0 1 0 0 3
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" uniFED7 uniFEF2
@@ -9468,28 +9289,28 @@ EndChar
 StartChar: uniE01E
 Encoding: 57374 57374 472
 GlifName: uniE_01E_
-Width: 2857
+Width: 1857
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-2423 1204 m 0
- 2828 1204 2854 669 2854 399 c 0
- 2854 -29 2431 -112 2005 -112 c 2
+1423 1204 m 0
+ 1828 1204 1854 669 1854 399 c 0
+ 1854 -29 1431 -112 1005 -112 c 2
  775 -112 l 2
  689 -112 618 -41 618 45 c 0
  618 131 689 202 775 202 c 2
- 2005 202 l 2
- 2465 202 2540 285 2540 399 c 0
- 2540 759 2466 888 2404 888 c 0
- 2345 888 2312 798 2312 678 c 0
- 2312 600 2341 572 2440 572 c 0
- 2487 572 2532 583 2572 600 c 0
- 2651 633 2745 593 2778 514 c 0
- 2811 435 2771 341 2692 308 c 0
- 2620 279 2535 258 2440 258 c 0
- 2213 258 1998 390 1998 665 c 0
- 1998 846 2086 1204 2423 1204 c 0
+ 1005 202 l 2
+ 1465 202 1540 285 1540 399 c 0
+ 1540 759 1466 888 1404 888 c 0
+ 1345 888 1312 798 1312 678 c 0
+ 1312 600 1341 572 1440 572 c 0
+ 1487 572 1532 583 1572 600 c 0
+ 1651 633 1745 593 1778 514 c 0
+ 1811 435 1771 341 1692 308 c 0
+ 1620 279 1535 258 1440 258 c 0
+ 1213 258 998 390 998 665 c 0
+ 998 846 1086 1204 1423 1204 c 0
 619 64 m 0
  629 149 709 211 794 201 c 0
  1100 164 1358 28 1358 -234 c 0
@@ -9578,7 +9399,7 @@ EndChar
 StartChar: uniFD19
 Encoding: 64793 64793 477
 GlifName: uniF_D_19
-Width: 3681
+Width: 2681
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-2" 1822 1194 baselig 0
@@ -9595,7 +9416,7 @@ EndChar
 StartChar: uniFD1A
 Encoding: 64794 64794 478
 GlifName: uniF_D_1A_
-Width: 3681
+Width: 2681
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-2" 1822 1194 baselig 0
@@ -9612,7 +9433,7 @@ EndChar
 StartChar: uniFD23
 Encoding: 64803 64803 479
 GlifName: uniF_D_23
-Width: 3690
+Width: 2690
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-2" 2107 1127 baselig 0
@@ -9629,7 +9450,7 @@ EndChar
 StartChar: uniFD24
 Encoding: 64804 64804 480
 GlifName: uniF_D_24
-Width: 3690
+Width: 2690
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-2" 2107 1127 baselig 0
@@ -9646,7 +9467,7 @@ EndChar
 StartChar: uniFD21
 Encoding: 64801 64801 481
 GlifName: uniF_D_21
-Width: 3690
+Width: 2690
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-2" 2098 780 baselig 0
@@ -9663,7 +9484,7 @@ EndChar
 StartChar: uniFD17
 Encoding: 64791 64791 482
 GlifName: uniF_D_17
-Width: 3681
+Width: 2681
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-2" 1856 531 baselig 0
@@ -9714,7 +9535,7 @@ EndChar
 StartChar: uniFC68
 Encoding: 64616 64616 485
 GlifName: uniF_C_68
-Width: 2712
+Width: 1712
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-2" 1143 1144 baselig 0
@@ -9732,7 +9553,7 @@ EndChar
 StartChar: uniFC69
 Encoding: 64617 64617 486
 GlifName: uniF_C_69
-Width: 2712
+Width: 1712
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-2" 1143 1144 baselig 0
@@ -9750,7 +9571,7 @@ EndChar
 StartChar: uniFC6E
 Encoding: 64622 64622 487
 GlifName: uniF_C_6E_
-Width: 2712
+Width: 1712
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-2" 1212 670 baselig 0
@@ -9767,7 +9588,7 @@ EndChar
 StartChar: uniFC6F
 Encoding: 64623 64623 488
 GlifName: uniF_C_6F_
-Width: 2712
+Width: 1712
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-2" 1212 670 baselig 0
@@ -9784,7 +9605,7 @@ EndChar
 StartChar: uniFC74
 Encoding: 64628 64628 489
 GlifName: uniF_C_74
-Width: 2712
+Width: 1712
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-2" 1124 1076 baselig 0
@@ -9801,7 +9622,7 @@ EndChar
 StartChar: uniFC75
 Encoding: 64629 64629 490
 GlifName: uniF_C_75
-Width: 2712
+Width: 1712
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-2" 1124 1076 baselig 0
@@ -9818,7 +9639,7 @@ EndChar
 StartChar: uniFC7A
 Encoding: 64634 64634 491
 GlifName: uniF_C_7A_
-Width: 2712
+Width: 1712
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-2" 1184 1324 baselig 0
@@ -9836,7 +9657,7 @@ EndChar
 StartChar: uniFC7B
 Encoding: 64635 64635 492
 GlifName: uniF_C_7B_
-Width: 2712
+Width: 1712
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-2" 1184 1324 baselig 0
@@ -9854,7 +9675,7 @@ EndChar
 StartChar: uniFC8E
 Encoding: 64654 64654 493
 GlifName: uniF_C_8E_
-Width: 2712
+Width: 1712
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-2" 1125 1030 baselig 0
@@ -9872,7 +9693,7 @@ EndChar
 StartChar: uniFC8F
 Encoding: 64655 64655 494
 GlifName: uniF_C_8F_
-Width: 2712
+Width: 1712
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-2" 1125 1030 baselig 0
@@ -9890,7 +9711,7 @@ EndChar
 StartChar: uniFC95
 Encoding: 64661 64661 495
 GlifName: uniF_C_95
-Width: 3243
+Width: 2243
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-2" 1212 670 baselig 0
@@ -9909,7 +9730,7 @@ EndChar
 StartChar: uniFC96
 Encoding: 64662 64662 496
 GlifName: uniF_C_96
-Width: 3243
+Width: 2243
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-2" 1212 670 baselig 0
@@ -9927,7 +9748,7 @@ EndChar
 StartChar: uniE021
 Encoding: 57377 57377 497
 GlifName: uniE_021
-Width: 3243
+Width: 2243
 Flags: HMW
 LayerCount: 2
 Fore
@@ -9938,9 +9759,9 @@ SplineSet
  865 46 801 69 801 94 c 0
  801 159 883 261 1096 324 c 1
  1188 80 1363 -112 1712 -112 c 2
- 3243 -112 l 2
- 3329 -112 3400 -41 3400 45 c 0
- 3400 131 3329 202 3243 202 c 2
+ 2243 -112 l 2
+ 2329 -112 2400 -41 2400 45 c 0
+ 2400 131 2329 202 2243 202 c 2
  1712 202 l 2
  1477 202 1426 285 1356 550 c 0
  1337 624 1259 678 1178 665 c 0
@@ -9960,7 +9781,7 @@ EndChar
 StartChar: uniE022
 Encoding: 57378 57378 498
 GlifName: uniE_022
-Width: 2712
+Width: 1712
 Flags: HMW
 LayerCount: 2
 Fore
@@ -9971,9 +9792,9 @@ SplineSet
  865 46 801 69 801 94 c 0
  801 159 883 261 1096 324 c 1
  1187.91208802 80.2331578614 1362.66562804 -111.633015556 1711 -111.999474174 c 1
- 2712 -112 l 1
- 2798 -112 2869 -41 2869 45 c 0
- 2869 131 2798 202 2712 202 c 1
+ 1712 -112 l 1
+ 1798 -112 1869 -41 1869 45 c 0
+ 1869 131 1798 202 1712 202 c 1
  1711 202.000502367 l 1
  1476.8494497 202.236087077 1423.90343996 285.376300147 1356 550 c 0
  1337 624 1259 678 1178 665 c 0
@@ -9993,7 +9814,7 @@ EndChar
 StartChar: uniE01F
 Encoding: 57375 57375 499
 GlifName: uniE_01F_
-Width: 2465
+Width: 1465
 Flags: HMW
 AnchorPoint: "Anchor-3" 709 840 basechar 0
 AnchorPoint: "Anchor-1" 813 -172 basechar 0
@@ -10005,11 +9826,11 @@ EndChar
 StartChar: uniFC37
 Encoding: 64567 64567 500
 GlifName: uniF_C_37
-Width: 2586
+Width: 1586
 Flags: HMW
-AnchorPoint: "Anchor-2" 2021 1197 baselig 0
+AnchorPoint: "Anchor-2" 1021 1197 baselig 0
 AnchorPoint: "Anchor-2" 213 1211 baselig 1
-AnchorPoint: "Anchor-0" 1800 0 baselig 0
+AnchorPoint: "Anchor-0" 800 0 baselig 0
 AnchorPoint: "Anchor-0" 337 0 baselig 1
 LayerCount: 2
 Fore
@@ -10030,15 +9851,15 @@ EndChar
 StartChar: uniE023
 Encoding: 57379 57379 502
 GlifName: uniE_023
-Width: 2586
+Width: 1586
 Flags: HMW
 AnchorPoint: "Anchor-2" 213 1211 baselig 1
-AnchorPoint: "Anchor-2" 1891 1565 baselig 0
+AnchorPoint: "Anchor-2" 891 1565 baselig 0
 AnchorPoint: "Anchor-0" 337 0 baselig 1
-AnchorPoint: "Anchor-0" 1800 0 baselig 0
+AnchorPoint: "Anchor-0" 800 0 baselig 0
 LayerCount: 2
 Fore
-Refer: 251 57351 N 1 0 0 1 1475 -71 2
+Refer: 251 57351 N 1 0 0 1 475 -71 2
 Refer: 500 64567 N 1 0 0 1 0 0 2
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" uniFB94 uniFE8E
 LCarets2: 1 0
@@ -10047,15 +9868,15 @@ EndChar
 StartChar: uniE024
 Encoding: 57380 57380 503
 GlifName: uniE_024
-Width: 3645
+Width: 1645
 Flags: HMW
 AnchorPoint: "Anchor-2" 213 1211 baselig 1
-AnchorPoint: "Anchor-2" 1891 1565 baselig 0
+AnchorPoint: "Anchor-2" 891 1565 baselig 0
 AnchorPoint: "Anchor-0" 337 0 baselig 1
-AnchorPoint: "Anchor-0" 1800 0 baselig 0
+AnchorPoint: "Anchor-0" 800 0 baselig 0
 LayerCount: 2
 Fore
-Refer: 251 57351 N 1 0 0 1 1475 -71 2
+Refer: 251 57351 N 1 0 0 1 475 -71 2
 Refer: 504 64640 N 1 0 0 1 0 0 2
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" uniFB95 uniFE8E
 LCarets2: 1 0
@@ -10064,12 +9885,12 @@ EndChar
 StartChar: uniFC80
 Encoding: 64640 64640 504
 GlifName: uniF_C_80
-Width: 3645
+Width: 1645
 Flags: HMW
 AnchorPoint: "Anchor-2" 213 1211 baselig 1
-AnchorPoint: "Anchor-2" 2021 1197 baselig 0
+AnchorPoint: "Anchor-2" 1021 1197 baselig 0
 AnchorPoint: "Anchor-0" 337 0 baselig 1
-AnchorPoint: "Anchor-0" 1800 0 baselig 0
+AnchorPoint: "Anchor-0" 800 0 baselig 0
 LayerCount: 2
 Fore
 Refer: 556 57434 N 1 0 0 1 0 0 3
@@ -10081,46 +9902,45 @@ EndChar
 StartChar: uniE025
 Encoding: 57381 57381 505
 GlifName: uniE_025
-Width: 2383
+Width: 1383
 Flags: HMW
-AnchorPoint: "Anchor-2" 1943 1249 baselig 0
+AnchorPoint: "Anchor-2" 943 1249 baselig 0
 AnchorPoint: "Anchor-2" 213 1211 baselig 1
-AnchorPoint: "Anchor-0" 1988 -4 baselig 0
+AnchorPoint: "Anchor-0" 988 -4 baselig 0
 AnchorPoint: "Anchor-0" 337 0 baselig 1
 LayerCount: 2
 Fore
-Refer: 549 57427 N 1 0 0 1 0 0 3
+Refer: 549 57427 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniE026
 Encoding: 57382 57382 506
 GlifName: uniE_026
-Width: 2383
+Width: 1383
 Flags: HMW
 AnchorPoint: "Anchor-2" 213 1211 baselig 1
-AnchorPoint: "Anchor-2" 1967 1573 baselig 0
+AnchorPoint: "Anchor-2" 967 1573 baselig 0
 AnchorPoint: "Anchor-0" 337 0 baselig 1
-AnchorPoint: "Anchor-0" 1988 -4 baselig 0
+AnchorPoint: "Anchor-0" 988 -4 baselig 0
 LayerCount: 2
 Fore
-Refer: 223 57344 N 1 0 0 1 1741 1444 2
+Refer: 223 57344 N 1 0 0 1 741 1444 2
 Refer: 505 57381 N 1 0 0 1 0 0 3
-LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" uniFED3 uniFE8E
 EndChar
 
 StartChar: uniE027
 Encoding: 57383 57383 507
 GlifName: uniE_027
-Width: 2383
+Width: 1383
 Flags: HMW
-AnchorPoint: "Anchor-2" 1967 1573 baselig 0
+AnchorPoint: "Anchor-2" 967 1573 baselig 0
 AnchorPoint: "Anchor-2" 213 1211 baselig 1
-AnchorPoint: "Anchor-0" 1988 -4 baselig 0
+AnchorPoint: "Anchor-0" 988 -4 baselig 0
 AnchorPoint: "Anchor-0" 337 0 baselig 1
 LayerCount: 2
 Fore
-Refer: 224 57345 N 1 0 0 1 1627 1443 2
+Refer: 224 57345 N 1 0 0 1 627 1443 2
 Refer: 505 57381 N 1 0 0 1 0 0 3
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" uniFED7 uniFE8E
 LCarets2: 1 0
@@ -10129,12 +9949,12 @@ EndChar
 StartChar: uniFC3D
 Encoding: 64573 64573 508
 GlifName: uniF_C_3D_
-Width: 3206
+Width: 2206
 Flags: HMW
-AnchorPoint: "Anchor-2" 2641 1197 baselig 0
+AnchorPoint: "Anchor-2" 1641 1197 baselig 0
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-0" 690 -656 baselig 1
-AnchorPoint: "Anchor-0" 2485 -50 baselig 0
+AnchorPoint: "Anchor-0" 1485 -50 baselig 0
 LayerCount: 2
 Fore
 Refer: 555 57433 N 1 0 0 1 0 0 3
@@ -10148,12 +9968,12 @@ EndChar
 StartChar: uniFC3E
 Encoding: 64574 64574 509
 GlifName: uniF_C_3E_
-Width: 3206
+Width: 2206
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
-AnchorPoint: "Anchor-2" 2641 1197 baselig 0
+AnchorPoint: "Anchor-2" 1641 1197 baselig 0
 AnchorPoint: "Anchor-0" 665 -952 baselig 1
-AnchorPoint: "Anchor-0" 2485 -50 baselig 0
+AnchorPoint: "Anchor-0" 1485 -50 baselig 0
 LayerCount: 2
 Fore
 Refer: 224 57345 N 1 0 0 1 341 -1070 2
@@ -10166,12 +9986,12 @@ EndChar
 StartChar: uniFC83
 Encoding: 64643 64643 510
 GlifName: uniF_C_83
-Width: 4265
+Width: 2265
 Flags: HMW
-AnchorPoint: "Anchor-2" 2641 1197 baselig 0
+AnchorPoint: "Anchor-2" 1641 1197 baselig 0
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-0" 690 -656 baselig 1
-AnchorPoint: "Anchor-0" 2485 -50 baselig 0
+AnchorPoint: "Anchor-0" 1485 -50 baselig 0
 LayerCount: 2
 Fore
 Refer: 557 57435 N 1 0 0 1 0 0 3
@@ -10185,12 +10005,12 @@ EndChar
 StartChar: uniFC84
 Encoding: 64644 64644 511
 GlifName: uniF_C_84
-Width: 4265
+Width: 2265
 Flags: HMW
 AnchorPoint: "Anchor-2" 464 511 baselig 1
-AnchorPoint: "Anchor-2" 2641 1197 baselig 0
+AnchorPoint: "Anchor-2" 1641 1197 baselig 0
 AnchorPoint: "Anchor-0" 665 -952 baselig 1
-AnchorPoint: "Anchor-0" 2485 -50 baselig 0
+AnchorPoint: "Anchor-0" 1485 -50 baselig 0
 LayerCount: 2
 Fore
 Refer: 224 57345 N 1 0 0 1 341 -1070 2
@@ -10203,15 +10023,15 @@ EndChar
 StartChar: uniE028
 Encoding: 57384 57384 512
 GlifName: uniE_028
-Width: 3206
+Width: 2206
 Flags: HMW
-AnchorPoint: "Anchor-2" 2511 1565 baselig 0
+AnchorPoint: "Anchor-2" 1511 1565 baselig 0
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-0" 690 -656 baselig 1
-AnchorPoint: "Anchor-0" 2485 -50 baselig 0
+AnchorPoint: "Anchor-0" 1485 -50 baselig 0
 LayerCount: 2
 Fore
-Refer: 251 57351 N 1 0 0 1 2095 -71 2
+Refer: 251 57351 N 1 0 0 1 1095 -71 2
 Refer: 508 64573 N 1 0 0 1 0 0 3
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" uniFB94 uniFBFD
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" uniFB94 uniFEF0
@@ -10221,15 +10041,15 @@ EndChar
 StartChar: uniE029
 Encoding: 57385 57385 513
 GlifName: uniE_029
-Width: 4265
+Width: 2265
 Flags: HMW
-AnchorPoint: "Anchor-2" 2511 1565 baselig 0
+AnchorPoint: "Anchor-2" 1511 1565 baselig 0
 AnchorPoint: "Anchor-2" 464 511 baselig 1
 AnchorPoint: "Anchor-0" 690 -656 baselig 1
-AnchorPoint: "Anchor-0" 2485 -50 baselig 0
+AnchorPoint: "Anchor-0" 1485 -50 baselig 0
 LayerCount: 2
 Fore
-Refer: 251 57351 N 1 0 0 1 2095 -71 2
+Refer: 251 57351 N 1 0 0 1 1095 -71 2
 Refer: 510 64643 N 1 0 0 1 0 0 3
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" uniFB95 uniFBFD
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" uniFB95 uniFEF0
@@ -10363,23 +10183,23 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-693 -750 m 0
- 402 -750 2 -606 2 -201 c 0
- 2 209 380 428 642 537 c 1
- 550 583 483 608 431 608 c 0
- 386 608 363 582 340 521 c 0
- 310 441 220 396 139 424 c 0
- 58 452 14 544 42 625 c 0
- 114 830 254 922 433 922 c 0
- 642 922 1015 722 1123 660 c 0
- 1184.54251875 624.670035535 1250 584 1250 508 c 0
- 1250 431 1189 366 1110 349 c 0
- 963 317 318 125 318 -201 c 0
- 318 -334 454 -436 693 -436 c 0
- 805 -436 917 -409 1014 -357 c 0
- 1090 -317 1187 -346 1227 -422 c 0
- 1267 -498 1238 -595 1162 -635 c 0
- 1017 -711 855 -750 693 -750 c 0
+693 -750 m 4
+ 402 -750 2 -606 2 -201 c 4
+ 2 209 380 428 642 537 c 5
+ 550 583 483 608 431 608 c 4
+ 386 608 363 582 340 521 c 4
+ 310 441 220 396 139 424 c 4
+ 58 452 14 544 42 625 c 4
+ 114 830 254 922 433 922 c 4
+ 642 922 1015 722 1123 660 c 4
+ 1184.54251875 624.670035535 1250 584 1250 508 c 4
+ 1250 431 1189 366 1110 349 c 4
+ 963 317 318 125 318 -201 c 4
+ 318 -334 454 -436 693 -436 c 4
+ 805 -436 917 -409 1014 -357 c 4
+ 1090 -317 1187 -346 1227 -422 c 4
+ 1267 -498 1238 -595 1162 -635 c 4
+ 1017 -711 855 -750 693 -750 c 4
 EndSplineSet
 Colour: ff00ff
 EndChar
@@ -10588,16 +10408,16 @@ EndChar
 StartChar: uniE03B
 Encoding: 57403 57403 525
 GlifName: uniE_03B_
-Width: 1668
+Width: 668
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
 -158 45 m 0
  -158 131 -86 202 0 202 c 2
- 1668 202 l 2
- 1754 202 1826 131 1826 45 c 0
- 1826 -41 1754 -112 1668 -112 c 2
+ 668 202 l 2
+ 754 202 826 131 826 45 c 0
+ 826 -41 754 -112 668 -112 c 2
  0 -112 l 2
  -86 -112 -158 -41 -158 45 c 0
 EndSplineSet
@@ -11117,13 +10937,13 @@ EndChar
 StartChar: uniE04F
 Encoding: 57423 57423 545
 GlifName: uniE_04F_
-Width: 2959
+Width: 1959
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-3116 45 m 0
- 3116 -41 3045 -112 2959 -112 c 0
+2116 45 m 0
+ 2116 -41 2045 -112 1959 -112 c 0
  1958.00000867 -111.999484898 l 1
  1771.35850229 -111.80713535 1591.81995382 -57.7129956958 1491 103 c 1
  1300 -73 1029 -142 711 -142 c 0
@@ -11138,8 +10958,8 @@ SplineSet
  1654 714 1729 636 1723 546 c 0
  1721 517 1720 490 1720 465 c 0
  1720 230.398161698 1761.85779894 202.095475314 1958 202.000242007 c 1
- 2959 202 l 0
- 3045 202 3116 131 3116 45 c 0
+ 1959 202 l 0
+ 2045 202 2116 131 2116 45 c 0
 EndSplineSet
 Colour: ff00ff
 EndChar
@@ -11174,7 +10994,7 @@ EndChar
 StartChar: uniE051
 Encoding: 57425 57425 547
 GlifName: uniE_051
-Width: 1945
+Width: 945
 Flags: HMW
 LayerCount: 2
 Fore
@@ -11188,9 +11008,9 @@ SplineSet
  594 611 543 649 483 650 c 0
  410 650 350 595 350 504 c 0
  350 351.140160119 580.576965261 202.272994961 943.99997642 202.000375011 c 1
- 1945 202 l 0
- 2031 202 2102 131 2102 45 c 0
- 2102 -41 2031 -112 1945 -112 c 0
+ 945 202 l 0
+ 1031 202 1102 131 1102 45 c 0
+ 1102 -41 1031 -112 945 -112 c 0
  944.000008082 -111.999650883 l 1
  572.038454697 -111.739986994 36 33.4218722095 36 504 c 0
  36 749 222 966 483 966 c 0
@@ -11235,23 +11055,23 @@ EndChar
 StartChar: uniE053
 Encoding: 57427 57427 549
 GlifName: uniE_053
-Width: 2383
+Width: 1383
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-1939 888 m 0
- 1892 888 1838 814 1838 686 c 0
- 1838 609 1869 572 1966 572 c 0
- 2013 572 2058 583 2098 600 c 0
- 2177 633 2271 593 2304 514 c 0
- 2337 435 2297 341 2218 308 c 0
- 2146 279 2061 258 1966 258 c 0
- 1739 258 1524 390 1524 665 c 0
- 1524 846 1612 1204 1949 1204 c 0
- 2354 1204 2380 669 2380 398 c 0
- 2380 233 2305 95 2188 12 c 0
- 2046 -89 1867 -112 1698 -112 c 0
+939 888 m 0
+ 892 888 838 814 838 686 c 0
+ 838 609 869 572 966 572 c 0
+ 1013 572 1058 583 1098 600 c 0
+ 1177 633 1271 593 1304 514 c 0
+ 1337 435 1297 341 1218 308 c 0
+ 1146 279 1061 258 966 258 c 0
+ 739 258 524 390 524 665 c 0
+ 524 846 612 1204 949 1204 c 0
+ 1354 1204 1380 669 1380 398 c 0
+ 1380 233 1305 95 1188 12 c 0
+ 1046 -89 867 -112 698 -112 c 0
  697.000349143 -111.999935511 l 1
  458.489662035 -111.969079981 275.824271712 -100.81450903 150 32 c 0
  51 139 42 272 42 398 c 0
@@ -11261,10 +11081,10 @@ SplineSet
  359 930 358 657 358 398 c 0
  358 323 363 276 394 247 c 0
  434.92314573 209.071230787 519.681490557 202.026351847 697 202.000073946 c 1
- 1698 202 l 0
- 1837 202 1950 231 2006 270 c 0
- 2045 297 2066 325 2066 398 c 0
- 2066 759 2012 888 1939 888 c 0
+ 698 202 l 0
+ 837 202 950 231 1006 270 c 0
+ 1045 297 1066 325 1066 398 c 0
+ 1066 759 1012 888 939 888 c 0
 EndSplineSet
 Colour: ff00ff
 EndChar
@@ -11272,7 +11092,7 @@ EndChar
 StartChar: uniE054
 Encoding: 57428 57428 550
 GlifName: uniE_054
-Width: 2921
+Width: 1921
 Flags: HMW
 LayerCount: 2
 Fore
@@ -11299,9 +11119,9 @@ SplineSet
  1144 1005 1199 948 1251 889 c 0
  1364 758 1464 618 1530 448 c 0
  1623.8936659 204.276016178 1625.99535742 202.004834529 1920 202.000008025 c 1
- 2921 202 l 0
- 3007 202 3079 131 3079 45 c 0
- 3079 -41 3007 -112 2921 -112 c 0
+ 1921 202 l 0
+ 2007 202 2079 131 2079 45 c 0
+ 2079 -41 2007 -112 1921 -112 c 0
  1920.0000218 -111.99998065 l 1
  1731.40035898 -111.99255218 1561.75657588 -109.774215308 1424 18 c 1
  1275 -117 1051 -142 768 -142 c 0
@@ -11335,7 +11155,7 @@ EndChar
 StartChar: uniE056
 Encoding: 57430 57430 552
 GlifName: uniE_056
-Width: 1811
+Width: 811
 Flags: HMW
 LayerCount: 2
 Fore
@@ -11347,9 +11167,9 @@ SplineSet
  230 608 302 688 393 689 c 0
  475 690 544 626 552 548 c 0
  586.953635497 204.455696827 559.07407265 202.005898952 810 202.000011319 c 1
- 1811 202 l 0
- 1897 202 1969 131 1969 45 c 0
- 1969 -41 1897 -112 1811 -112 c 0
+ 811 202 l 0
+ 897 202 969 131 969 45 c 0
+ 969 -41 897 -112 811 -112 c 0
  810.000020166 -111.999696126 l 1
  651.425562054 -111.903221274 514.779814746 -88.8007847699 410 6 c 1
  302 -88 159 -112 0 -112 c 0
@@ -11361,13 +11181,13 @@ EndChar
 StartChar: uniE057
 Encoding: 57431 57431 553
 GlifName: uniE_057
-Width: 2382
+Width: 1382
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-2540 45 m 0
- 2540 -41 2468 -112 2382 -112 c 2
+1540 45 m 0
+ 1540 -41 1468 -112 1382 -112 c 2
  1336 -112 l 1
  1351 -152 1358 -193 1358 -234 c 0
  1358 -526 1041 -668 703 -668 c 0
@@ -11381,8 +11201,8 @@ SplineSet
  1044 -234 1034 -144 756 -111 c 0
  683 -102 624 -41 618 33 c 0
  611 123 684 202 775 202 c 2
- 2382 202 l 2
- 2468 202 2540 131 2540 45 c 0
+ 1382 202 l 2
+ 1468 202 1540 131 1540 45 c 0
 EndSplineSet
 Colour: ff00ff
 EndChar
@@ -11390,7 +11210,7 @@ EndChar
 StartChar: uniE058
 Encoding: 57432 57432 554
 GlifName: uniE_058
-Width: 2586
+Width: 1586
 Flags: HMW
 LayerCount: 2
 Fore
@@ -11400,19 +11220,19 @@ SplineSet
  359 930 358 657 358 398 c 0
  358 322 362 275 390 246 c 0
  425.923481965 209.078643536 500.681351048 202.029892546 657.000000001 202.000095094 c 1
- 1658 202 l 0
- 1768 202 1864 209 1913 246 c 0
- 1934 262 1946 283 1946 312 c 0
- 1946 423 1773 643 1579 841 c 0
- 1516 906 1522 1014 1591 1072 c 0
- 1604 1083 1623 1092 1623 1092 c 1
- 2357 1452 l 2
- 2434 1490 2529 1457 2567 1380 c 0
- 2605 1303 2572 1208 2495 1170 c 2
- 1954 904 l 1
- 2097 745 2262 548 2262 312 c 0
- 2262 178 2195 58 2090 -11 c 0
- 1970 -91 1820 -112 1658 -112 c 0
+ 658 202 l 0
+ 768 202 864 209 913 246 c 0
+ 934 262 946 283 946 312 c 0
+ 946 423 773 643 579 841 c 0
+ 516 906 522 1014 591 1072 c 0
+ 604 1083 623 1092 623 1092 c 1
+ 1357 1452 l 2
+ 1434 1490 1529 1457 1567 1380 c 0
+ 1605 1303 1572 1208 1495 1170 c 2
+ 954 904 l 1
+ 1097 745 1262 548 1262 312 c 0
+ 1262 178 1195 58 1090 -11 c 0
+ 970 -91 820 -112 658 -112 c 0
  657.000013755 -111.999894347 l 1
  454.402364541 -111.956982126 272.797997982 -98.7848596395 150 32 c 0
  50 138 42 273 42 398 c 0
@@ -11425,7 +11245,7 @@ EndChar
 StartChar: uniE059
 Encoding: 57433 57433 555
 GlifName: uniE_059
-Width: 3206
+Width: 2206
 Flags: HMW
 LayerCount: 2
 Fore
@@ -11445,17 +11265,17 @@ SplineSet
  164 554 256 596 337 567 c 0
 618 45 m 0
  618 131 689 202 775 202 c 2
- 2152 202 l 2
- 2565 202 2566 281 2566 312 c 0
- 2566 423 2393 643 2199 841 c 0
- 2136 906 2142 1014 2211 1072 c 0
- 2224 1083 2243 1092 2243 1092 c 1
- 2977 1452 l 2
- 3054 1490 3149 1457 3187 1380 c 0
- 3225 1303 3192 1208 3115 1170 c 2
- 2574 904 l 1
- 2717 745 2882 548 2882 312 c 0
- 2882 -35 2531 -112 2152 -112 c 2
+ 1152 202 l 2
+ 1565 202 1566 281 1566 312 c 0
+ 1566 423 1393 643 1199 841 c 0
+ 1136 906 1142 1014 1211 1072 c 0
+ 1224 1083 1243 1092 1243 1092 c 1
+ 1977 1452 l 2
+ 2054 1490 2149 1457 2187 1380 c 0
+ 2225 1303 2192 1208 2115 1170 c 2
+ 1574 904 l 1
+ 1717 745 1882 548 1882 312 c 0
+ 1882 -35 1531 -112 1152 -112 c 2
  775 -112 l 2
  689 -112 618 -41 618 45 c 0
 EndSplineSet
@@ -11465,7 +11285,7 @@ EndChar
 StartChar: uniE05A
 Encoding: 57434 57434 556
 GlifName: uniE_05A_
-Width: 3645
+Width: 1645
 Flags: HMW
 LayerCount: 2
 Fore
@@ -11475,35 +11295,35 @@ SplineSet
  359 930 358 657 358 398 c 0
  358 322 362 275 390 246 c 0
  425.923481965 209.078643536 500.681351048 202.029892546 657.000000001 202.000095094 c 1
- 1658 202 l 0
- 1768 202 1864 209 1913 246 c 0
- 1934 262 1946 283 1946 312 c 0
- 1946 423 1773 643 1579 841 c 0
- 1516 906 1522 1014 1591 1072 c 0
- 1604 1083 1623 1092 1623 1092 c 1
- 2357 1452 l 2
- 2434 1490 2529 1457 2567 1380 c 0
- 2605 1303 2572 1208 2495 1170 c 2
- 1954 904 l 1
- 2097 745 2262 548 2262 312 c 0
- 2262 178 2195 58 2090 -11 c 0
- 1970 -91 1820 -112 1658 -112 c 0
+ 658 202 l 0
+ 768 202 864 209 913 246 c 0
+ 934 262 946 283 946 312 c 0
+ 946 423 773 643 579 841 c 0
+ 516 906 522 1014 591 1072 c 0
+ 604 1083 623 1092 623 1092 c 1
+ 1357 1452 l 2
+ 1434 1490 1529 1457 1567 1380 c 0
+ 1605 1303 1572 1208 1495 1170 c 2
+ 954 904 l 1
+ 1097 745 1262 548 1262 312 c 0
+ 1262 178 1195 58 1090 -11 c 0
+ 970 -91 820 -112 658 -112 c 0
  657.000013755 -111.999894347 l 1
  454.402364541 -111.956982126 272.797997982 -98.7848596395 150 32 c 0
  50 138 42 273 42 398 c 0
  42 659 45 936 55 1217 c 0
  58 1303 132 1371 218 1368 c 0
-1582 1063 m 0
- 1643 1123 1744 1122 1804 1061 c 0
- 1974 888 2144 714 2235 490 c 0
- 2347.86425781 212.334960938 2367.95214844 202.024414062 2644 202 c 1
- 3645 202 l 0
- 3731 202 3803 131 3803 45 c 0
- 3803 -41 3731 -112 3645 -112 c 0
- 2644 -112 l 1
- 2286.62890625 -111.83984375 2087.86132812 -25.62890625 1939 372 c 0
- 1887 510 1748 670 1580 841 c 0
- 1520 902 1521 1003 1582 1063 c 0
+582 1063 m 0
+ 643 1123 744 1122 804 1061 c 0
+ 974 888 1144 714 1235 490 c 0
+ 1347.86386718 212.334910839 1367.95167642 202.024483264 1644 202.000043991 c 1
+ 1645 202 l 0
+ 1731 202 1803 131 1803 45 c 0
+ 1803 -41 1731 -112 1645 -112 c 0
+ 1644 -111.99977596 l 1
+ 1286.62931276 -111.839514046 1087.86120889 -25.6292693788 939 372 c 0
+ 887 510 748 670 580 841 c 0
+ 520 902 521 1003 582 1063 c 0
 EndSplineSet
 Colour: ff00ff
 EndChar
@@ -11511,22 +11331,22 @@ EndChar
 StartChar: uniE05B
 Encoding: 57435 57435 557
 GlifName: uniE_05B_
-Width: 4265
+Width: 2265
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-2202 1063 m 0
- 2263 1123 2364 1122 2424 1061 c 0
- 2594 888 2769 706 2853 482 c 0
- 2969.87207031 172.337890625 2959.0234375 201.934570312 3264 202 c 1
- 4265 202 l 0
- 4351 202 4423 131 4423 45 c 0
- 4423 -41 4351 -112 4265 -112 c 0
- 3264 -112 l 1
- 2906.62890625 -111.83984375 2707.86132812 -25.62890625 2559 372 c 0
- 2507 510 2368 670 2200 841 c 0
- 2140 902 2141 1003 2202 1063 c 0
+1202 1063 m 0
+ 1263 1123 1364 1122 1424 1061 c 0
+ 1594 888 1769 706 1853 482 c 0
+ 1969.87240494 172.338072377 1959.02384 201.934971003 2264 201.999893442 c 1
+ 2265 202 l 0
+ 2351 202 2423 131 2423 45 c 0
+ 2423 -41 2351 -112 2265 -112 c 0
+ 2264 -111.99977596 l 1
+ 1906.62931276 -111.839514046 1707.86120889 -25.6292693788 1559 372 c 0
+ 1507 510 1368 670 1200 841 c 0
+ 1140 902 1141 1003 1202 1063 c 0
 337 567 m 0
  418 538 460 446 431 365 c 0
  373 205 338 53 338 -62 c 0
@@ -11542,17 +11362,17 @@ SplineSet
  164 554 256 596 337 567 c 0
 618 45 m 0
  618 131 689 202 775 202 c 2
- 2102 202 l 2
- 2528 202 2566 298 2566 312 c 0
- 2566 423 2393 643 2199 841 c 0
- 2136 906 2142 1014 2211 1072 c 0
- 2224 1083 2243 1092 2243 1092 c 1
- 2977 1452 l 2
- 3054 1490 3149 1457 3187 1380 c 0
- 3225 1303 3192 1208 3115 1170 c 2
- 2574 904 l 1
- 2717 745 2882 548 2882 312 c 0
- 2882 -52 2468 -112 2102 -112 c 2
+ 1102 202 l 2
+ 1528 202 1566 298 1566 312 c 0
+ 1566 423 1393 643 1199 841 c 0
+ 1136 906 1142 1014 1211 1072 c 0
+ 1224 1083 1243 1092 1243 1092 c 1
+ 1977 1452 l 2
+ 2054 1490 2149 1457 2187 1380 c 0
+ 2225 1303 2192 1208 2115 1170 c 2
+ 1574 904 l 1
+ 1717 745 1882 548 1882 312 c 0
+ 1882 -52 1468 -112 1102 -112 c 2
  775 -112 l 2
  689 -112 618 -41 618 45 c 0
 EndSplineSet
@@ -11647,7 +11467,7 @@ EndChar
 StartChar: uniE05E
 Encoding: 57438 57438 560
 GlifName: uniE_05E_
-Width: 3690
+Width: 2690
 Flags: HMW
 LayerCount: 2
 Fore
@@ -11681,9 +11501,9 @@ SplineSet
 2285 405 m 0
  2365 435 2458 393 2488 312 c 0
  2518.93569279 227.176326223 2528.95842111 202.103979503 2689 202.000323056 c 1
- 3690 202 l 0
- 3776 202 3848 131 3848 45 c 0
- 3848 -41 3776 -112 3690 -112 c 0
+ 2690 202 l 0
+ 2776 202 2848 131 2848 45 c 0
+ 2848 -41 2776 -112 2690 -112 c 0
  2689.00003006 -111.999392089 l 1
  2440.53414009 -111.697185665 2266.89956089 1.26917681067 2192 202 c 0
  2162 283 2205 375 2285 405 c 0
@@ -11694,7 +11514,7 @@ EndChar
 StartChar: uniE05F
 Encoding: 57439 57439 561
 GlifName: uniE_05F_
-Width: 1531
+Width: 531
 Flags: HMW
 LayerCount: 2
 Fore
@@ -11703,9 +11523,9 @@ SplineSet
  305 1365 373 1291 370 1205 c 0
  362 995 358 787 358 587 c 0
  358 224.762465877 371.941248972 202.093924571 530 202.000294143 c 1
- 1531 202 l 0
- 1617 202 1688 131 1688 45 c 0
- 1688 -41 1617 -112 1531 -112 c 0
+ 531 202 l 0
+ 617 202 688 131 688 45 c 0
+ 688 -41 617 -112 531 -112 c 0
  530 -111.999464847 l 1
  132.847536522 -111.574130054 42 142.372937854 42 587 c 0
  42 793 48 1005 56 1217 c 0
@@ -11717,7 +11537,7 @@ EndChar
 StartChar: uniE060
 Encoding: 57440 57440 562
 GlifName: uniE_060
-Width: 2332
+Width: 1332
 Flags: HMW
 LayerCount: 2
 Fore
@@ -11739,15 +11559,36 @@ SplineSet
  1090 -317 1187 -346 1227 -422 c 0
  1267 -498 1238 -595 1162 -635 c 0
  1017 -711 855 -750 693 -750 c 0
-2490 45 m 0
- 2490 -41 2418 -112 2332 -112 c 0
+1490 45 m 0
+ 1490 -41 1418 -112 1332 -112 c 0
  1331.00001071 -111.99933165 l 1
  1012.4192494 -111.573437964 735 92.3824925229 735 458 c 0
  735 544 806 615 892 615 c 0
  978 615 1050 544 1050 458 c 0
  1050 280.310930072 1140.6823604 202.272805643 1331 202.000714122 c 1
- 2332 202 l 0
- 2418 202 2490 131 2490 45 c 0
+ 1332 202 l 0
+ 1418 202 1490 131 1490 45 c 0
+  Spiro
+    1490 45 o
+    1468.19 -33.8561 o
+    1411.11 -90.4485 o
+    1332 -112 o
+    1035.71 -45.6868 o
+    818.73 147.809 o
+    735 458 o
+    756.551 536.856 o
+    813.144 593.449 o
+    892 615 o
+    971.115 593.449 o
+    1028.19 536.856 o
+    1050 458 o
+    1080.61 312.632 o
+    1174.13 228.76 o
+    1332 202 o
+    1411.11 180.449 o
+    1468.19 123.856 o
+    0 0 z
+  EndSpiro
 EndSplineSet
 Colour: ff00ff
 EndChar
@@ -11784,7 +11625,7 @@ EndChar
 StartChar: uniE062
 Encoding: 57442 57442 564
 GlifName: uniE_062
-Width: 2351
+Width: 1351
 Flags: HMW
 LayerCount: 2
 Fore
@@ -11792,9 +11633,9 @@ SplineSet
 953 534 m 0
  1039 534 1110 463 1110 377 c 0
  1110 277.188550822 1173.75888248 202.282915111 1350 202.000799572 c 1
- 2351 202 l 0
- 2437 202 2509 131 2509 45 c 0
- 2509 -41 2437 -112 2351 -112 c 0
+ 1351 202 l 0
+ 1437 202 1509 131 1509 45 c 0
+ 1509 -41 1437 -112 1351 -112 c 0
  1350.00000866 -111.99929001 l 1
  1065.36875677 -111.595104427 796 61.3696103463 796 377 c 0
  796 463 867 534 953 534 c 0
@@ -11822,13 +11663,13 @@ EndChar
 StartChar: uniE063
 Encoding: 57443 57443 565
 GlifName: uniE_063
-Width: 2120
+Width: 1120
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-2278 45 m 0
- 2278 -41 2206 -112 2120 -112 c 0
+1278 45 m 0
+ 1278 -41 1206 -112 1120 -112 c 0
  1119 -111.999191867 l 1
  763.792044639 -111.42483954 652.942847052 195.163026442 592 369 c 0
  545 507 512 574 444 711 c 0
@@ -11836,8 +11677,8 @@ SplineSet
  592 960 688 928 726 851 c 0
  794 715 838 623 890 471 c 0
  958.814165403 275.527877986 995.800467012 202.39410743 1119 202.00158952 c 1
- 2120 202 l 0
- 2206 202 2278 131 2278 45 c 0
+ 1120 202 l 0
+ 1206 202 1278 131 1278 45 c 0
 694 548 m 0
  775 577 864 535 893 454 c 0
  911 404 926 351 926 297 c 0
@@ -11856,13 +11697,13 @@ EndChar
 StartChar: uniE064
 Encoding: 57444 57444 566
 GlifName: uniE_064
-Width: 1917
+Width: 917
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-2074 45 m 0
- 2074 -41 2003 -112 1917 -112 c 0
+1074 45 m 0
+ 1074 -41 1003 -112 917 -112 c 0
  916.000013549 -111.9994157 l 1
  763.424857417 -111.82103849 631.797327706 -70.7907898899 539 25 c 0
  424 145 395 296 359 448 c 0
@@ -11870,8 +11711,8 @@ SplineSet
  560 657 645 603 665 520 c 0
  703 362 735 274 765 243 c 0
  783.939541593 223.063640428 811.821897928 202.133634774 916 202.000637183 c 1
- 1917 202 l 0
- 2003 202 2074 131 2074 45 c 0
+ 917 202 l 0
+ 1003 202 1074 131 1074 45 c 0
 472 636 m 0
  555 658 642 607 664 524 c 0
  708 358 734 209 734 71 c 0
@@ -11888,7 +11729,7 @@ EndChar
 StartChar: uniE065
 Encoding: 57445 57445 567
 GlifName: uniE_065
-Width: 3402
+Width: 2402
 Flags: HMW
 LayerCount: 2
 Fore
@@ -11931,9 +11772,9 @@ SplineSet
 2027 668 m 0
  2112 682 2194 624 2208 539 c 0
  2262.85754115 217.834031786 2272.94789488 202.079764467 2401 202.000306976 c 1
- 3402 202 l 0
- 3488 202 3560 131 3560 45 c 0
- 3560 -41 3488 -112 3402 -112 c 0
+ 2402 202 l 0
+ 2488 202 2560 131 2560 45 c 0
+ 2560 -41 2488 -112 2402 -112 c 0
  2401 -111.999273679 l 1
  2023.86412387 -111.451131432 1946.95675975 199.254146794 1898 487 c 0
  1884 572 1942 654 2027 668 c 0
@@ -11987,20 +11828,20 @@ EndChar
 StartChar: uniE067
 Encoding: 57447 57447 569
 GlifName: uniE_067
-Width: 2767
+Width: 1767
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-2924 45 m 0
- 2924 -41 2853 -112 2767 -112 c 0
+1924 45 m 0
+ 1924 -41 1853 -112 1767 -112 c 0
  1766 -111.999289493 l 1
  1424.79719037 -111.514132389 1320.95708589 137.404758086 1277 552 c 0
  1268 637 1332 717 1417 726 c 0
  1502 735 1582 671 1591 586 c 0
  1629.9005215 216.943770404 1635.96917652 202.07373668 1766 202.000278937 c 1
- 2767 202 l 0
- 2853 202 2924 131 2924 45 c 0
+ 1767 202 l 0
+ 1853 202 1924 131 1924 45 c 0
 1425 726 m 0
  1511 731 1586 664 1591 578 c 0
  1594 527 1596 475 1596 419 c 0
@@ -12039,7 +11880,7 @@ EndChar
 StartChar: uniE068
 Encoding: 57448 57448 570
 GlifName: uniE_068
-Width: 3424
+Width: 2424
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12073,9 +11914,9 @@ SplineSet
 2009 364 m 0
  2085 405 2181 376 2222 300 c 0
  2256.91650604 235.155060215 2283.87113522 202.157627862 2423 202.000563377 c 1
- 3424 202 l 0
- 3510 202 3582 131 3582 45 c 0
- 3582 -41 3510 -112 3424 -112 c 0
+ 2424 202 l 0
+ 2510 202 2582 131 2582 45 c 0
+ 2582 -41 2510 -112 2424 -112 c 0
  2423.00004968 -111.999350633 l 1
  2193.52752193 -111.70121815 2030.87531585 -8.76802948474 1945 151 c 0
  1904 227 1933 323 2009 364 c 0
@@ -12118,7 +11959,7 @@ EndChar
 StartChar: uniE06A
 Encoding: 57450 57450 572
 GlifName: uniE_06A_
-Width: 2671
+Width: 1671
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12146,9 +11987,9 @@ SplineSet
 1266 405 m 0
  1346 435 1439 393 1469 312 c 0
  1499.93569279 227.176326223 1509.95842111 202.103979503 1670 202.000323056 c 1
- 2671 202 l 0
- 2757 202 2829 131 2829 45 c 0
- 2829 -41 2757 -112 2671 -112 c 0
+ 1671 202 l 0
+ 1757 202 1829 131 1829 45 c 0
+ 1829 -41 1757 -112 1671 -112 c 0
  1670.00003006 -111.999392089 l 1
  1421.53414009 -111.697185665 1247.89956089 1.26917681067 1173 202 c 0
  1143 283 1186 375 1266 405 c 0
@@ -12159,7 +12000,7 @@ EndChar
 StartChar: uniE06B
 Encoding: 57451 57451 573
 GlifName: uniE_06B_
-Width: 2656
+Width: 1656
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12187,9 +12028,9 @@ SplineSet
 1228 411 m 0
  1307 445 1401 407 1435 328 c 0
  1470.89987242 243.236412351 1535.63865251 202.228408759 1655 202.000951562 c 1
- 2656 202 l 0
- 2742 202 2814 131 2814 45 c 0
- 2814 -41 2742 -112 2656 -112 c 0
+ 1656 202 l 0
+ 1742 202 1814 131 1814 45 c 0
+ 1814 -41 1742 -112 1656 -112 c 0
  1655.000008 -111.999267954 l 1
  1447.33043374 -111.695193872 1238.84936127 -16.6458387259 1145 204 c 0
  1111 283 1149 377 1228 411 c 0
@@ -12232,7 +12073,7 @@ EndChar
 StartChar: uniE06D
 Encoding: 57453 57453 575
 GlifName: uniE_06D_
-Width: 2338
+Width: 1338
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12260,9 +12101,9 @@ SplineSet
 972 348 m 0
  1050 385 1144 351 1181 273 c 0
  1207.9254294 215.16018869 1216.95014897 202.072151981 1337 202.000298164 c 1
- 2338 202 l 0
- 2424 202 2496 131 2496 45 c 0
- 2496 -41 2424 -112 2338 -112 c 0
+ 1338 202 l 0
+ 1424 202 1496 131 1496 45 c 0
+ 1496 -41 1424 -112 1338 -112 c 0
  1337.00000793 -111.999317882 l 1
  1156.36304385 -111.752807711 983.839767155 -44.6611167406 897 139 c 0
  860 217 894 311 972 348 c 0
@@ -12273,20 +12114,20 @@ EndChar
 StartChar: uniE06E
 Encoding: 57454 57454 576
 GlifName: uniE_06E_
-Width: 2092
+Width: 1092
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-2250 45 m 0
- 2250 -41 2178 -112 2092 -112 c 0
+1250 45 m 0
+ 1250 -41 1178 -112 1092 -112 c 0
  1091.00002114 -111.999360174 l 1
  652.397199455 -111.438135809 255.851169241 258.217930754 60 545 c 0
  12 616 30 716 101 764 c 0
  172 812 272 794 320 723 c 0
  485.786449381 480.312607231 832.107503586 202.715208004 1090.9999924 202.001379564 c 1
- 2092 202 l 0
- 2178 202 2250 131 2250 45 c 0
+ 1092 202 l 0
+ 1178 202 1250 131 1250 45 c 0
 79 523 m 0
  18 584 18 684 79 745 c 0
  191 857 385 934 575 934 c 0
@@ -12347,7 +12188,7 @@ EndChar
 StartChar: uniE070
 Encoding: 57456 57456 578
 GlifName: uniE_070
-Width: 2040
+Width: 1040
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12361,9 +12202,9 @@ SplineSet
  684 530 637 554 548 554 c 0
  490 554 427 545 368 524 c 1
  525.807050576 361.199055418 766.411505917 202.388347211 1038.99998137 202.000711081 c 1
- 2040 202 l 0
- 2126 202 2198 131 2198 45 c 0
- 2198 -41 2126 -112 2040 -112 c 0
+ 1040 202 l 0
+ 1126 202 1198 131 1198 45 c 0
+ 1198 -41 1126 -112 1040 -112 c 0
  1039.00004901 -111.999539929 l 1
  534.516856016 -111.535305889 168.892394959 240.150515026 6 468 c 0
  -39 532 -30 621 25 673 c 0
@@ -12375,7 +12216,7 @@ EndChar
 StartChar: uniE071
 Encoding: 57457 57457 579
 GlifName: uniE_071
-Width: 2829
+Width: 1829
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12393,9 +12234,9 @@ SplineSet
  1506 592 1454 624 1407 624 c 0
  1350 624 1292 593 1292 472 c 0
  1292 311.145116805 1458.69908591 202.196535808 1828 202.000265621 c 1
- 2829 202 l 0
- 2915 202 2986 131 2986 45 c 0
- 2986 -41 2915 -112 2829 -112 c 0
+ 1829 202 l 0
+ 1915 202 1986 131 1986 45 c 0
+ 1986 -41 1915 -112 1829 -112 c 0
  1828.00000858 -111.999710246 l 1
  1458.13396467 -111.785364585 978 7.41880234705 978 472 c 0
  978 721 1146 940 1399 940 c 0
@@ -12406,7 +12247,7 @@ EndChar
 StartChar: uniE072
 Encoding: 57458 57458 580
 GlifName: uniE_072
-Width: 2461
+Width: 1461
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12414,9 +12255,9 @@ SplineSet
 968 512 m 0
  912 512 866 443 866 316 c 0
  866 217 907 202 998 202 c 2
- 2461 202 l 2
- 2547 202 2618 131 2618 45 c 0
- 2618 -41 2547 -112 2461 -112 c 2
+ 1461 202 l 2
+ 1547 202 1618 131 1618 45 c 0
+ 1618 -41 1547 -112 1461 -112 c 2
  1018 -114 l 2
  769 -114 550 17 550 316 c 0
  550 519 675 828 977 828 c 0
@@ -12437,20 +12278,20 @@ EndChar
 StartChar: uniE073
 Encoding: 57459 57459 581
 GlifName: uniE_073
-Width: 2772
+Width: 1772
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-2930 45 m 0
- 2930 -41 2858 -112 2772 -112 c 0
+1930 45 m 0
+ 1930 -41 1858 -112 1772 -112 c 0
  1771.00000907 -111.999225725 l 1
  1488.39723027 -111.561554732 1233 74.4205383058 1233 431 c 0
  1233 517 1304 588 1390 588 c 0
  1476 588 1548 517 1548 431 c 0
  1548 252.406351747 1624.65079811 202.227676944 1770.99995873 202.000773942 c 1
- 2772 202 l 0
- 2858 202 2930 131 2930 45 c 0
+ 1772 202 l 0
+ 1858 202 1930 131 1930 45 c 0
 1326 1367 m 0
  1411 1378 1491 1316 1502 1231 c 0
  1532 1004 1548 675 1548 431 c 0
@@ -12496,7 +12337,7 @@ EndChar
 StartChar: uniE075
 Encoding: 57461 57461 583
 GlifName: uniE_075
-Width: 2113
+Width: 1113
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12516,9 +12357,9 @@ SplineSet
  121 1124 216 1118 272 1061 c 0
  442 888 622 704 702 481 c 0
  798.894910061 212.291434986 804.986892371 202.021972032 1112 202.000035529 c 1
- 2113 202 l 0
- 2199 202 2271 131 2271 45 c 0
- 2271 -41 2199 -112 2113 -112 c 0
+ 1113 202 l 0
+ 1199 202 1271 131 1271 45 c 0
+ 1271 -41 1199 -112 1113 -112 c 0
  1112.0000211 -111.999981798 l 1
  917.398302378 -111.992766806 741.757229619 -109.765777872 600 27 c 1
  460 -90 258 -112 0 -112 c 0
@@ -12530,7 +12371,7 @@ EndChar
 StartChar: uniE076
 Encoding: 57462 57462 584
 GlifName: uniE_076
-Width: 2450
+Width: 1450
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12538,9 +12379,9 @@ SplineSet
 1082 529 m 0
  1168 534 1244 468 1249 382 c 0
  1260.97834015 188.350167543 1264.98553404 201.950138014 1449 201.99986447 c 1
- 2450 202 l 0
- 2536 202 2608 131 2608 45 c 0
- 2608 -41 2536 -112 2450 -112 c 0
+ 1450 202 l 0
+ 1536 202 1608 131 1608 45 c 0
+ 1608 -41 1536 -112 1450 -112 c 0
  1449.00001103 -111.999444969 l 1
  1176.46293316 -111.696786064 956.973131892 12.4274471715 935 362 c 0
  930 448 996 524 1082 529 c 0
@@ -12587,20 +12428,20 @@ EndChar
 StartChar: uniE078
 Encoding: 57464 57464 586
 GlifName: uniE_078
-Width: 1674
+Width: 674
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-1832 45 m 0
- 1832 -41 1760 -112 1674 -112 c 0
+832 45 m 0
+ 832 -41 760 -112 674 -112 c 0
  673.000008271 -111.999194834 l 1
  414.395431306 -111.582704995 180 50.4105991726 180 369 c 0
  180 455 251 526 337 526 c 0
  423 526 495 455 495 369 c 0
  495 234.329022961 536.795524081 202.156593074 673 202.000571266 c 1
- 1674 202 l 0
- 1760 202 1832 131 1832 45 c 0
+ 674 202 l 0
+ 760 202 832 131 832 45 c 0
 278 1368 m 0
  363 1376 442 1312 450 1226 c 0
  477 936 494 685 494 369 c 0
@@ -12617,7 +12458,7 @@ EndChar
 StartChar: uniE079
 Encoding: 57465 57465 587
 GlifName: uniE_079
-Width: 2365
+Width: 1365
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12625,9 +12466,9 @@ SplineSet
 973 474 m 0
  1057 493 1142 440 1161 356 c 0
  1187.9422007 239.250463649 1208.91006248 202.158779519 1364 202.000509097 c 1
- 2365 202 l 0
- 2451 202 2523 131 2523 45 c 0
- 2523 -41 2451 -112 2365 -112 c 0
+ 1365 202 l 0
+ 1451 202 1523 131 1523 45 c 0
+ 1523 -41 1451 -112 1365 -112 c 0
  1363.99997474 -111.999316894 l 1
  1070.62580127 -111.598372829 905.942146616 65.2506979993 855 286 c 0
  836 370 889 455 973 474 c 0
@@ -12665,13 +12506,13 @@ EndChar
 StartChar: uniE07B
 Encoding: 57467 57467 589
 GlifName: uniE_07B_
-Width: 2199
+Width: 1199
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-2356 45 m 0
- 2356 -41 2285 -112 2199 -112 c 0
+1356 45 m 0
+ 1356 -41 1285 -112 1199 -112 c 0
  1198 -111.999314535 l 1
  886.752051361 -111.572425295 770.951890774 88.1550186183 726 233 c 0
  707 294 680 375 560 488 c 0
@@ -12679,8 +12520,8 @@ SplineSet
  625 771 726 769 786 708 c 0
  912 578 979 466 1024 337 c 0
  1065.88771937 218.318128456 1073.95698344 202.086283267 1198 202.000344708 c 1
- 2199 202 l 0
- 2285 202 2356 131 2356 45 c 0
+ 1199 202 l 0
+ 1285 202 1356 131 1356 45 c 0
 569 -142 m 0
  351 -142 208 2 208 216 c 0
  208 379 250 532 379 702 c 0
@@ -12710,7 +12551,7 @@ EndChar
 StartChar: uniE07C
 Encoding: 57468 57468 590
 GlifName: uniE_07C_
-Width: 2504
+Width: 1504
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12719,9 +12560,9 @@ SplineSet
  1206 525 1295 476 1320 394 c 0
  1352 288 1375 240 1388 227 c 0
  1393.97888486 220.024634332 1408.89453575 202.126554619 1503 202.00066751 c 1
- 2504 202 l 0
- 2590 202 2662 131 2662 45 c 0
- 2662 -41 2590 -112 2504 -112 c 0
+ 1504 202 l 0
+ 1590 202 1662 131 1662 45 c 0
+ 1662 -41 1590 -112 1504 -112 c 0
  1503.00000979 -111.999471585 l 1
  1370.39355961 -111.859222802 1249.77940081 -83.7718803865 1162 7 c 0
  1075 96 1048 204 1018 304 c 0
@@ -12733,7 +12574,7 @@ EndChar
 StartChar: uniE07D
 Encoding: 57469 57469 591
 GlifName: uniE_07D_
-Width: 2081
+Width: 1081
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12755,9 +12596,9 @@ SplineSet
  745 1118 823 1053 831 967 c 2
  881 420 l 2
  901.955893917 188.487267207 921.915984001 201.942277048 1080 201.999817138 c 1
- 2081 202 l 0
- 2167 202 2239 131 2239 45 c 0
- 2239 -41 2167 -112 2081 -112 c 0
+ 1081 202 l 0
+ 1167 202 1239 131 1239 45 c 0
+ 1239 -41 1167 -112 1081 -112 c 0
  1080.00001599 -111.999366272 l 1
  799.525584466 -111.643724738 599.960841319 38.4200658553 567 392 c 2
  517 939 l 2
@@ -12800,7 +12641,7 @@ EndChar
 StartChar: uniE07F
 Encoding: 57471 57471 593
 GlifName: uniE_07F_
-Width: 1930
+Width: 930
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12818,9 +12659,9 @@ SplineSet
  566 -160 541 -75 521 -23 c 0
  517 -11 506 21 506 45 c 0
  506 130 576 202 663 202 c 2
- 1930 202 l 2
- 2016 202 2088 131 2088 45 c 0
- 2088 -41 2016 -112 1930 -112 c 2
+ 930 202 l 2
+ 1016 202 1088 131 1088 45 c 0
+ 1088 -41 1016 -112 930 -112 c 2
  871 -112 l 1
  877 -152 880 -191 880 -232 c 0
  880 -396 792 -630 554 -630 c 0
@@ -12833,7 +12674,7 @@ EndChar
 StartChar: uniE080
 Encoding: 57472 57472 594
 GlifName: uniE_080
-Width: 1931
+Width: 931
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12848,9 +12689,9 @@ SplineSet
  424 498 368 482 368 310 c 0
  368 268 375 242 389 226 c 0
  406 207 433 202 470 202 c 2
- 1931 202 l 2
- 2017 202 2088 131 2088 45 c 0
- 2088 -41 2017 -112 1931 -112 c 2
+ 931 202 l 2
+ 1017 202 1088 131 1088 45 c 0
+ 1088 -41 1017 -112 931 -112 c 2
  470 -112 l 2
  357 -112 244 -92 157 -7 c 0
  74 76 52 185 52 287 c 0
@@ -12892,7 +12733,7 @@ EndChar
 StartChar: uniE082
 Encoding: 57474 57474 596
 GlifName: uniE_082
-Width: 2282
+Width: 1282
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12920,9 +12761,9 @@ SplineSet
 968 672 m 0
  1054 672 1126 600 1126 514 c 0
  1126 214.972448667 1178.65695836 202.080821994 1280.99995407 202.000387663 c 1
- 2282 202 l 0
- 2368 202 2440 131 2440 45 c 0
- 2440 -41 2368 -112 2282 -112 c 0
+ 1282 202 l 0
+ 1368 202 1440 131 1440 45 c 0
+ 1440 -41 1368 -112 1282 -112 c 0
  1280.99999549 -111.999195558 l 1
  939.746557926 -111.449898469 810 170.335486952 810 514 c 0
  810 600 882 672 968 672 c 0
@@ -12958,7 +12799,7 @@ EndChar
 StartChar: uniE084
 Encoding: 57476 57476 598
 GlifName: uniE_084
-Width: 3681
+Width: 2681
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13001,9 +12842,9 @@ SplineSet
 2330 724 m 0
  2415 734 2494 671 2504 586 c 0
  2554.85048554 152.275270418 2566.92930506 201.705148054 2680 201.998698556 c 1
- 3681 202 l 0
- 3767 202 3839 130 3839 44 c 0
- 3839 -42 3767 -114 3681 -114 c 0
+ 2681 202 l 0
+ 2767 202 2839 130 2839 44 c 0
+ 2839 -42 2767 -114 2681 -114 c 0
  2680 -113.999296769 l 1
  2339.80636504 -113.520517466 2240.9520684 131.409864123 2192 550 c 0
  2182 635 2245 714 2330 724 c 0
@@ -13048,7 +12889,7 @@ EndChar
 StartChar: uniE086
 Encoding: 57478 57478 600
 GlifName: uniE_086
-Width: 1593
+Width: 593
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13075,15 +12916,15 @@ SplineSet
  217 1146 376 1032 376 845 c 0
  376 782 360 721 327 672 c 0
  289 615 211 599 154 637 c 0
-1750 45 m 0
- 1750 -41 1679 -112 1593 -112 c 0
+750 45 m 0
+ 750 -41 679 -112 593 -112 c 0
  592 -111.999397441 l 1
  217.772362506 -111.548227278 89.9439671818 142.172545504 27 336 c 0
  1 418 47 508 129 534 c 0
  211 560 301 514 327 432 c 0
  381.906790759 262.288101292 395.952430268 202.203681544 592 202.000517213 c 1
- 1593 202 l 0
- 1679 202 1750 131 1750 45 c 0
+ 593 202 l 0
+ 679 202 750 131 750 45 c 0
 EndSplineSet
 Colour: ff00ff
 EndChar
@@ -13091,7 +12932,7 @@ EndChar
 StartChar: uniE087
 Encoding: 57479 57479 601
 GlifName: uniE_087
-Width: 2465
+Width: 1465
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13119,9 +12960,9 @@ SplineSet
  600 844 694 881 773 846 c 0
  1032 732 1147 535 1224 399 c 0
  1309.76261496 246.422324547 1343.811904 202.243736115 1464 202.001007102 c 1
- 2465 202 l 0
- 2551 202 2623 131 2623 45 c 0
- 2623 -41 2551 -112 2465 -112 c 0
+ 1465 202 l 0
+ 1551 202 1623 131 1623 45 c 0
+ 1623 -41 1551 -112 1465 -112 c 0
  1464 -111.999234744 l 1
  1160.7169831 -111.534874628 1031.91003091 100.159091684 950 245 c 0
  874 379 812 486 647 558 c 0

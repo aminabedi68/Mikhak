@@ -9,7 +9,7 @@
   </axis>
  </axes>
  <sources>
-  <source familyname="Mikhak" name="Mikhak Thin" stylename="Thin" filename="Mikhak-VF-Thin.ufo">
+  <source familyname="Mikhak" name="Mikhak Thin" stylename="Thin" filename="Mikhak-VF-FD-Thin.ufo">
    <lib copy="1"/>
    <groups copy="1"/>
    <info copy="1"/>
@@ -19,19 +19,19 @@
 	<dimension xvalue="100" name="width"/>
    </location>
   </source>
-  <source familyname="Mikhak" name="Mikhak Black" stylename="Black" filename="Mikhak-VF-Black.ufo">
+  <source familyname="Mikhak" name="Mikhak Black" stylename="Black" filename="Mikhak-VF-FD-Black.ufo">
    <location>
     <dimension xvalue="900" name="weight"/>
 	<dimension xvalue="100" name="width"/>
    </location>
   </source>
-  <source familyname="Mikhak" name="Mikhak KBlack" stylename="KBlack" filename="Mikhak-VF-KBlack.ufo">
+  <source familyname="Mikhak" name="Mikhak KBlack" stylename="KBlack" filename="Mikhak-VF-FD-KBlack.ufo">
    <location>
     <dimension xvalue="900" name="weight"/>
 	<dimension xvalue="200" name="width"/>
    </location>
   </source>
-  <source familyname="Mikhak" name="Mikhak KThin" stylename="KThin" filename="Mikhak-VF-KThin.ufo">
+  <source familyname="Mikhak" name="Mikhak KThin" stylename="KThin" filename="Mikhak-VF-FD-KThin.ufo">
    <location>
     <dimension xvalue="100" name="weight"/>
 	<dimension xvalue="200" name="width"/>
