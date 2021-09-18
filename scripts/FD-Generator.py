@@ -30,18 +30,6 @@ for file in os.listdir():
      font.copyReference()
      font.selection.select(mapDigits[index])
      font.paste()
-  # copy Farsi digits (0 4 5 6) to Arabic digits
- # mapDigits = {
-     # "uni06F0": "uni0660",
-     # "uni06F4": "uni0664",
-     # "uni06F5": "uni0665",
-     # "uni06F6": "uni0666",
- # }
- # for index in mapDigits:
-     # font.selection.select(index)
-     # font.copyReference()
-     # font.selection.select(mapDigits[index])
-     # font.paste()
  font.selection.none()
  font.fontname = FNameStyle + "-FD-" + FWeight
  font.familyname = FNameStyle + "-FD " + FWeight
