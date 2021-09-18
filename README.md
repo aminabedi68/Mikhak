@@ -1,18 +1,23 @@
 # Mikhak
-Mikhak is a simple monoline semi handwriting Arabic-Latin typeface in <a href="https://aminabedi68.github.io/Mikhak/">5 weights</a> and <a href="https://aminabedi68.github.io/Mikhak/VF.html">variable</a> version.
-<br>Created with <a href="https://github.com/fontforge/fontforge">fontforge</a> and <a href="https://github.com/googlefonts/fontmake">fontmake</a>.
-<br>Licensed under SIL open font License V1.1
+Mikhak is a simple monoline semi handwriting Arabic-Latin typeface in <a href="https://aminabedi68.github.io/Mikhak/">9 weights</a> and a <a href="https://aminabedi68.github.io/Mikhak/VF.html">variable</a> version. Licensed under SIL open font License V1.1
 
 ## Weights and Axes
-Mikhak has 5 Weights and 2 Axes:
+Mikhak has 9 Weights and 3 Axes:
 <br>
 ### Weights:
-100/300/500/700/900
+9 Standard weights, 100-Thin to 900-Black
 <br>
 ### Axes:
-Weights:100-900
-<br>Width:100-200(not a real width axis, affecting on Arabic Kashida value.)
+Weight[wght]:100-900
+<br>Kashida[KSHD]:100-200
+<br>Kashida[DSTY]:1.0-3.0
 
+## Build(Windows):
+### requirements:
+<br>installed <a href="https://github.com/fontforge/fontforge">fontforge with path access in environment variables
+<br>installed python and <a href="https://github.com/googlefonts/fontmake">fontmake</a>
+### build:
+move script folder contents to sources folder and run build.bat
 ## Install
 
 #### Linux
