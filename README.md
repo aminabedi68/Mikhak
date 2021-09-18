@@ -18,6 +18,7 @@ Weight[wght]:100-900
 <br>2-installed <a href="https://www.python.org/">python</a> and <a href="https://github.com/googlefonts/fontmake">fontmake</a>
 ### build:
 move script folder contents to sources folder and run build.bat
+(build process has 2 issues: one of them related to this [issue](https://github.com/googlefonts/fontmake/issues/794) and naming table, to fix that you need to use [Slice](https://github.com/source-foundry/Slice) app with the same output and refined names; the secound one is building the FD version, it's easier to do that manually!)
 ## Install
 
 #### Linux
