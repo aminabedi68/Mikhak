@@ -4,42 +4,54 @@
 		<title>فونت میخک - صفحه رسمی پروژه</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-                <meta name="description" content="صفحه رسمی پروژه فونت متن میخک | تایپ‌فیس میخک مجموعه فونت ۵
+                <meta name="description" content="صفحه رسمی پروژه فونت متن میخک | تایپ‌فیس میخک مجموعه فونت ۹
  وزنی سازگار با وب و منتشر شده تحت مجوز آزاد است. ">
 		<meta name="keywords" content="فونت,فارسی,میخک,persian,farsi,font,typeface,Mikhak,Mikhak">
 		<meta name="theme-color" content="#222">
 						<script src="./js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 						<style>
-	html {
+      html {
         overflow-y: scroll;
         }
       @font-face {
-        font-family: MikhakThin;
-        src: url('Mikhak/Mikhak-Thin.woff2') format('woff2');
+       font-family: MikhakThin;
+       src: url('Mikhak/Mikhak-Thin.woff2') format('woff2');
       }
-			@font-face {
-				font-family: MikhakLight;
-				src: url('Mikhak/Mikhak-Light.woff2') format('woff2');
-			}
+	  @font-face {
+        font-family: MikhakExtraLight;
+        src: url('Mikhak/Mikhak-ExtraLight.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: MikhakLight;
+        src: url('Mikhak/Mikhak-Light.woff2') format('woff2');
+      }
+	  @font-face {
+        font-family: MikhakRegular;
+        src: url('Mikhak/Mikhak-Regular.woff2') format('woff2');
+      }
       @font-face {
         font-family: MikhakMedium;
         src: url('Mikhak/Mikhak-Medium.woff2') format('woff2');
+      }
+	  @font-face {
+        font-family: MikhakSemiBold;
+        src: url('Mikhak/Mikhak-SemiBold.woff2') format('woff2');
       }
       @font-face {
         font-family: MikhakBold;
         src: url('Mikhak/Mikhak-Bold.woff2') format('woff2');
       }
-			@font-face {
-				font-family: MikhakBlack;
-				src: url('Mikhak/Mikhak-Black.woff2') format('woff2');
-			}
+	  @font-face {
+        font-family: MikhakExtraBold;
+        src: url('Mikhak/Mikhak-ExtraBold.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: MikhakBlack;
+        src: url('Mikhak/Mikhak-Black.woff2') format('woff2');
+      }
       p.sizelabel {
         font: normal 10px/10px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important;
         color: #666;
-				/* -webkit-transition: all 0.7s;
-				-moz-transition: all 0.7s;
-				-o-transition: all 0.7s;
-				transition: all 0.7s; */
       }
 			#fixedbutton {
 			    position: fixed;
@@ -80,10 +92,6 @@
           display:block;
           z-index: 2000;
 					fill:#888;
-					/* -webkit-transition: all 0.35s;
-					-moz-transition: all 0.35s;
-					-o-transition: all 0.35s;
-					transition: all 0.35s; */
           }
 			#btnFullscreen {
           position:fixed;
@@ -97,19 +105,11 @@
           display:block;
           z-index: 2000;
 					fill:#888;
-					/* -webkit-transition: all 0.7s;
-					-moz-transition: all 0.7s;
-					-o-transition: all 0.7s;
-					transition: all 0.7s; */
           }
       sup {
           vertical-align: super;
           font-size: 10px;
           color:#222;
-					/* -webkit-transition: all 0.7s;
-					-moz-transition: all 0.7s;
-					-o-transition: all 0.7s;
-					transition: all 0.7s; */
       }
 
       footer a {
@@ -151,10 +151,6 @@
         width: 100%;
         background-color: #fbfbfb;
         opacity: 0;
-				/* -webkit-transition: all 0.7s;
-				-moz-transition: all 0.7s;
-				-o-transition: all 0.7s;
-				transition: all 0.7s; */
         z-index: 1000;
       }
       * {
@@ -163,10 +159,6 @@
       }
       .toolbar:hover{
         opacity: 1 !important;
-				/* -webkit-transition: all 0.7s;
-				-moz-transition: all 0.7s;
-				-o-transition: all 0.7s;
-				transition: all 0.7s; */
       }
       h1,h2 {
         font-size: 1.13em;
@@ -190,10 +182,6 @@
       .font-selection a {
         text-decoration: none;
         color: #ff3a3a;
-				/* -webkit-transition: all 0.7s;
-				-moz-transition: all 0.7s;
-				-o-transition: all 0.7s;
-				transition: all 0.7s; */
       }
       .p,.changesizeOldNick {
         background-color: #fbfbfb;
@@ -203,9 +191,9 @@
         margin-bottom: 10px;
       }
       .changesizeOldNick a { color: #0b6db3; }
-			.MikhakThin-font {
-				font: 20px/30px MikhakThin, sans-serif;
-			}
+      .MikhakThin-font {
+        font: 20px/30px MikhakThin, sans-serif;
+      }
       .MikhakLight-font {
         font: 20px/30px MikhakLight, sans-serif;
       }
@@ -215,18 +203,26 @@
       .MikhakBold-font {
         font: 20px/30px MikhakBold, sans-serif;
       }
-			.MikhakBlack-font {
-				font: 20px/30px MikhakBlack, sans-serif;
-			}
+      .MikhakBlack-font {
+        font: 20px/30px MikhakBlack, sans-serif;
+      }
+      .MikhakExtraLight-font {
+        font: 20px/30px MikhakExtraLight, sans-serif;
+      }
+      .MikhakRegular-font {
+        font: 20px/30px MikhakRegular, sans-serif;
+      }
+      .MikhakSemiBold-font {
+        font: 20px/30px MikhakSemiBold, sans-serif;
+      }
+      .MikhakExtraBold-font {
+        font: 20px/30px MikhakExtraBold, sans-serif;
+      }
       footer {
         color: #888;
         text-align: center;
         font: 13px/22px MikhakMedium, sans-serif;
         min-width: 100px;
-				/* -webkit-transition: all 0.7s;
-				-moz-transition: all 0.7s;
-				-o-transition: all 0.7s;
-				transition: all 0.7s; */
       }
       *, *::after, *::before {
         -moz-box-sizing: border-box;
@@ -351,10 +347,6 @@
 			    right: 40px;
 			    color: #222;
 			    z-index: 100000;
-					/* -webkit-transition: all 0.7s;
-					-moz-transition: all 0.7s;
-					-o-transition: all 0.7s;
-					transition: all 0.7s; */
 			}
 			.mobile{
 			display: none;
@@ -377,10 +369,6 @@
 			    background: #ddd;
 			    border: none;
 			    border-radius: 2px;
-					/* -webkit-transition: all 0.7s;
-					-moz-transition: all 0.7s;
-					-o-transition: all 0.7s;
-					transition: all 0.7s; */
 			}
 			.input-slider-2::-webkit-slider-runnable-track {
 			    width: 300px;
@@ -388,10 +376,6 @@
 			    background: #999;
 			    border: none;
 			    border-radius: 2px;
-					/* -webkit-transition: all 0.7s;
-					-moz-transition: all 0.7s;
-					-o-transition: all 0.7s;
-					transition: all 0.7s; */
 			}
 			.input-slider-3::-webkit-slider-runnable-track {
 			    width: 300px;
@@ -399,52 +383,36 @@
 			    background: #fff;
 			    border: none;
 			    border-radius: 2px;
-					/* -webkit-transition: all 0.7s;
-					-moz-transition: all 0.7s;
-					-o-transition: all 0.7s;
-					transition: all 0.7s; */
 			}
 			.input-slider-1::-webkit-slider-thumb {
 			    -webkit-appearance: none;
 			    border: none;
-			    height: 12px;
-			    width: 12px;
+			    height: 15px;
+			    width: 15px;
 			    border-radius: 50%;
 			    background: #222;
 			    border: none;
 			    margin-top: -5px;
-					/* -webkit-transition: all 0.7s;
-					-moz-transition: all 0.7s;
-					-o-transition: all 0.7s;
-					transition: all 0.7s; */
 			}
 			.input-slider-2::-webkit-slider-thumb {
 			    -webkit-appearance: none;
 			    border: none;
-			    height: 12px;
-			    width: 12px;
+			    height: 15px;
+			    width: 15px;
 			    border-radius: 50%;
 			    background: #fff;
 			    border: none;
 			    margin-top: -5px;
-					/* -webkit-transition: all 0.7s;
-					-moz-transition: all 0.7s;
-					-o-transition: all 0.7s;
-					transition: all 0.7s; */
 			}
 			.input-slider-3::-webkit-slider-thumb {
 			    -webkit-appearance: none;
 			    border: none;
-			    height: 12px;
-			    width: 12px;
+			    height: 15px;
+			    width: 15px;
 			    border-radius: 50%;
 			    background: #555;
 			    border: none;
 			    margin-top: -5px;
-					/* -webkit-transition: all 0.7s;
-					-moz-transition: all 0.7s;
-					-o-transition: all 0.7s;
-					transition: all 0.7s; */
 			}
 			.input-slider-1:focus {
 			    outline: none;
@@ -457,30 +425,18 @@
 			    background: #ddd;
 			    border: none;
 			    border-radius: 2px;
-					/* -webkit-transition: all 0.7s;
-					-moz-transition: all 0.7s;
-					-o-transition: all 0.7s;
-					transition: all 0.7s; */
 			}
 			.input-slider-2::-moz-range-track {
 			    height: 2px;
 			    background: #999;
 			    border: none;
 			    border-radius: 2px;
-					/* -webkit-transition: all 0.7s;
-					-moz-transition: all 0.7s;
-					-o-transition: all 0.7s;
-					transition: all 0.7s; */
 			}
 			.input-slider-3::-moz-range-track {
 			    height: 2px;
 			    background: #fff;
 			    border: none;
 			    border-radius: 2px;
-					/* -webkit-transition: all 0.7s;
-					-moz-transition: all 0.7s;
-					-o-transition: all 0.7s;
-					transition: all 0.7s; */
 			}
 			.input-slider-1::-moz-range-thumb {
 			    border: none;
@@ -490,10 +446,6 @@
 			    background: #222;
 			    border: none;
 			    margin-top: -4px;
-					/* -webkit-transition: all 0.7s;
-					-moz-transition: all 0.7s;
-					-o-transition: all 0.7s;
-					transition: all 0.7s; */
 			}
 			.input-slider-2::-moz-range-thumb {
 			    border: none;
@@ -503,10 +455,6 @@
 			    background: #fff;
 			    border: none;
 			    margin-top: -4px;
-					/* -webkit-transition: all 0.7s;
-					-moz-transition: all 0.7s;
-					-o-transition: all 0.7s;
-					transition: all 0.7s; */
 			}
 			.input-slider-3::-moz-range-thumb {
 			    border: none;
@@ -516,10 +464,6 @@
 			    background: #222;
 			    border: none;
 			    margin-top: -4px;
-					/* -webkit-transition: all 0.7s;
-					-moz-transition: all 0.7s;
-					-o-transition: all 0.7s;
-					transition: all 0.7s; */
 			}
 			/*hide the outline behind the border*/
 			.input-slider-1:-moz-focusring{
@@ -592,10 +536,6 @@
 			  outline: none;
 			  cursor: pointer;
 			  background-color: #ffffff00;
-				/* -webkit-transition: all 0.7s;
-				-moz-transition: all 0.7s;
-				-o-transition: all 0.7s;
-				transition: all 0.7s; */
 			}
 			ul{
 			list-style:none;
@@ -606,12 +546,6 @@
 			  vertical-align: super;
 			  line-height: 0;
 			}
-			/* #main{
-			    -webkit-transition: all 0.7s;
-			    -moz-transition: all 0.7s;
-			    -o-transition: all 0.7s;
-			    transition: all 0.7s;
-			} */
             @media screen and (max-width: 600px){
              .changesizeOldNick, .column1, .column2, .column3, footer {
                 padding: 10px 20px;
@@ -646,7 +580,8 @@
 
 
 
-<meta name="google-site-verification" content="IWzvlOI_HSA5Bk6pu8MXM1R86hUVJIZEcCoi2AdvtaI" />
+
+		<meta name="google-site-verification" content="IWzvlOI_HSA5Bk6pu8MXM1R86hUVJIZEcCoi2AdvtaI" />
 						<body class="bg-white" spellcheck="false">
 							<svg id="scroll" width="7.6868596mm" height="7.6868601mm" viewBox="0 0 7.6868596 7.6868601">
 								<a title="بالا" href="#" style="display: none;"></a>
@@ -657,7 +592,7 @@
 									<path
 									 d="m 2.2834749,5.9748278 -3.654e-4,-2.3511719 -0.4991468,10e-8 c -0.020795,-2.2e-6 -0.038191,-0.00677 -0.051522,-0.020098 -0.013385,-0.013325 -0.019367,-0.029971 -0.019367,-0.050791 0,-0.017908 0.0071,-0.036262 0.021924,-0.05408 L 2.5169703,2.7167146 c 0.013351,-0.013152 0.030708,-0.020097 0.051522,-0.020097 0.02081,-1.35e-5 0.037423,0.00677 0.050791,0.020098 l 0.7841566,0.7849042 c 0.013401,0.013326 0.020828,0.029969 0.020828,0.050792 -3.7e-6,0.019319 -0.00745,0.036719 -0.021558,0.050793 -0.01414,0.014402 -0.031112,0.020462 -0.050427,0.020462 l -0.499138,-9.7e-6 3.655e-4,2.3511719 z"/>
 						 	</svg>
-							<a title="دانلود کنید :)" href="https://github.com/aminabedi68/Mikhak/releases/download/v2.2/Mikhak-v2.2.zip">
+							<a title="دانلود کنید :)" href="https://github.com/aminabedi68/Mikhak/archive/master.zip">
 								<svg id="download-icon" width="7.6868596mm" height="7.6868601mm" viewBox="0 0 7.6868596 7.6868601">
 										<path
 	 d="m 12.410839,4.7460938 c 1.317168,-10e-8 2.562785,0.383873 3.655323,1.1180544 0.860983,0.5784028 1.392314,1.4154933 1.857777,2.2681071 0.454557,-0.265765 0.924476,-0.5609094 1.543443,-0.5609094 0.999652,0 1.928156,0.3904096 2.633262,1.0954675 0.705033,0.7053845 1.095468,1.6306136 1.095468,2.6313806 0,0.454729 -0.183306,0.803418 -0.33504,1.146288 0.738271,0.294021 1.496001,0.617151 2.042237,1.300632 0.733984,0.918631 1.116035,2.019505 1.116173,3.194174 0,1.386136 -0.526481,2.655517 -1.50768,3.6365 -0.980804,0.980485 -2.249544,1.507679 -3.6365,1.507679 H 8.8816268 c -1.5779804,0 -3.0071631,-0.595605 -4.1258845,-1.714727 -1.1194887,-1.119578 -1.7147267,-2.555236 -1.7147267,-4.133413 0,-1.118604 0.3087739,-2.183518 0.9110073,-3.130176 0.4849564,-0.761806 1.1945407,-1.259239 1.9198916,-1.69214 -0.00255,-0.03982 -0.00565,-0.07207 -0.00565,-0.114817 4e-7,-1.7745984 0.6563632,-3.3747259 1.9123625,-4.6303265 1.2551594,-1.2551784 2.856457,-1.9217737 4.632212,-1.9217737 z m 0,1.8144856 c -1.34731,1e-7 -2.390236,0.4402028 -3.344752,1.3947448 -0.9544771,0.9541733 -1.3928626,1.9954065 -1.3928626,3.3428698 0,0.0249 0.00697,0.200778 0.020705,0.415976 l 0.028234,0.367039 c 0.00892,0.147436 -0.073511,0.285093 -0.2070471,0.348215 L 7.1781937,12.59318 c -0.7251328,0.336352 -1.2621082,0.814403 -1.6902575,1.486975 -0.4295093,0.675147 -0.6399639,1.361694 -0.6399639,2.155172 4e-7,1.147941 0.3756771,2.026343 1.1952266,2.845957 0.8205825,0.820876 1.6903581,1.195226 2.8384279,1.195226 H 20.875302 c 0.957709,0 1.67412,-0.302181 2.35469,-0.982532 0.679124,-0.678983 0.967476,-1.393295 0.967476,-2.35469 -9.6e-5,-0.801888 -0.211858,-1.432446 -0.709608,-2.055414 -0.498888,-0.624238 -1.086859,-0.994532 -1.865306,-1.180168 l -0.760428,-0.186343 c -0.240083,-0.06118 -0.349991,-0.340254 -0.214576,-0.547734 l 0.434799,-0.65314 c 0.210526,-0.318096 0.306806,-0.619911 0.306806,-1.018295 0,-0.573451 -0.155826,-0.944285 -0.562791,-1.351453 C 20.419871,9.5402749 20.041,9.3839494 19.467382,9.3839494 c -0.508759,-1e-7 -0.855584,0.1351119 -1.230989,0.4630321 l -0.583497,0.4987965 c -0.188516,0.159375 -0.477102,0.08629 -0.568439,-0.143052 L 16.800238,9.5062954 C 16.430691,8.6039078 15.864133,7.9189248 15.049749,7.3718277 14.23598,6.8249795 13.389822,6.5605794 12.410839,6.5605794 Z m 0.730311,4.1014156 h 1.870954 c 0.08458,0 0.158181,0.03053 0.220223,0.09223 0.06156,0.06182 0.09223,0.135774 0.09223,0.220222 v 3.429454 h 2.183406 c 0.09097,0 0.165684,0.03005 0.223987,0.08847 0.0585,0.05841 0.08658,0.132982 0.08658,0.223987 0,0.07831 -0.03119,0.155568 -0.09599,0.233398 l -3.421925,3.421925 c -0.05841,0.05828 -0.132974,0.08658 -0.223986,0.08658 -0.09093,0 -0.16552,-0.02832 -0.223988,-0.08658 l -3.429453,-3.431335 c -0.05846,-0.05841 -0.08847,-0.132984 -0.08847,-0.223988 0,-0.08446 0.03052,-0.158547 0.09223,-0.220223 0.06184,-0.06171 0.135774,-0.09223 0.220223,-0.09223 h 2.183406 v -3.429454 c 0,-0.08445 0.0305,-0.1584 0.09223,-0.220222 0.06176,-0.0616 0.133882,-0.09223 0.21834,-0.09223 z"
@@ -703,9 +638,10 @@
 						});
 						</script>
 
+
 							<div class="fontname">
 								<h1>میخک
-									<sup>نسخۀ ۲.۲</sup>
+									<sup>نسخۀ ۳.۰</sup>
 								</h1>
 							</div>
 							<div class="toolbar" align="center">
@@ -715,26 +651,38 @@
 											<div class="mobile">
 												<p>&nbsp</p>
 												<h2 >میخک
-													<sup>نسخۀ ۲.۲</sup>
+													<sup>نسخۀ ۳.۰</sup>
 												</h2>
 												<small>
-													<a href="https://github.com/aminabedi68/Mikhak/releases/download/v2.2/Mikhak-v2.2.zip">دانلود▼</a>
+													<a href="https://github.com/aminabedi68/Mikhak/archive/master.zip">دانلود▼</a>
 												</small>
 											</div>
 											<li style="font: 18px MikhakThin, sans-serif;">
-												<a href="#" id="MikhakThin" onclick="changeFont('MikhakThin', this); return false;">نازک</a>
+												<a href="#" id="MikhakThin" onclick="changeFont('MikhakThin', this); return false;">1</a>
+											</li>
+											<li style="font: 18px MikhakExtraLight, sans-serif;">
+												<a href="#" id="MikhakExtraLight" onclick="changeFont('MikhakExtraLight', this); return false;">2</a>
 											</li>
 											<li style="font: 18px MikhakLight, sans-serif;">
-												<a href="#" id="MikhakLight" onclick="changeFont('MikhakLight', this); return false;">سبک</a>
+												<a href="#" id="MikhakLight" onclick="changeFont('MikhakLight', this); return false;">3</a>
+											</li>
+											<li style="font: 18px MikhakRegular, sans-serif;">
+												<a href="#" id="MikhakRegular" onclick="changeFont('MikhakRegular', this); return false;">4</a>
 											</li>
 											<li style="font: 18px MikhakMedium, sans-serif;">
-												<a href="#" id="MikhakMedium" onclick="changeFont('MikhakMedium', this); return false;">معمولی</a>
+												<a href="#" id="MikhakMedium" onclick="changeFont('MikhakMedium', this); return false;">5</a>
+											</li>
+											<li style="font: 18px MikhakSemiBold, sans-serif;">
+												<a href="#" id="MikhakSemiBold" onclick="changeFont('MikhakSemiBold', this); return false;">6</a>
 											</li>
 											<li style="font: 18px MikhakBold, sans-serif;">
-												<a href="#" id="MikhakBold" onclick="changeFont('MikhakBold', this); return false;">ضخیم</a>
+												<a href="#" id="MikhakBold" onclick="changeFont('MikhakBold', this); return false;">7</a>
+											</li>
+											<li style="font: 18px MikhakExtraBold, sans-serif;">
+												<a href="#" id="MikhakExtraBold" onclick="changeFont('MikhakExtraBold', this); return false;">8</a>
 											</li>
 											<li style="font: 18px MikhakBlack, sans-serif;">
-												<a href="#" id="MikhakBlack" onclick="changeFont('MikhakBlack', this); return false;">سیاه</a>
+												<a href="#" id="MikhakBlack" onclick="changeFont('MikhakBlack', this); return false;">9</a>
 											</li>
 										</ul>
 									</div>
@@ -869,6 +817,9 @@
 											<li>
 												<button class="tablink" onclick="openText(event, 'arabic')">عربی</button>
 											</li>
+											<li>
+												<button class="tablink" onclick="openText(event, 'kurdish')">کوردی</button>
+											</li>
 										</ul>
 									</div>
 									<script>
@@ -890,41 +841,59 @@
 
 									<section id="main" class="changesizeOldNick" class="changesizeOldNick" style="font-size: 22px; line-height: 1.5em;">
 										<p contenteditable="true"  id="persian" class="w3-container text" style="display:block">
-توجه به فاصله‌گذاری هنگام حروف‌چینی اهمیت بسزایی در آسان خوانده شدن مطلب دارد. برای جدا کردن کلمات از هم از کلید فاصله(space) استفاده می‌شود که عبارت است از فاصلۀ استانداردی که مقدار آن هنگام طراحی قلم مشخص شده است. برای جدا کردن کلمات از یک‌دیگر، مجاز به یک‌بار استفاده از این کلید هستیم. چنان‌چه بعد از واژه‌ها از علامت‌های «» ():؛،؟! استفاده کنیم این فاصله حذف می‌شود و بعد از علامت قرار می‌گیرد. در کلمات مرکب مانند: نام‌گذاری، می‌شود، رفته‌اند و … برای جلوگیری از دوبار خوانده شدن واژه، می‌توان هنگام حروف‌چینی از اندازۀ مناسب‌تری به‌عنوان نیم‌فاصله که معمولاً نصف اندازۀ فاصله است استفاده کرد. چنین عملی مانع از جدا افتادن یک کلمه در دو سطر مختلف می‌شود. در یک متن طولانی مثل یک مقاله، یا متن یک کتاب، کنترل تمام کلمات مرکب برای جلوگیری از دوباره‌کاری سخت و غیرحرفه‌ای است. اگر در طراحی قلم نیم‌فاصله در نظر گرفته شده باشد، از پدید آمدن چنین عملی جلوگیری می‌شود. نقش یک طراح در کنترل فاصله‌ها در همین حوزه تعریف می‌شود و طراح یا حروف‌چین مجاز به فاصله‌گذاری کاذب بین واژه‌های متن نیستند. جمع یا فشردن غیر معمول کلمات به یک‌دیگر (از سوی کاربران غیرحرفه‌ای)، تعادل سطح خاکستری (سیاهی و سفیدی) متن را برهم می‌زند و خوانده شدن متن را دشوار و گاه غیرممکن می‌کند. همچنین افزودن عرض حروف و کشیدن حروف، تناسبات افقی و عمودی فرم حروف را دگرگون می‌کند و به خوانده شدن ستون متن لطمه قابل‌توجهی وارد می‌کند.
+											بیشتر تاریخ‌دانان از ابن‌مقله به‌عنوان اولین مبتکر خوشنویسی اسلامی نام می‌برند و او را اولین کسی ذکر می‌کنند که کتابت را به یک هنر ارتقاء داد. در واقع ابن‌مقله با بررسی و نظام بخشیدن به خطوط مختلف رایج در زمان خود خطوط ششگانه را انتظام داد و به آن‌ها هویت واقعی بخشید و برای آن‌ها قواعدی وضع کرد.
+
+											ابن‌مقله وزیر خط محقق را از خط کوفی و نسخ قدیمی بیرون کشید و آن را قاعده‌مند کرد. سپس خط ریحان را ایجاد کرد. بعد از آن خط ثلث را از خط ریحان اخذ کرده و قاعده‌مند ساخت. بعد از آن‌ها به شکل‌دادن و منزه کردن خط نسخ پرداخت. ابن‌مقله قرآنی به خط نسخ نوشت و خطوط محقق و ریحانی و کوفی را در سر سوره‌ها قرار داد و هنگامی که خواست کتابت قرآن با سایر خطوط فرق داشته باشد خط توقیع را ابداع کرد.
+
+											ابن مقله ۱۲ قاعده برای زیبایی خط تعیین کرد که به اصول دوازده‌گانه خوشنویسی معروفند و تاکنون، پس از گذشت بیش از ۱۰۰۰ سال، اعتبار خود را حفظ کرده‌اند. این قواعد عبارتند از: ترکیب، کرسی، نسبت، ضعف، قوت، سطح، دور، صعود مجاز، نزول مجاز، اصول، صفا و شأن.
+
+											پس از ابن‌مقله افرادی چون محمد بن سمسانی و محمد بن اسعد شیوه او را فرا گرفتند و یک سده بعد، ابوالحسن علی بن هلال معروف به ابن بواب، این شیوه را از آن دو آموخت و تکمیل کرد و تمامی خطوطی که ابن‌مقله پدیدآورده بود را کمال بخشید.
+											<br>
+											<span style="float:left">از ویکیپدیا</span>
 										</p>
 										<p dir="ltr" contenteditable="true" id="latin" class="w3-container text" style="display:none;">
 
   Although typically applied to printed, published, broadcast, and reproduced materials in contemporary times, all words, letters, symbols, and numbers written alongside the earliest naturalistic drawings by humans may be called typography. The uneven spacing of the impressions on brick stamps found in the Mesopotamian cities of Uruk and Larsa, dating from the second millennium B.C., may be evidence of type, wherein the reuse of identical characters was applied to create cuneiform text. Babylonian cylinder seals were used to create an impression on a surface by rolling the seal on wet clay. Typography also was implemented in the Phaistos Disc, an enigmatic Minoan printed item from Crete, which dates to between 1850 and 1600 B.C. It has been proposed that Roman lead pipe inscriptions were created with movable type printing, but German typographer Herbert Brekle recently dismissed this view.(from Wikipedia)
 											<br>0123456789!@#$%^&*()_+-={}[]:"'?/<>,.
+												<br>Pangram Example:
+													<br>SPHINX OF BLACK QUARTZ, JUDGE MY VOW.
+														<br>Sphinx of black quartz, judge my vow.
 														</p>
 														<p contenteditable="true"  id="arabic" class="w3-container text" style="display:none">
- بِسْمِ اللَّـهِ الرَّ‌حْمَـٰنِ الرَّ‌حِيمِ															<br>
-															وَالْمُرْ‌سَلَاتِ عُرْ‌فًا ﴿١﴾ فَالْعَاصِفَاتِ عَصْفًا ﴿٢﴾ وَالنَّاشِرَ‌اتِ نَشْرً‌ا ﴿٣﴾ فَالْفَارِ‌قَاتِ فَرْ‌قًا ﴿٤﴾ فَالْمُلْقِيَاتِ ذِكْرً‌ا ﴿٥﴾ عُذْرً‌ا أَوْ نُذْرً‌ا ﴿٦﴾ إِنَّمَا تُوعَدُونَ لَوَاقِعٌ ﴿٧﴾ فَإِذَا النُّجُومُ طُمِسَتْ ﴿٨﴾ وَإِذَا السَّمَاءُ فُرِ‌جَتْ ﴿٩﴾ وَإِذَا الْجِبَالُ نُسِفَتْ ﴿١٠﴾ وَإِذَا الرُّ‌سُلُ أُقِّتَتْ ﴿١١﴾ لِأَيِّ يَوْمٍ أُجِّلَتْ ﴿١٢﴾ لِيَوْمِ الْفَصْلِ ﴿١٣﴾ وَمَا أَدْرَ‌اكَ مَا يَوْمُ الْفَصْلِ ﴿١٤﴾ وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ ﴿١٥﴾ أَلَمْ نُهْلِكِ الْأَوَّلِينَ ﴿١٦﴾ ثُمَّ نُتْبِعُهُمُ الْآخِرِ‌ينَ ﴿١٧﴾ كَذَٰلِكَ نَفْعَلُ بِالْمُجْرِ‌مِينَ ﴿١٨﴾ وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ ﴿١٩﴾ أَلَمْ نَخْلُقكُّم مِّن مَّاءٍ مَّهِينٍ ﴿٢٠﴾ فَجَعَلْنَاهُ فِي قَرَ‌ارٍ‌ مَّكِينٍ ﴿٢١﴾ إِلَىٰ قَدَرٍ‌ مَّعْلُومٍ ﴿٢٢﴾ فَقَدَرْ‌نَا فَنِعْمَ الْقَادِرُ‌ونَ ﴿٢٣﴾ وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ ﴿٢٤﴾ أَلَمْ نَجْعَلِ الْأَرْ‌ضَ كِفَاتًا ﴿٢٥﴾ أَحْيَاءً وَأَمْوَاتًا ﴿٢٦﴾ وَجَعَلْنَا فِيهَا رَ‌وَاسِيَ شَامِخَاتٍ وَأَسْقَيْنَاكُم مَّاءً فُرَ‌اتًا ﴿٢٧﴾ وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ ﴿٢٨﴾ انطَلِقُوا إِلَىٰ مَا كُنتُم بِهِ تُكَذِّبُونَ ﴿٢٩﴾ انطَلِقُوا إِلَىٰ ظِلٍّ ذِي ثَلَاثِ شُعَبٍ ﴿٣٠﴾ لَّا ظَلِيلٍ وَلَا يُغْنِي مِنَ اللَّـهَبِ ﴿٣١﴾ إِنَّهَا تَرْ‌مِي بِشَرَ‌رٍ‌ كَالْقَصْرِ‌ ﴿٣٢﴾ كَأَنَّهُ جِمَالَتٌ صُفْرٌ‌ ﴿٣٣﴾ وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ ﴿٣٤﴾ هَـٰذَا يَوْمُ لَا يَنطِقُونَ ﴿٣٥﴾ وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُ‌ونَ ﴿٣٦﴾ وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ ﴿٣٧﴾ هَـٰذَا يَوْمُ الْفَصْلِ ۖ جَمَعْنَاكُمْ وَالْأَوَّلِينَ ﴿٣٨﴾ فَإِن كَانَ لَكُمْ كَيْدٌ فَكِيدُونِ ﴿٣٩﴾ وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ ﴿٤٠﴾ إِنَّ الْمُتَّقِينَ فِي ظِلَالٍ وَعُيُونٍ ﴿٤١﴾ وَفَوَاكِهَ مِمَّا يَشْتَهُونَ ﴿٤٢﴾ كُلُوا وَاشْرَ‌بُوا هَنِيئًا بِمَا كُنتُمْ تَعْمَلُونَ ﴿٤٣﴾ إِنَّا كَذَٰلِكَ نَجْزِي الْمُحْسِنِينَ ﴿٤٤﴾ وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ ﴿٤٥﴾ كُلُوا وَتَمَتَّعُوا قَلِيلًا إِنَّكُم مُّجْرِ‌مُونَ ﴿٤٦﴾ وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ ﴿٤٧﴾ وَإِذَا قِيلَ لَهُمُ ارْ‌كَعُوا لَا يَرْ‌كَعُونَ ﴿٤٨﴾ وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ ﴿٤٩﴾ فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ ﴿٥٠﴾
+  بِسْمِ اللّهِ الرَّحْمَنِ الرَّحیم
+															<br>
+															وَالنَّازِعَاتِ غَرْ‌قًا ﴿١﴾ وَالنَّاشِطَاتِ نَشْطًا ﴿٢﴾ وَالسَّابِحَاتِ سَبْحًا ﴿٣﴾ فَالسَّابِقَاتِ سَبْقًا ﴿٤﴾ فَالْمُدَبِّرَ‌اتِ أَمْرً‌ا ﴿٥﴾ يَوْمَ تَرْ‌جُفُ الرَّ‌اجِفَةُ ﴿٦﴾ تَتْبَعُهَا الرَّ‌ادِفَةُ ﴿٧﴾ قُلُوبٌ يَوْمَئِذٍ وَاجِفَةٌ ﴿٨﴾ أَبْصَارُ‌هَا خَاشِعَةٌ ﴿٩﴾ يَقُولُونَ أَإِنَّا لَمَرْ‌دُودُونَ فِي الْحَافِرَ‌ةِ ﴿١٠﴾ أَإِذَا كُنَّا عِظَامًا نَّخِرَ‌ةً ﴿١١﴾ قَالُوا تِلْكَ إِذًا كَرَّ‌ةٌ خَاسِرَ‌ةٌ ﴿١٢﴾ فَإِنَّمَا هِيَ زَجْرَ‌ةٌ وَاحِدَةٌ ﴿١٣﴾ فَإِذَا هُم بِالسَّاهِرَ‌ةِ ﴿١٤﴾ هَلْ أَتَاكَ حَدِيثُ مُوسَىٰ ﴿١٥﴾ إِذْ نَادَاهُ رَ‌بُّهُ بِالْوَادِ الْمُقَدَّسِ طُوًى ﴿١٦﴾ اذْهَبْ إِلَىٰ فِرْ‌عَوْنَ إِنَّهُ طَغَىٰ ﴿١٧﴾ فَقُلْ هَل لَّكَ إِلَىٰ أَن تَزَكَّىٰ ﴿١٨﴾ وَأَهْدِيَكَ إِلَىٰ رَ‌بِّكَ فَتَخْشَىٰ ﴿١٩﴾ فَأَرَ‌اهُ الْآيَةَ الْكُبْرَ‌ىٰ ﴿٢٠﴾ فَكَذَّبَ وَعَصَىٰ ﴿٢١﴾ ثُمَّ أَدْبَرَ‌ يَسْعَىٰ ﴿٢٢﴾ فَحَشَرَ‌ فَنَادَىٰ ﴿٢٣﴾ فَقَالَ أَنَا رَ‌بُّكُمُ الْأَعْلَىٰ ﴿٢٤﴾ فَأَخَذَهُ اللَّـهُ نَكَالَ الْآخِرَ‌ةِ وَالْأُولَىٰ ﴿٢٥﴾ إِنَّ فِي ذَٰلِكَ لَعِبْرَ‌ةً لِّمَن يَخْشَىٰ ﴿٢٦﴾ أَأَنتُمْ أَشَدُّ خَلْقًا أَمِ السَّمَاءُ ۚ بَنَاهَا ﴿٢٧﴾ رَ‌فَعَ سَمْكَهَا فَسَوَّاهَا ﴿٢٨﴾ وَأَغْطَشَ لَيْلَهَا وَأَخْرَ‌جَ ضُحَاهَا ﴿٢٩﴾ وَالْأَرْ‌ضَ بَعْدَ ذَٰلِكَ دَحَاهَا ﴿٣٠﴾ أَخْرَ‌جَ مِنْهَا مَاءَهَا وَمَرْ‌عَاهَا ﴿٣١﴾ وَالْجِبَالَ أَرْ‌سَاهَا ﴿٣٢﴾ مَتَاعًا لَّكُمْ وَلِأَنْعَامِكُمْ ﴿٣٣﴾ فَإِذَا جَاءَتِ الطَّامَّةُ الْكُبْرَ‌ىٰ ﴿٣٤﴾ يَوْمَ يَتَذَكَّرُ‌ الْإِنسَانُ مَا سَعَىٰ ﴿٣٥﴾ وَبُرِّ‌زَتِ الْجَحِيمُ لِمَن يَرَ‌ىٰ ﴿٣٦﴾ فَأَمَّا مَن طَغَىٰ ﴿٣٧﴾ وَآثَرَ‌ الْحَيَاةَ الدُّنْيَا ﴿٣٨﴾ فَإِنَّ الْجَحِيمَ هِيَ الْمَأْوَىٰ ﴿٣٩﴾ وَأَمَّا مَنْ خَافَ مَقَامَ رَ‌بِّهِ وَنَهَى النَّفْسَ عَنِ الْهَوَىٰ ﴿٤٠﴾ فَإِنَّ الْجَنَّةَ هِيَ الْمَأْوَىٰ ﴿٤١﴾ يَسْأَلُونَكَ عَنِ السَّاعَةِ أَيَّانَ مُرْ‌سَاهَا ﴿٤٢﴾ فِيمَ أَنتَ مِن ذِكْرَ‌اهَا ﴿٤٣﴾ إِلَىٰ رَ‌بِّكَ مُنتَهَاهَا ﴿٤٤﴾ إِنَّمَا أَنتَ مُنذِرُ‌ مَن يَخْشَاهَا ﴿٤٥﴾ كَأَنَّهُمْ يَوْمَ يَرَ‌وْنَهَا لَمْ يَلْبَثُوا إِلَّا عَشِيَّةً أَوْ ضُحَاهَا ﴿٤٦﴾
 															</p>
+															<p contenteditable="true"  id="kurdish" class="w3-container text" style="display:none">
+فۆنت بریتییە لە کۆی هەندێک پیت (حرف)، وشە، شێوە و نیگار کە لە زمانێکی تایبەتیدا وەک زمانی کوردی، فارسی یان ئینگلیسیدا دیاری دەکرێن کە هێمای تایبەتی خۆیان هەیە و نیشاندەری پیتەکانی ئەو زمانانەن. فۆنتەکان دەتوانن زیاتر لە یەک زمان لەخۆیان بگرن و هەڵگری فۆنتی زمانێکی تریش بن. فۆنت سەرەکی‌ترین ئامێری جوانکاری لە بەکارهێنانی ڕۆژنامە، گۆڤار و شێوەی تری گڕافیکیدایە. بەکارهێنانی فۆنتی جۆراوجۆر دەبێتە هۆی چێژبەخشین بە خوێندنەوە. قەبارەی فۆنتەکان لەسەر بنەما و یەکەی «پیکسێڵ» داڕێژراوە. فۆڕمەتی فۆنتەکان بەچەند جۆرێکی تایبەتە کە بریتین لە TTF، OTF و ... و دوای داونلۆدکردن و دابەزاندن دەتوانی کەڵکیان لێوەربگری. نەبوونی فۆنتی ستاندارد و یونیکۆدی کوردی لە ماوەی چەند ساڵی رابردوودا یەکێک بووە لە سەرەکیترین هۆکارەکانی پێشنەکەوتنی باشتربوونی نووسین و خوێندنەوە لە کۆمەڵگای کوردیدا و نەبوونی داهێنەری فۆنتی کوردی یەکێکە لەو کێشانە کە پێویستە بە زووترین کات داهێنەران و دیزاینەرانی کورد هەوڵ و کۆششی خۆیان بخەنە گەڕ بۆ درووستکردنی فۆنتی ستاندارد و یونیکۆدی کوردی. لەگەڵ هەموو ئەو کەند و کۆسپانەی رێگربوون لە بەرەوپێشچوونی فۆنتی کوردی و بەکارهێنانی یونیکۆد وەکوو ستانداردێک، بەڵام دیسان لەلایەن چەند دڵسۆزانێکەوە بە خۆبەخشانە هەوڵی کارلەسەرکردنی فۆنت و کیبۆردی کوردی هەر بەردەوام بووە و هیوادارین لەمەودوا زۆر بە تایبەتیتر کاری لەسەر بکرێت. یەکێک لە کێشە سەرەکیەکانی نەبوونی کیبۆرد و فۆنتی کوردی ئەوە بووە کە ناچاری درووست کردووە کە کیبۆرد و فۆنتی ناکوردی بەکار بهێنرێت و ئەوەش لە کۆکردنەوە و دۆزینەوە زانیاری و داتاکان لەسەر هێڵی ئینتەرنێتیش بووەتە کۆسپ و تاکی کورد ناتوانێت بە تەواوەتی کەڵکی لێوەربگرێت.
+</p>
 														</section>
 														<footer>
-															تایپ‌فیس میخک مجموعه فونت ۵
- وزنی سازگار با وب، طراحی شده برای استفاده در متون بلند و منتشر شده تحت مجوز آزاد است.
- 																<br>
+															تایپ‌فیس میخک مجموعه فونت ۹ وزنی سازگار با وب، طراحی شده برای استفاده در متون بلند و منتشر شده تحت مجوز آزاد است
+															<br>
+      با تشکر از کمک‌های بی‌دریغ
+															<a href="http://github.com/rastikerdar" target="_blank">صابر راستی‌کردار</a> و
+															<a href="http://github.com/zoghal/" target="_blank">صالح سوزنچی</a>
+															<br>
+      و با سپاس از
+																<a href="https://github.com/arashmilani" target="_blank">آرش میلانی</a> برای رفع اشکالات این صفحه
+																<br>
       طراحی شده توسط
 																	<a href="http://github.com/aminabedi68" target="_blank">امین عابدی</a> /
-															تاریخ اولین انتشار: ۱۳۹۷/۰۴/۲۴ </br>
-      با سپاس از
-																<a href="https://github.com/arashmilani" target="_blank">آرش میلانی</a> برای رفع اشکالات این صفحه
-
-															</br></br>
+															تاریخ اولین انتشار: ۱۳۹۶/۰۱/۱۰
+																	<br>
+															<br>
 																		<p>فونت‌های آزاد:
 																			<a href="https://aminabedi68.github.io/Estedad/" target="_blank">استعداد</a>،
 																			<a href="https://aminabedi68.github.io/Mikhak/" target="_blank">میخک</a>،
 																			<a href="http://github.com/aminabedi68/AzarMehrMonospaced/" target="_blank">آذرمهر مونواسپیست</a>،
 																			<a href="http://github.com/aminabedi68/Fandogh/" target="_blank">فندق</a>
 																		</p>
-																		<!-- <p>فونت‌های تجاری:
-																			<a href="https://www.opentypeshop.com/%d8%a2%d8%b0%d8%b1%d9%85%d9%87%d8%b1/" target="_blank">آذرمهر</a>،
-																			<a href="https://www.opentypeshop.com/%d8%a2%d8%b0%d8%b1%d9%86%da%af%d8%a7%d8%b1/" target="_blank">آذرنگار</a>،
-																			<a href="https://www.opentypeshop.com/%d8%b9%d9%86%d9%88%d8%a7%d9%86/" target="_blank">عنوان</a>،
-																			<a href="https://www.opentypeshop.com/%d8%a8%d8%af%db%8c%d8%b9/" target="_blank">بدیع</a>
-																		</p> -->
+																		<p>فونت‌های تجاری:
+																			<a href="https://fontamin.com/product/%d9%81%d9%88%d9%86%d8%aa-%d9%85%d8%aa%d9%86-%d8%a2%d8%b0%d8%b1%d9%85%d9%87%d8%b1/" target="_blank">آذرمهر</a>،
+																			<a href="https://fontamin.com/product/%d9%81%d9%88%d9%86%d8%aa-%d8%aa%db%8c%d8%aa%d8%b1-%d8%b9%d9%86%d9%88%d8%a7%d9%86/" target="_blank">عنوان</a>،
+																			<a href="https://fontamin.com/product/%d9%81%d9%88%d9%86%d8%aa-%d8%a8%d8%af%db%8c%d8%b9/" target="_blank">بدیع</a>
+																		</p>
 																		<ul class="social-list">
 																			<li>
 																				<a href="mailto:aminabedi68@gmail.com" class="social-gmail">
@@ -936,16 +905,7 @@
 																				</a>
 																			</li>
 																			<li>
-																				<a href="https://dribbble.com/aminabedi68" class="social-dribbble" target="_blank">
-																					<svg viewBox="0 0 100 100" class="shape-dribbble">
-																						<use
-																							xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-dribbble">
-																						</use>
-																					</svg>
-																				</a>
-																			</li>
-																			<li>
-																				<a href="https://instagram.com/aminabedi68" class="social-instagram" target="_blank">
+																				<a href="https://instagram.com/fontamin" class="social-instagram" target="_blank">
 																					<svg viewBox="0 0 100 100" class="shape-instagram">
 																						<use
 																							xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-instagram">
@@ -953,15 +913,15 @@
 																					</svg>
 																				</a>
 																			</li>
-																			<!-- <li>
-																				<a href="https://opentypeshop.com" class="social-opentypeshop" target="_blank">
-																					<svg viewBox="0 0 100 100" class="shape-opentypeshop">
+																			<li>
+																				<a href="https://fontamin.com" class="social-fontamin" target="_blank">
+																					<svg viewBox="0 0 100 100" class="shape-fontamin">
 																						<use
-																							xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#opentypeshop">
+																							xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fontamin">
 																						</use>
 																					</svg>
 																				</a>
-																			</li> -->
+																			</li>
 																			<li>
 																				<a href="https://twitter.com/aminabedi68" class="social-twitter" target="_blank">
 																					<svg viewBox="0 0 100 100" class="shape-twitter">
@@ -1010,8 +970,7 @@
 													              c-0.195,0.466,0.862,1.863,3.17,4.191c2.309,2.329,6.846,2.93,13.61,1.797l0.098,9.483c0,0.731-0.26,1.381-0.781,1.946
 													              c-0.52,0.564-1.398,0.748-2.634,0.549c-10.082-3.594-18.244-9.716-24.488-18.367C3.415,72.604,0.195,62.556,0,51.11
 													              C0.325,36.602,5.187,24.54,14.585,14.923C23.984,5.308,35.772,0.333,49.951,0L50.049,0.3z"></path>
-																				<path id="opentypeshop" d="m 99.03401,5.076576 c -0.26242,0 -0.48287,0.0955 -0.66171,0.28642 -0.17884,0.17887 -0.26851,0.4059 -0.26851,0.68021 l -0.0352,11.91399 -16.38673,-12.66582 c -0.19076,-0.14308 -0.38136,-0.21421 -0.57223,-0.21421 -0.27426,0 -0.50727,0.0949 -0.69811,0.28583 -0.17888,0.1908 -0.26793,0.41783 -0.26793,0.68021 v 23.112538 c 0,0.26234 0.089,0.48877 0.26793,0.67963 0.19082,0.19085 0.42382,0.28641 0.69811,0.28641 0.26241,0 0.48287,-0.0897 0.66174,-0.26851 0.17884,-0.19081 0.2685,-0.42323 0.2685,-0.69753 V 17.205976 L 98.426,29.906974 c 0.19085,0.14309 0.39339,0.21481 0.60801,0.21481 0.26239,0 0.48346,-0.0897 0.66233,-0.26851 0.17884,-0.19081 0.26789,-0.42323 0.26789,-0.69753 l 0.0358,-23.112538 c 0,-0.26233 -0.0955,-0.48876 -0.28641,-0.67963 -0.1789,-0.19085 -0.40534,-0.28641 -0.67962,-0.28641 z m -86.51138,5.8e-4 c -2.26594,0 -4.35881,0.56042 -6.27893,1.68147 -1.92007,1.12103 -3.44059,2.64153 -4.56163,4.56164 C 0.56103,13.240356 0,15.333826 0,17.599776 c 0,2.26593 0.56103,4.35881 1.68207,6.278898 1.12104,1.92008 2.64156,3.44059 4.56163,4.56164 1.92012,1.12105 4.01299,1.68147 6.27893,1.68147 2.26593,0 4.35881,-0.56042 6.27889,-1.68147 1.92012,-1.12105 3.44062,-2.64156 4.56166,-4.56164 1.12104,-1.920088 1.68146,-4.012968 1.68146,-6.278898 0,-2.26595 -0.56042,-4.35942 -1.68146,-6.27951 -1.12104,-1.92011 -2.64154,-3.44061 -4.56166,-4.56164 -1.92008,-1.12105 -4.01296,-1.68147 -6.27889,-1.68147 z m 17.99658,0 c -0.27428,0 -0.50725,0.0956 -0.69814,0.28642 -0.17884,0.19081 -0.26789,0.41724 -0.26789,0.67963 v 23.112528 c 0,0.26234 0.089,0.48877 0.26789,0.67963 0.19085,0.19086 0.42386,0.28642 0.69814,0.28642 h 7.29863 c 0.2624,0 0.48288,-0.0897 0.66171,-0.26852 0.17888,-0.19081 0.26852,-0.42323 0.26852,-0.69753 v -5.975178 h 2.21788 c 1.69348,0 3.25582,-0.3991 4.68694,-1.19815 1.44304,-0.81096 2.58239,-1.90847 3.4172,-3.2919 0.84675,-1.39533 1.26976,-2.91586 1.26976,-4.56165 0,-1.64581 -0.42301,-3.16032 -1.26976,-4.54374 -0.83481,-1.39534 -1.97416,-2.49287 -3.4172,-3.29191 -1.43112,-0.81097 -2.99346,-1.21605 -4.68694,-1.21605 z m 25.25882,0 c -0.27424,0 -0.50667,0.0956 -0.69752,0.28642 -0.17888,0.19081 -0.26792,0.41724 -0.26792,0.67963 v 23.112528 c 0,0.26234 0.089,0.48877 0.26792,0.67963 0.19079,0.19086 0.42324,0.28642 0.69752,0.28642 h 18.891 c 0.26239,0 0.48345,-0.089 0.66233,-0.26792 0.17883,-0.19081 0.26789,-0.42383 0.26789,-0.69813 0,-0.26241 -0.089,-0.48286 -0.26789,-0.66172 -0.16699,-0.17885 -0.38806,-0.2685 -0.66233,-0.2685 H 64.0075 v -9.659708 h 10.66153 c 0.27434,0 0.50136,-0.0956 0.68023,-0.28641 0.19085,-0.19081 0.2858,-0.41724 0.2858,-0.67962 0,-0.26233 -0.0949,-0.48936 -0.2858,-0.68021 -0.17891,-0.19087 -0.40596,-0.28582 -0.68023,-0.28582 H 64.0075 v -9.66031 h 10.66153 c 0.27416,0 0.49525,-0.0896 0.66233,-0.26851 0.17883,-0.17887 0.26789,-0.39934 0.26789,-0.66172 0,-0.27433 -0.089,-0.50076 -0.26789,-0.67963 -0.1789,-0.19085 -0.39996,-0.28641 -0.66233,-0.28641 z m -43.2554,1.89627 c 1.92008,0 3.69688,0.47677 5.33077,1.43085 1.63388,0.94215 2.92197,2.23026 3.86411,3.86412 0.95408,1.63387 1.43146,3.41128 1.43146,5.33138 0,1.92008 -0.47738,3.6969 -1.43146,5.33077 -0.94214,1.633838 -2.23023,2.927938 -3.86411,3.882018 -1.63389,0.94218 -3.41069,1.41295 -5.33077,1.41295 -1.03758,0 -2.1351,-0.17864 -3.29191,-0.53642 V 7.509846 c 1.15681,-0.35778 2.25433,-0.53642 3.29191,-0.53642 z m 26.22544,0 h 2.21788 c 2.07512,0 3.84058,0.7038 5.29557,2.11106 1.45495,1.39534 2.18208,3.07655 2.18208,5.04437 0,1.9678 -0.72713,3.65559 -2.18208,5.06287 -1.45499,1.39533 -3.22045,2.09317 -5.29557,2.09317 h -2.21788 z m -37.782,30.847958 c -0.27426,0 -0.50668,0.0955 -0.69753,0.28641 C 0.08967,38.298604 0,38.525044 0,38.787414 c 0,0.26241 0.0897,0.48287 0.26854,0.66173 0.19082,0.17886 0.42322,0.26851 0.69753,0.26851 H 5.7962 v 22.18231 c 0,0.26233 0.0897,0.48877 0.26851,0.67962 0.19085,0.19087 0.42325,0.28641 0.69752,0.28641 h 7.29864 c 0.27433,0 0.50077,-0.0956 0.67961,-0.28641 0.19088,-0.19081 0.28642,-0.41724 0.28642,-0.67962 v -22.18231 h 4.83017 c 0.25044,0 0.46496,-0.0896 0.64381,-0.26851 0.19084,-0.19081 0.28641,-0.41128 0.28641,-0.66173 0,-0.25039 -0.0956,-0.47085 -0.28641,-0.66172 -0.17887,-0.20286 -0.39337,-0.30431 -0.64381,-0.30431 z m 25.2594,0 c -0.26206,1.6e-4 -0.48893,0.10161 -0.67962,0.30431 -0.19085,0.19082 -0.28583,0.41128 -0.28583,0.66172 0,0.0478 0.0353,0.17859 0.10681,0.39322 l 6.2258,13.84605 -3.82835,8.47948 c -0.0478,0.14304 -0.0716,0.27449 -0.0716,0.3938 0,0.27427 0.089,0.50666 0.26793,0.69753 0.17887,0.17886 0.39935,0.2685 0.66171,0.2685 h 8.05047 c 0.16708,0 0.33376,-0.0538 0.50059,-0.16109 0.16702,-0.11923 0.28651,-0.25664 0.35803,-0.41172 l 10.44734,-23.11255 c 0.0478,-0.14306 0.0716,-0.2739 0.0716,-0.39322 0,-0.26232 -0.0956,-0.48936 -0.28644,-0.68021 -0.17887,-0.19086 -0.4053,-0.28582 -0.67961,-0.28582 h -8.01464 c -0.16711,0 -0.33377,0.0597 -0.50062,0.17901 -0.16703,0.10727 -0.28651,0.23813 -0.35803,0.39322 l -5.58136,12.3078 -5.54561,-12.3078 c -0.0716,-0.167 -0.19054,-0.3038 -0.3574,-0.41112 -0.1549,-0.10715 -0.32197,-0.16098 -0.50063,-0.16111 z m 27.26306,0 c -0.27424,0 -0.50663,0.0949 -0.69752,0.28582 -0.17883,0.19081 -0.2685,0.41784 -0.2685,0.68021 v 23.11255 c 0,0.26233 0.0897,0.48877 0.2685,0.67962 0.19082,0.19087 0.42321,0.28641 0.69752,0.28641 h 7.29866 c 0.2624,0 0.48286,-0.0896 0.66172,-0.2685 0.17885,-0.19082 0.26851,-0.42322 0.26851,-0.69753 v -5.97519 h 2.21847 c 1.69348,0 3.25582,-0.39911 4.68694,-1.19814 1.44308,-0.81097 2.58181,-1.90848 3.41662,-3.2919 0.84674,-1.39533 1.27034,-2.91584 1.27034,-4.56165 0,-1.64578 -0.4236,-3.16033 -1.27034,-4.54374 -0.83481,-1.39535 -1.97354,-2.49284 -3.41662,-3.29191 -1.43112,-0.81095 -2.99346,-1.21605 -4.68694,-1.21605 z m 25.25944,0 c -0.27428,0 -0.50668,0.0949 -0.69752,0.28582 -0.17888,0.19081 -0.26851,0.41784 -0.26851,0.68021 v 23.11255 c 0,0.26233 0.0896,0.48877 0.26851,0.67962 0.19079,0.19087 0.42321,0.28641 0.69752,0.28641 h 18.891 c 0.2624,0 0.48288,-0.0896 0.66172,-0.2685 0.17887,-0.19082 0.26793,-0.42322 0.26793,-0.69753 0,-0.26239 -0.089,-0.48285 -0.26793,-0.66172 -0.16693,-0.17885 -0.38741,-0.26851 -0.66172,-0.26851 H 86.97683 v -9.65971 h 10.66214 c 0.27434,0 0.50079,-0.0956 0.67962,-0.28641 0.19085,-0.19083 0.28641,-0.41787 0.28641,-0.68022 0,-0.26233 -0.0956,-0.48876 -0.28641,-0.67962 -0.17887,-0.19086 -0.40531,-0.28641 -0.67962,-0.28641 H 86.97683 v -9.65971 h 10.66214 c 0.2744,0 0.49488,-0.0896 0.66172,-0.26851 0.17887,-0.17889 0.26793,-0.39934 0.26793,-0.66173 0,-0.27432 -0.089,-0.50076 -0.26793,-0.67962 -0.17888,-0.19086 -0.39932,-0.28641 -0.66172,-0.28641 z m -17.03055,1.89627 h 2.21847 c 2.07512,0 3.84001,0.70379 5.29496,2.11106 1.45498,1.39534 2.18269,3.07658 2.18269,5.04437 0,1.9678 -0.72771,3.65557 -2.18269,5.06286 -1.45495,1.39533 -3.21984,2.09256 -5.29496,2.09256 H 61.71742 Z M 27.21,69.878224 c -0.27427,0 -0.50728,0.0956 -0.69812,0.28641 -0.17888,0.19084 -0.26793,0.41724 -0.26793,0.67963 v 23.11253 c 0,0.26234 0.089,0.48937 0.26793,0.68022 0.19082,0.19087 0.42381,0.28641 0.69812,0.28641 h 7.29864 c 0.26239,0 0.48284,-0.0896 0.66171,-0.2685 0.17884,-0.19082 0.27246,-0.42323 0.26851,-0.69752 v -10.62635 h 9.6955 v 10.62635 c 0,0.26232 0.0897,0.48876 0.26852,0.67961 0.1908,0.19087 0.4232,0.28641 0.69751,0.28641 0.2624,0 0.48349,-0.0896 0.66233,-0.2685 0.17887,-0.19082 0.26793,-0.42321 0.26793,-0.69752 v -23.11255 c 0,-0.25043 -0.10149,-0.47146 -0.30431,-0.66231 -0.19082,-0.20286 -0.4113,-0.30432 -0.66172,-0.30432 -0.25045,0 -0.47087,0.0956 -0.66174,0.28641 -0.17885,0.19084 -0.26852,0.41783 -0.26852,0.68022 v 10.58995 h -9.69611 v -10.58995 c 0,-0.27436 -0.089,-0.50137 -0.2679,-0.68022 -0.17887,-0.19086 -0.39993,-0.28641 -0.66232,-0.28641 z m 35.74614,0 c -2.26594,0 -4.35882,0.561 -6.27892,1.68205 -1.92009,1.12106 -3.44118,2.64156 -4.56225,4.56165 -1.12104,1.92009 -1.68145,4.01297 -1.68145,6.27891 0,2.26597 0.56041,4.35881 1.68145,6.2789 1.12107,1.92008 2.64216,3.44059 4.56225,4.56164 1.9201,1.12103 4.01298,1.68147 6.27892,1.68147 2.26594,0 4.3588,-0.56044 6.27889,-1.68147 1.92009,-1.12105 3.44059,-2.64156 4.56163,-4.56164 1.12108,-1.92009 1.68146,-4.01293 1.68146,-6.2789 0,-2.26594 -0.56038,-4.35882 -1.68146,-6.27891 -1.12104,-1.92009 -2.64154,-3.44059 -4.56163,-4.56165 -1.92009,-1.12105 -4.01295,-1.68205 -6.27889,-1.68205 z m 17.07946,0 c -0.27425,0 -0.50667,0.0956 -0.69752,0.28641 -0.17885,0.19084 -0.26789,0.41724 -0.26789,0.67963 v 23.11253 c 0,0.26234 0.089,0.48937 0.26789,0.68022 0.19081,0.19087 0.42321,0.28583 0.69752,0.28583 h 7.29924 c 0.2624,0 0.48288,-0.089 0.66172,-0.26792 0.17887,-0.19082 0.2685,-0.42381 0.2685,-0.69813 v -5.97459 h 2.21789 c 1.69351,0 3.25583,-0.39969 4.68696,-1.19874 1.44304,-0.81096 2.58237,-1.90788 3.41719,-3.2913 0.84676,-1.39534 1.26975,-2.91644 1.26975,-4.56225 0,-1.64578 -0.42299,-3.16032 -1.26975,-4.54374 -0.83482,-1.39537 -1.97415,-2.49228 -3.41719,-3.29131 -1.43113,-0.81098 -2.99345,-1.21664 -4.68696,-1.21664 z m -67.47359,0.0525 c -0.98357,0.007 -1.9671,0.0863 -2.94046,0.23868 -1.95393,0.30604 -4.03517,0.94674 -5.57899,2.46729 -0.76821,0.75662 -1.36807,1.71168 -1.65103,2.79188 -0.28439,1.08562 -0.23407,2.26801 0.23032,3.33069 0.50701,1.16024 1.43376,2.02113 2.44879,2.60452 1.00706,0.57879 2.0871,0.89263 3.12363,1.12117 2.63237,0.58038 5.23441,0.69333 7.60236,1.3324 1.0034,0.2708 1.94929,0.63254 2.731,1.17069 0.77443,0.53311 1.39582,1.26624 1.67074,2.07467 0.31671,0.93132 0.17924,2.05513 -0.32936,2.94105 -0.46788,0.8149 -1.24926,1.48772 -2.15346,1.95056 -0.90993,0.46577 -1.95286,0.73934 -3.04008,0.91352 -3.84129,0.61546 -7.89677,-0.0577 -11.33224,-1.88313 -1.09383,-0.62608 -1.99023,1.06087 -0.85922,1.61701 3.79617,2.01697 8.23564,2.75474 12.48025,2.07467 1.2002,-0.1923 2.43327,-0.50155 3.58546,-1.09133 1.15792,-0.59272 2.22384,-1.47424 2.90943,-2.66837 0.76225,-1.32767 0.97886,-2.95947 0.47376,-4.4447 -0.43253,-1.27184 -1.33274,-2.28013 -2.36821,-2.99297 -1.02818,-0.70778 -2.17216,-1.13031 -3.29014,-1.43203 -1.0925,-0.29485 -2.1849,-0.48453 -3.26325,-0.64562 v -9.63227 c 2.537,0.0435 5.0691,0.60922 7.36962,1.67012 1.1174,0.53296 1.89793,-1.1611 0.76675,-1.66415 -1.78935,-0.82518 -3.69675,-1.37977 -5.64464,-1.65103 -0.9739,-0.13562 -1.95747,-0.20038 -2.94103,-0.19332 z m 50.39413,1.84375 c 1.92007,0 3.69688,0.47737 5.33077,1.43145 1.63385,0.94216 2.92194,2.23025 3.86411,3.86413 0.95409,1.63385 1.43084,3.41067 1.43084,5.33077 0,1.9201 -0.47675,3.6969 -1.43084,5.33077 -0.94217,1.63387 -2.23026,2.92795 -3.86411,3.88203 -1.63389,0.94215 -3.4107,1.41354 -5.33077,1.41354 -1.03758,0 -2.13509,-0.17923 -3.29191,-0.53701 v -20.17863 c 1.15682,-0.35778 2.25433,-0.53702 3.29191,-0.53702 z m 25.30892,0 h 2.21789 c 2.07513,0 3.84059,0.70381 5.29557,2.11107 1.45499,1.39536 2.18206,3.07717 2.18206,5.04497 0,1.96779 -0.72707,3.655 -2.18206,5.06226 -1.45498,1.39536 -3.22044,2.09317 -5.29557,2.09317 h -2.21789 z"
-														             </path>
+																				<path id="fontamin" d="m 75.860395,1.252619 -2.0411,3.439598 c 8.3424,4.951638 13.39138,11.952008 16.45379,20.360184 3.06238,8.408177 4.0607,18.223179 4.0607,28.462079 0,16.676787 -2.93934,26.561702 -9.88321,32.434887 -6.94387,5.873185 -18.5865,8.115565 -36.67919,8.115565 -11.60993,0 -22.2094,-1.375725 -29.63596,-5.576393 C 10.708855,84.287861 6.1701028,77.52723 6.1701028,65.380184 h -4.00016 c 0,13.203228 5.502639,21.784502 13.9966522,26.588954 8.49401,4.804462 19.69244,6.095954 31.60479,6.095954 18.41127,0 31.0505,-2.118065 39.26133,-9.062863 8.21083,-6.944798 11.30123,-18.335703 11.30123,-35.487749 0,-10.49514 -0.99544,-20.75025 -4.3029,-29.831274 -3.30746,-9.081023 -9.00266,-16.988909 -18.17065,-22.430587 z m -31.21219,0.414087 c -31.344354,0 -39.8592212,15.547222 -40.3063002,38.399966 v 0.425797 l 14.0103302,3.205208 c -1.06749,4.471799 -1.66804,8.7432 -1.66804,13.682187 0,12.097224 16.47968,14.297452 30.22386,14.297452 13.14374,0 24.27161,-0.838503 34.62835,-2.920037 l -0.86723,-9.109744 c -4.20331,1.802072 -11.94243,3.00403 -17.27999,3.00403 -11.8093,0 -19.88361,-5.339173 -19.88361,-22.291912 0,-12.690067 3.58067,-25.178587 10.66645,-32.237619 1.07818,-1.074123 2.09354,-2.00742 3.27747,-2.892686 L 55.916235,2.248759 C 51.867285,1.856623 48.117705,1.666706 44.648205,1.666706 Z m 20.27425,21.672737 c -5.33756,0 -7.93978,5.406286 -7.93978,11.680157 0,4.071323 3.13554,6.00805 8.87341,6.00805 3.13581,0 7.00651,-0.535331 11.54343,-1.669987 0,-7.942427 -5.40482,-16.01822 -12.47706,-16.01822 z"</path>
 																			  <path id="shape-twitter" d="M100.001,17.942c-3.681,1.688-7.633,2.826-11.783,3.339
 														            c4.236-2.624,7.49-6.779,9.021-11.73c-3.965,2.432-8.354,4.193-13.026,5.146C80.47,10.575,75.138,8,69.234,8
 														            c-11.33,0-20.518,9.494-20.518,21.205c0,1.662,0.183,3.281,0.533,4.833c-17.052-0.884-32.168-9.326-42.288-22.155
@@ -1020,9 +979,7 @@
 														            c-1.322,0-2.606-0.134-3.859-0.379c2.609,8.424,10.187,14.555,19.166,14.726c-7.021,5.688-15.867,9.077-25.48,9.077
 														            c-1.656,0-3.289-0.102-4.895-0.297C9.08,88.491,19.865,92,31.449,92c37.737,0,58.374-32.312,58.374-60.336
 														            c0-0.92-0.02-1.834-0.059-2.743C93.771,25.929,97.251,22.195,100.001,17.942L100.001,17.942z"></path>
-																				<path id="shape-dribbble" d="M 50.0095,0 C 45.94668,0 42.00366,0.490706 38.21933,1.401496 38.97291,2.407296 48.37045,14.868439 56.91875,30.574653 75.79123,23.494734 82.91518,12.656407 83.03642,12.47294 74.22927,4.711567 62.6665,0 50.0095,0 Z M 38.01801,1.450871 c 0,0 -0.057,0.01186 -0.15189,0.03798 0.0589,-0.02622 0.10813,-0.03143 0.16706,-0.03798 z M 28.6702,4.770406 C 14.72226,11.355613 4.31488,24.207171 1.07118,39.693878 2.38831,39.706908 23.2267,39.968626 47.23669,33.586543 38.58353,18.207951 29.33533,5.658263 28.6702,4.770406 Z m 59.95744,13.464241 c -0.0982,0.134315 -8.11763,11.725285 -27.86491,19.78807 1.16312,2.388368 2.28598,4.813049 3.33117,7.250559 0.36368,0.878027 0.72435,1.731931 1.07494,2.590302 17.18181,-2.16231 34.10706,1.478153 34.83115,1.625583 C 99.88525,37.632508 95.64256,26.756104 88.62764,18.234647 Z M 51.38452,41.281481 C 25.63474,48.99371 0.92647,48.439464 0.04181,48.406703 0.02621,48.944003 1e-5,49.460804 1e-5,49.998106 c 0,12.849348 4.84354,24.556196 12.81193,33.411829 -0.006,-0.01303 -0.0195,-0.02658 -0.0195,-0.02658 0,0 13.68804,-24.269979 40.67306,-32.997839 0.65202,-0.21623 1.3133,-0.410599 1.97515,-0.603894 -1.25489,-2.840487 -2.62484,-5.689136 -4.05666,-8.500134 z m 28.36631,13.673136 c -3.59736,-0.05692 -7.49692,0.15137 -11.53189,0.7976 6.5595,18.025779 9.22084,32.703148 9.73525,35.717274 C 89.17937,83.894861 97.15561,71.86558 99.37704,57.928526 98.60544,57.680351 90.5429,55.125391 79.75083,54.954617 Z m -20.9101,3.110639 c -0.10482,0.04259 -0.21146,0.0779 -0.32285,0.113935 C 29.00343,68.469809 19.36855,89.199149 19.2768,89.395723 27.7596,96.016971 38.41027,100 50.00571,100 56.92888,100 63.52689,98.590769 69.52938,96.038589 68.78562,91.668107 65.88187,76.353126 58.84073,58.065248 Z M 19.2768,89.39573 c -0.37023,-0.288307 -0.76062,-0.550404 -1.12431,-0.858368 0.66513,0.540576 1.11672,0.87736 1.11672,0.87736 z"
-																				></path>
-																			</defs>
+																				</defs>
 																		</svg>
 																	</footer>
 																	<script>
