@@ -1,0 +1,11 @@
+Open($1);
+SelectNone();
+SelectMore(0u640);
+Move(1024,0);
+MoveReference(-1024,0,0xe03b);
+SelectNone();
+SelectMore(0uFE71, 0uFE77, 0uFE79, 0uFE7B, 0uFE7D, 0uFE7F);
+Move(1024,0);
+MoveReference(-1024,0,0xe03b);
+SelectNone();
+Save();
