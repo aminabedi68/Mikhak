@@ -15,7 +15,7 @@ Weight[wght]:100-900
 ## Build(Windows):
 ### requirements:
 <br>1-installed <a href="https://github.com/fontforge/fontforge">fontforge</a> with path access in environment variables
-<br>2-installed python and <a href="https://github.com/googlefonts/fontmake">fontmake</a>
+<br>2-installed <a href="https://www.python.org/">python</a> and <a href="https://github.com/googlefonts/fontmake">fontmake</a>
 ### build:
 move script folder contents to sources folder and run build.bat
 ## Install
