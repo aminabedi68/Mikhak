@@ -1,2 +1,0 @@
-Find what :([+-]?\b[0-9]+\b);$
-Replace with :<$1 0 $1 0>;
