@@ -1,74 +1,76 @@
 
 lookup kernHorizontalKerninginArabiclookup0 {
   lookupflag RightToLeft;
-    @kc31_first_1 = [\braceright \bracketright \parenright ];
-    @kc31_first_2 = [\uni0622 ];
-    @kc31_first_3 = [\uni0623 \uni0625 \uni0627 \uni0671 ];
-    @kc31_first_4 = [\uni0624 \uni0648 \uni06C6 \uni06CA \uni06CA.fina \uniFBDA \uniFE86 \uniFEEE ];
-    @kc31_first_5 = [\uni062F \uni0630 \uniFEAA \uniFEAC ];
-    @kc31_first_6 = [\uni0631 \uni0632 \uni0695 \uni0695.fina \uni0698 \uniFB8B \uniFEAE \uniFEB0 ];
-    @kc31_first_7 = [\uni06B5uniFE8E.fina \uni06B5uniFE8E.isol \uniFEF5 \uniFEF6 \uniFEF7 \uniFEF8 
+    @kc32_first_1 = [\braceright \bracketright \parenright ];
+    @kc32_first_2 = [\uni0622 ];
+    @kc32_first_3 = [\uni0623 \uni0625 \uni0627 \uni0671 ];
+    @kc32_first_4 = [\uni0624 \uni0648 \uni06C6 \uni06CA \uni06CA.fina \uniFBDA \uniFE86 \uniFEEE ];
+    @kc32_first_5 = [\uni062F \uni0630 \uniFEAA \uniFEAC ];
+    @kc32_first_6 = [\uni0631 \uni0632 \uni0691 \uni0695 \uni0695.fina \uni0698 \uniFB8B \uniFB8D 
+	\uniFEAE \uniFEB0 ];
+    @kc32_first_7 = [\uni06B5uniFE8E.fina \uni06B5uniFE8E.isol \uniFEF5 \uniFEF6 \uniFEF7 \uniFEF8 
 	\uniFEF9 \uniFEFA \uniFEFB \uniFEFC ];
-    @kc31_first_8 = [\uniFB51 \uniFE82 \uniFE84 \uniFE88 \uniFE8E ];
-    @kc31_second_1 = [\braceleft \bracketleft \parenleft ];
-    @kc31_second_2 = [\period \uni060C \uni061B ];
-    @kc31_second_3 = [\uni0622 ];
-    @kc31_second_4 = [\uni0623 \uni0625 \uni0627 \uni0671 ];
-    @kc31_second_5 = [\uni0624 \uni0631 \uni0632 \uni0648 \uni0695 \uni0698 \uni06C6 \uni06CA ];
-    @kc31_second_6 = [\uni0626 \uni0642 \uni0646 \uni0649 \uni064A \uni066F \uni06BA \uni06CC \uni06CE 
+    @kc32_first_8 = [\uniFB51 \uniFE82 \uniFE84 \uniFE88 \uniFE8E ];
+    @kc32_second_1 = [\braceleft \bracketleft \parenleft ];
+    @kc32_second_2 = [\period \uni060C \uni061B ];
+    @kc32_second_3 = [\uni0622 ];
+    @kc32_second_4 = [\uni0623 \uni0625 \uni0627 \uni0671 ];
+    @kc32_second_5 = [\uni0624 \uni0631 \uni0632 \uni0648 \uni0695 \uni0698 \uni06C6 \uni06CA ];
+    @kc32_second_6 = [\uni0626 \uni0642 \uni0646 \uni0649 \uni064A \uni066F \uni06BA \uni06CC \uni06CE 
 	\uni06CE.init \uniFB58 \uniFBFE \uniFEF3 ];
-    @kc31_second_7 = [\uni0628 \uni0629 \uni062A \uni062B \uni0633 \uni0634 \uni0635 \uni0636 \uni0637 
-	\uni0638 \uni0641 \uni0643 \uni0645 \uni0647 \uni067E \uni06A1 \uni06A4 
-	\uni06C0 \uni06D5 \uniFB7C \uniFE9F \uniFEA3 \uniFEA7 \uniFEB3 \uniFEB7 
-	\uniFEBB \uniFEBF \uniFEC3 \uniFEC7 \uniFECB \uniFECF \uniFED3 \uniFED7 
-	\uniFEDF \uniFEE3 \uniFEEB \uniFEF5 \uniFEF7 \uniFEF9 \uniFEFB 
-	\uni06A4.init \uni06B5uniFE8E.isol ];
-    @kc31_second_8 = [\uni062C \uni062D \uni062E \uni0686 ];
-    @kc31_second_9 = [\uni062F \uni0630 ];
-    @kc31_second_10 = [\uni0639 \uni063A ];
-    @kc31_second_11 = [\uni0644 \uni06B5 ];
-    @kc31_second_12 = [\uni06A9 \uni06AF \uni06AF.rvrn \uniFB90 \uniFB94 \uniFB94.rvrn \uniFEDB ];
-    @kc31_second_13 = [\uniFBE8 \uniFE8B \uniFE91 \uniFE97 \uniFE9B \uniFEE7 ];
-    pos @kc31_first_1 @kc31_second_3 200;
-    pos @kc31_first_1 @kc31_second_10 -150;
-    pos @kc31_first_2 @kc31_second_1 200;
-    pos @kc31_first_2 @kc31_second_3 400;
-    pos @kc31_first_2 @kc31_second_4 200;
-    pos @kc31_first_2 @kc31_second_10 -250;
-    pos @kc31_first_2 @kc31_second_11 50;
-    pos @kc31_first_2 @kc31_second_12 100;
-    pos @kc31_first_3 @kc31_second_3 300;
-    pos @kc31_first_3 @kc31_second_10 -250;
-    pos @kc31_first_4 @kc31_second_8 50;
-    pos @kc31_first_4 @kc31_second_10 50;
-    pos @kc31_first_4 @kc31_second_12 -100;
-    pos @kc31_first_5 @kc31_second_10 -200;
-    pos @kc31_first_5 @kc31_second_12 -180;
-    pos @kc31_first_6 @kc31_second_1 -200;
-    pos @kc31_first_6 @kc31_second_2 -200;
-    pos @kc31_first_6 @kc31_second_3 -180;
-    pos @kc31_first_6 @kc31_second_4 -180;
-    pos @kc31_first_6 @kc31_second_5 -150;
-    pos @kc31_first_6 @kc31_second_6 -50;
-    pos @kc31_first_6 @kc31_second_7 -200;
-    pos @kc31_first_6 @kc31_second_8 50;
-    pos @kc31_first_6 @kc31_second_9 -200;
-    pos @kc31_first_6 @kc31_second_10 50;
-    pos @kc31_first_6 @kc31_second_11 -100;
-    pos @kc31_first_6 @kc31_second_12 -400;
-    pos @kc31_first_6 @kc31_second_13 -200;
-    pos @kc31_first_7 @kc31_second_1 50;
-    pos @kc31_first_7 @kc31_second_3 200;
-    pos @kc31_first_7 @kc31_second_8 -150;
-    pos @kc31_first_7 @kc31_second_10 -300;
-    pos @kc31_first_8 @kc31_second_1 100;
-    pos @kc31_first_8 @kc31_second_3 350;
-    pos @kc31_first_8 @kc31_second_4 250;
-    pos @kc31_first_8 @kc31_second_10 -200;
+    @kc32_second_7 = [\uni0628 \uni0629 \uni062A \uni062B \uni0633 \uni0634 \uni0635 \uni0636 \uni0637 
+	\uni0638 \uni0641 \uni0643 \uni0645 \uni0647 \uni0679 \uni067E \uni06A1 
+	\uni06A4 \uni06AA \uni06BE \uni06C0 \uni06C1 \uni06C2 \uni06C3 \uni06D5 
+	\uniFB7C \uniFBAC \uniFE9F \uniFEA3 \uniFEA7 \uniFEB3 \uniFEB7 \uniFEBB 
+	\uniFEBF \uniFEC3 \uniFEC7 \uniFECB \uniFECF \uniFED3 \uniFED7 \uniFEDF 
+	\uniFEE3 \uniFEEB \uniFEF5 \uniFEF7 \uniFEF9 \uniFEFB \uni06A4.init 
+	\uni06B5uniFE8E.isol \uni06AA.init ];
+    @kc32_second_8 = [\uni062C \uni062D \uni062E \uni0686 ];
+    @kc32_second_9 = [\uni062F \uni0630 \uni0688 ];
+    @kc32_second_10 = [\uni0639 \uni063A ];
+    @kc32_second_11 = [\uni0644 \uni06B5 ];
+    @kc32_second_12 = [\uni06A9 \uni06AF \uni06AF.ss01 \uniFB90 \uniFB94 \uniFB94.ss01 \uniFEDB ];
+    @kc32_second_13 = [\uniFB68 \uniFBE8 \uniFE8B \uniFE91 \uniFE97 \uniFE9B \uniFEE7 ];
+    pos @kc32_first_1 @kc32_second_3 200;
+    pos @kc32_first_1 @kc32_second_10 -150;
+    pos @kc32_first_2 @kc32_second_1 200;
+    pos @kc32_first_2 @kc32_second_3 400;
+    pos @kc32_first_2 @kc32_second_4 200;
+    pos @kc32_first_2 @kc32_second_10 -250;
+    pos @kc32_first_2 @kc32_second_11 50;
+    pos @kc32_first_2 @kc32_second_12 100;
+    pos @kc32_first_3 @kc32_second_3 300;
+    pos @kc32_first_3 @kc32_second_10 -250;
+    pos @kc32_first_4 @kc32_second_8 50;
+    pos @kc32_first_4 @kc32_second_10 50;
+    pos @kc32_first_4 @kc32_second_12 -100;
+    pos @kc32_first_5 @kc32_second_10 -200;
+    pos @kc32_first_5 @kc32_second_12 -180;
+    pos @kc32_first_6 @kc32_second_1 -200;
+    pos @kc32_first_6 @kc32_second_2 -200;
+    pos @kc32_first_6 @kc32_second_3 -180;
+    pos @kc32_first_6 @kc32_second_4 -180;
+    pos @kc32_first_6 @kc32_second_5 -150;
+    pos @kc32_first_6 @kc32_second_6 -50;
+    pos @kc32_first_6 @kc32_second_7 -200;
+    pos @kc32_first_6 @kc32_second_8 50;
+    pos @kc32_first_6 @kc32_second_9 -200;
+    pos @kc32_first_6 @kc32_second_10 50;
+    pos @kc32_first_6 @kc32_second_11 -100;
+    pos @kc32_first_6 @kc32_second_12 -400;
+    pos @kc32_first_6 @kc32_second_13 -200;
+    pos @kc32_first_7 @kc32_second_1 50;
+    pos @kc32_first_7 @kc32_second_3 200;
+    pos @kc32_first_7 @kc32_second_8 -150;
+    pos @kc32_first_7 @kc32_second_10 -300;
+    pos @kc32_first_8 @kc32_second_1 100;
+    pos @kc32_first_8 @kc32_second_3 350;
+    pos @kc32_first_8 @kc32_second_4 250;
+    pos @kc32_first_8 @kc32_second_10 -200;
 } kernHorizontalKerninginArabiclookup0;
 
 feature kern {
-  script latn;
+  script DFLT;
      language dflt ;
       lookup kernHorizontalKerninginArabiclookup0;
   script arab;
@@ -76,9 +78,8 @@ feature kern {
       lookup kernHorizontalKerninginArabiclookup0;
      language KUR  exclude_dflt;
       lookup kernHorizontalKerninginArabiclookup0;
-     language dflt ;
+     language URD  exclude_dflt;
       lookup kernHorizontalKerninginArabiclookup0;
-  script DFLT;
      language dflt ;
       lookup kernHorizontalKerninginArabiclookup0;
 
