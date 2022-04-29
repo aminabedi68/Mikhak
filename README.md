@@ -11,6 +11,7 @@ Mikhak has 9 Weights and 3 Axes:
 Weight[wght]:100-900
 <br>Kashida[KSHD]:100-200
 <br>Dot Styles[DSTY]:1.0-3.0
+![designspace](https://user-images.githubusercontent.com/25493297/165907016-06bf1ed2-f518-4e67-b242-7770b5d03a91.png)
 
 ## Build(Windows):
 ### requirements:
@@ -19,7 +20,6 @@ Weight[wght]:100-900
 ### build:
 move script folder contents to sources folder and run build.bat
 <br>(building of the VF-FD version is manual)
-![designspace](https://user-images.githubusercontent.com/25493297/165907016-06bf1ed2-f518-4e67-b242-7770b5d03a91.png)
 ## Install
 
 #### Linux
