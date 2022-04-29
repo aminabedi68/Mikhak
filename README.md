@@ -19,7 +19,7 @@ Weight[wght]:100-900
 ### build:
 move script folder contents to sources folder and run build.bat
 <br>(building of the VF-FD version is manual)
-![designspace](https://user-images.githubusercontent.com/25493297/165906219-a26075bf-2817-4e6f-b459-32e5ff912ab7.png)
+![designspace](https://user-images.githubusercontent.com/25493297/165907016-06bf1ed2-f518-4e67-b242-7770b5d03a91.png)
 ## Install
 
 #### Linux
