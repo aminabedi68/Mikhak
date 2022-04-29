@@ -4,8 +4,7 @@ import fontforge
 
 
 
-
-PATH = sys.argv[1]
+PATH = os.path.abspath(os.getcwd()) + "\\" +sys.argv[1]
 
 os.chdir(PATH)
 for file in os.listdir():
@@ -35,7 +34,12 @@ for file in os.listdir():
  font.familyname = FNameStyle + "-FD " + FWeight
  font.fullname = FNameStyle + "-FD " + FWeight
  PreferredFamily = FNameStyle + "-FD "
- PreferredStyles = FNameStyle.replace('Pinar-','') + "-FD-" + FWeight
+ PreferredStyles = FNameStyle + "-FD-" + FWeight
  font.appendSFNTName('English (US)' , 'Preferred Family' , PreferredFamily)
  font.appendSFNTName('English (US)' , 'Preferred Styles' , PreferredStyles)
+ # font.removeLookup("'ss07' Style Set 7 lookup 24")
+ # font.removeLookup("'ss08' Style Set 8 lookup 25")
+ # font.removeLookup("'ss09' Style Set 9 lookup 26")
+ # font.removeLookup("'ss10' Style Set 10 lookup 27")
+ # font.removeLookup("'ss11' Style Set 11 lookup 28")
  font.generate(FNameStyle + "-FD-" + FWeight + ".ttf")

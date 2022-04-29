@@ -1,8 +1,8 @@
 echo off
 REM Generating Variable Version:
-cmd /c variable_font.bat
+cmd /c build_variable_font.bat
 REM Generating Static Versions:
-cmd /c instance_generator.bat
+cmd /c build_instances.bat
 REM Generating Farsi Digits instead of Latin Versions:
 cmd /c FD-Generator.bat
 REM Generating woff2 Formats:
