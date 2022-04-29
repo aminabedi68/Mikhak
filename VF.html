@@ -208,13 +208,17 @@
 	<br>primo" 1º "prima" 1ª, "secondo" 2º "seconda" 2ª, "terzo" 3º "terza" 3ª 1.º
 	</p>
 </div>
+  <div id="about" class="tabcontent">
+	<p class="changesize" contenteditable="true" style="direction:ltr;"  style="font-size:18px">
+	Mikhak(means Clove in Farsi) is a simple semi-handwriting Arabic-Latin sans typeface in 9 weights(with same width in all weights) and a variable version. Mikhak has 3 Arabic Dot styles. variable font has 3 axes: wght(weight): 9 weights from thin to black with round cap and low contrast in both low/high weight masters, and high saturation thickness in black master. KSHD(Arabic Kashida): simple Arabic Kashida which increases the connection length of Arabic medial and final letter forms. DSTY(dot style): switch style of Arabic dotted letters to separated and Line Double dots. The design of the type is round in caps and joints, smooth, low contrast,legible, friendly and optimized to web-like environments.this typeface is designed inside fontforge(in two thin and black masters). variable font and static instances build with fontmake and help of python scripts(fontforge python api and fonttools). The whole project is licensed to be free under open font licence v1.1.</p>
+</div>
 </main>
 
 <aside>
 <div class="aside-child" style="overflow: auto">
   <form id="FontToggle">
     <div style="direction: rtl; text-align: center;">
-      <h1 style="font-weight: 800; margin-top: 10px;margin-bottom: 20px;">&nbsp&nbsp&nbsp میخک<sup>&nbspنسخۀ ۳٫۱</sup></h1>
+      <h1 style="font-weight: 800; margin-top: 10px;margin-bottom: 20px;">&nbsp&nbsp&nbsp میخک<sup>&nbspنسخۀ ۳٫۲</sup></h1>
     </div>
     <p style="font-size: 15px;">
      <label for="changedfontsizeOldNick">Font Size <span aria-hidden="true">(<output for="changedfontsize" form="FontToggle" id="changedfontsize">18</output> px)</span>:</label>
@@ -391,7 +395,9 @@
     </optgroup>
     <optgroup label="test">
       <option value="numbers">Numbers</option>
-  
+    </optgroup>
+    <optgroup label="info">
+      <option value="about">About</option>
     </optgroup>
   </select>
 </form> 
@@ -434,8 +440,8 @@
 
 <br>
 <p style="text-align:center; font-size: 13px; margin-top: 0px; margin-bottom: 0px;">
-Mikhak V3.1 <br>a <a href="https://fontamin.com" target="_blank">fontamin</a> product.<br>created with fontforge and fontmake.<br>
-<a href="https://github.com/aminabedi68/Mikhak/releases/download/v3.1/Mikhak-v3.1.zip" target="_blank">Download</a> and use under SIL ofl v1.1<br><br>specimen texts from wikipedia, <a href="http://www.cyreal.org/Font-Testing-Page/" target="_blank">impallari font testing project</a> (by Paclo Impallari) and <a href="http://libre.font-store.ir/PersianFontTestingTools/" target="_blank">Font Testing Tools</a> (by Saleh Souzanchi).<br>
+Mikhak V3.2 <br>a <a href="https://fontamin.com" target="_blank">fontamin</a> product.<br>created with fontforge and fontmake.<br>
+<a href="https://github.com/aminabedi68/Mikhak/archive/master.zip" target="_blank">Download</a> and use under SIL ofl v1.1<br><br>specimen texts from wikipedia, <a href="http://www.cyreal.org/Font-Testing-Page/" target="_blank">impallari font testing project</a> (by Paclo Impallari) and <a href="http://libre.font-store.ir/PersianFontTestingTools/" target="_blank">Font Testing Tools</a> (by Saleh Souzanchi).<br>
 <br>
 
 <ul class="social-list">
@@ -472,7 +478,7 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 </script>
-
+<body onLoad="document.getElementById('tabcontentselector').options[0].selected = 'selected';">
 </aside>
 <a href="https://aminabedi68.github.io/Mikhak/" id="fixedbutton">صفحۀ تست اول</a>
 </body>
