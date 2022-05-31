@@ -1,5 +1,5 @@
 echo off
-echo ===== Mikhak-V3.2 Variable font build =====
+echo ===== Mikhak-V3.3 Variable font build =====
 echo.
 echo Generating Dot Style forms:
 echo ===========================
@@ -79,22 +79,17 @@ echo Modify Name Records and fontRevision:
 REM Name Records:(Args: <font-path> <string> <nameID> <platformID> <platEncID> <langID>)
 echo =====================================
 python modify-name-records.py variable_ttf\Mikhak-VF.ttf "Mikhak VF" 1 3 1 0x409
-python modify-name-records.py variable_ttf\Mikhak-VF.ttf 3.2;amin;Mikhak-VF 3 3 1 0x409
+python modify-name-records.py variable_ttf\Mikhak-VF.ttf 3.3;amin;Mikhak-VF 3 3 1 0x409
 python modify-name-records.py variable_ttf\Mikhak-VF.ttf "Mikhak VF" 4 3 1 0x409
 python modify-name-records.py variable_ttf\Mikhak-VF.ttf Mikhak-VF 6 3 1 0x409
-python modify-name-records.py variable_ttf\Mikhak-VF.ttf "Version 3.2" 5 3 1 0x409
-python modify-fontRevision.py variable_ttf\Mikhak-VF.ttf 3.2
-echo Done!
-echo.
-echo add STAT table:
-echo ===============
-python STAT.py variable_ttf\Mikhak-VF.ttf
+python modify-name-records.py variable_ttf\Mikhak-VF.ttf "Version 3.3" 5 3 1 0x409
+python modify-fontRevision.py variable_ttf\Mikhak-VF.ttf 3.3
 echo Done!
 echo.
 echo add meta/prep/avar:
 echo ===================
-CMD /c ttx -m variable_ttf\Mikhak-VF.ttf meta-prep-avar.ttx
-python rename_move.py \meta-prep-avar.ttf \Mikhak[DSTY,KSHD,wght].ttf \variable_ttf
+CMD /c ttx -m variable_ttf\Mikhak-VF.ttf meta-prep.ttx
+python rename_move.py \meta-prep.ttf \Mikhak[DSTY,KSHD,wght].ttf \variable_ttf
 echo Done!
 echo.
 echo Delete Junk Files:

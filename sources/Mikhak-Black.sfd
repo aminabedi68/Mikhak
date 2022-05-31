@@ -1,10 +1,10 @@
 SplineFontDB: 3.2
-FontName: Mikhak-FD-Black
-FullName: Mikhak-FD Black
-FamilyName: Mikhak-FD Black
+FontName: Mikhak-Black
+FullName: Mikhak Black
+FamilyName: Mikhak Black
 Weight: Black
 Copyright: Copyright 2022 The Mikhak Project Authors (https://github.com/aminabedi68/Mikhak)
-Version: 3.20
+Version: 3.30
 ItalicAngle: 0
 UnderlinePosition: -600
 UnderlineWidth: 120
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1497005464
-ModificationTime: 1651220689
+ModificationTime: 1654007197
 PfmFamily: 33
 TTFWeight: 900
 TTFWidth: 5
@@ -302,7 +302,7 @@ ChainPos2: coverage "kernHorizontalKerninginArabiclookup21 subtable" 0 0 0 1
  1
   SeqLookup: 0 "Single Positioning lookup 20"
 EndFPST
-LangName: 1033 "" "" "Regular" "3.2;amin;Mikhak-FD" "" "" "" "" "" "Amin Abedi" "" "www.fontamin.com" "" "Copyright 2022 The Mikhak Project Authors (https://github.com/aminabedi68/Mikhak)" "http://scripts.sil.org/OFL" "" "Mikhak-FD" "Black"
+LangName: 1033 "" "" "Regular" "3.3;amin;Mikhak" "" "" "" "" "" "Amin Abedi" "" "www.fontamin.com" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL" "" "Mikhak" "Black"
 GaspTable: 1 65535 15 1
 OtfFeatName: 'ss01' 1033 "Arabic GAF Alternates"
 Encoding: UnicodeFull
@@ -312,7 +312,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 19 13
+WinInfo: 19 19 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 640000 320000 213333 716800 -1048576 213333 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -1423,88 +1423,239 @@ EndChar
 StartChar: zero
 Encoding: 48 48 39
 GlifName: zero
-Width: 737
+Width: 1171
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 285 1776 N 1 0 0 1 0 0 3
+SplineSet
+352 533 m 0
+ 352 286 408 186 528 186 c 0
+ 698 186 830 391 830 719 c 0
+ 830 993 749 1174 636 1174 c 0
+ 487 1174 352 904 352 533 c 0
+8 600 m 0
+ 8 1154 276 1518 622 1518 c 0
+ 946 1518 1172 1192 1172 704 c 0
+ 1172 184 899 -156 533 -156 c 0
+ 206 -156 8 117 8 600 c 0
+EndSplineSet
 Substitution2: "Single Substitution lookup 178 subtable" uni0660.EoA
 EndChar
 
 StartChar: one
 Encoding: 49 49 40
 GlifName: one
-Width: 600
+Width: 845
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 275 1633 N 1 0 0 1 0 0 3
+SplineSet
+605 -171 m 0
+ 511 -170 434 -93 435 1 c 2
+ 444 1317 l 2
+ 445 1411 522 1488 616 1487 c 0
+ 710 1486 787 1409 786 1315 c 2
+ 777 -1 l 2
+ 776 -95 699 -172 605 -171 c 0
+732 1442 m 0
+ 801 1379 804 1269 741 1200 c 0
+ 626 1075 421 960 256 894 c 0
+ 169.213500176 859.28540007 67 888 26 972 c 0
+ -15 1056 17.3638845779 1169.48982815 105 1202 c 0
+ 229 1248 399 1334 489 1432 c 0
+ 552 1501 663 1505 732 1442 c 0
+EndSplineSet
 Substitution2: "Single Substitution lookup 178 subtable" uni0661.EoA
 EndChar
 
 StartChar: two
 Encoding: 50 50 41
 GlifName: two
-Width: 1054
+Width: 1201
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 276 1634 N 1 0 0 1 0 0 3
+SplineSet
+228 798 m 0
+ 121 798 56 875 56 1000 c 0
+ 56 1313 279 1512 629 1512 c 0
+ 923 1512 1144 1274 1144 992 c 0
+ 1144 713 930 513 664 280 c 2
+ 616 238 l 1
+ 648 239 681 240 715 240 c 0
+ 812 240 917 235 1019 228 c 0
+ 1113 221 1186 143 1182 49 c 0
+ 1178 -45 1097 -118 1003 -114 c 0
+ 846 -107 750 -104 646 -104 c 0
+ 489 -104 342 -111 197 -126 c 0
+ 148 -130 97 -113 62 -80 c 0
+ -9 -13 -7 102 65 171 c 2
+ 442 529 l 2
+ 721 794 802 900 802 1000 c 0
+ 802 1100 727 1168 616 1168 c 0
+ 476 1168 400 1087 400 938 c 0
+ 400 845 341 798 228 798 c 0
+EndSplineSet
 Substitution2: "Single Substitution lookup 178 subtable" uni0662.EoA
 EndChar
 
 StartChar: three
 Encoding: 51 51 42
 GlifName: three
-Width: 1375
+Width: 1123
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 277 1635 N 1 0 0 1 0 0 3
+SplineSet
+164 1017 m 0
+ 85 1068 61 1176 112 1255 c 0
+ 233 1430 381 1518 601 1518 c 0
+ 841 1518 1062 1329 1062 1008 c 0
+ 1062 604 586 534 404 509 c 0
+ 321 497 241 556 229 639 c 0
+ 217 722 278 802 361 813 c 0
+ 592 845 718 886 718 1028 c 0
+ 718 1118 661 1174 586 1174 c 0
+ 496 1174 459 1149 401 1069 c 0
+ 350 990 243 966 164 1017 c 0
+47 235 m 0
+ 107 307 216 318 289 259 c 0
+ 344 214 424 186 548 186 c 0
+ 692 186 766 263 766 351 c 1
+ 767 480 669 524 533 524 c 0
+ 496 524 452 517 408 509 c 0
+ 325 494 245 552 230 635 c 0
+ 215 718 273 797 356 812 c 0
+ 403 820 466 830 536 830 c 0
+ 740 830 1099 720 1110 371 c 1
+ 1110 39 822 -156 504 -156 c 0
+ 352 -156 196 -110 71 -7 c 0
+ -1 53 -13 163 47 235 c 0
+EndSplineSet
 Substitution2: "Single Substitution lookup 178 subtable" uni0663.EoA
 EndChar
 
 StartChar: four
 Encoding: 52 52 43
 GlifName: four
-Width: 1153
+Width: 1308
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 289 1780 N 1 0 0 1 0 0 3
+SplineSet
+816 1475 m 0
+ 903 1440 946 1339 911 1252 c 0
+ 822 1031 651 727 498 482 c 1
+ 712 483 939 509 1098 548 c 0
+ 1188 570 1283 511 1305 421 c 0
+ 1327 331 1268 236 1178 214 c 0
+ 886 142 478 118 166 162 c 0
+ 150 164 120 174 100 186 c 0
+ 16 238 -7 354 52 434 c 0
+ 190 621 488 1120 593 1380 c 0
+ 628 1467 729 1510 816 1475 c 0
+926 817 m 0
+ 1019 808 1089 723 1080 630 c 2
+ 1012 -16 l 2
+ 1001 -109 918 -180 825 -171 c 0
+ 732 -162 659 -77 670 16 c 2
+ 738 662 l 2
+ 747 755 833 826 926 817 c 0
+EndSplineSet
 Substitution2: "Single Substitution lookup 178 subtable" uni0664.EoA
 EndChar
 
 StartChar: five
 Encoding: 53 53 44
 GlifName: five
-Width: 1215
+Width: 1163
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 290 1781 N 1 0 0 1 0 0 3
+SplineSet
+1131 1373 m 0
+ 1151 1281 1091 1189 999 1169 c 0
+ 918 1152 813 1144 668 1144 c 0
+ 591 1144 517 1146 428 1151 c 1
+ 418 918 l 1
+ 466 940 539 959 616 959 c 0
+ 916 959 1144 755 1144 428 c 0
+ 1144 81 891 -156 522 -156 c 0
+ 351 -156 203 -105 73 -2 c 0
+ 0 56 -13 166 46 239 c 0
+ 105 312 211 319 287 266 c 0
+ 360 215 431 186 535 186 c 0
+ 715 186 802 272 802 406 c 0
+ 802 546 712 637 556 637 c 0
+ 452 637 389 600 333 566 c 0
+ 289 539 249 516 197 516 c 0
+ 102 516 39 595 48 703 c 2
+ 104 1357 l 2
+ 113 1457 216 1528 319 1507 c 0
+ 370 1497 523 1488 654 1488 c 0
+ 770 1488 880 1495 927 1505 c 0
+ 1019 1525 1111 1465 1131 1373 c 0
+EndSplineSet
 Substitution2: "Single Substitution lookup 178 subtable" uni0665.EoA
 EndChar
 
 StartChar: six
 Encoding: 54 54 45
 GlifName: six
-Width: 1011
+Width: 1149
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 291 1782 N 1 0 0 1 0 0 3
+SplineSet
+578 186 m 0
+ 708 186 798 287 798 414 c 0
+ 798 595.024860171 680 620 581 620 c 0
+ 469 620 388 551 319.153320312 471.2890625 c 0
+ 263.96484375 407.390625 164.3203125 401.719726562 101.958984375 457.49609375 c 0
+ 38.7109375 513.427734375 32.1494140625 611.515625 88.1640625 674.690429688 c 0
+ 186.268554688 785.3359375 387 942 627 942 c 0
+ 877 942 1140 777.068620856 1140 420 c 0
+ 1140 106 904 -156 578 -156 c 0
+ 188 -156 18 169 18 552 c 0
+ 18 970 103 1488 649 1488 c 0
+ 735 1488 826 1474 923 1445 c 0
+ 1012 1418 1064 1321 1038 1232 c 0
+ 1012 1143 914 1090 825 1117 c 0
+ 754 1138 695 1146 649 1146 c 0
+ 467 1146 362 1026 362 558 c 0
+ 362 267 431 186 578 186 c 0
+EndSplineSet
 Substitution2: "Single Substitution lookup 178 subtable" uni0666.EoA
 EndChar
 
 StartChar: eight
 Encoding: 56 56 46
 GlifName: eight
-Width: 1228
+Width: 1109
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 282 1640 N 1 0 0 1 0 0 3
+SplineSet
+18 285 m 0
+ 18 605.978515625 264 803 790 1190 c 0
+ 875.414963703 1252.84332881 973 1241 1033 1154 c 0
+ 1087 1075 1078.56704651 976.548569258 1007 926 c 0
+ 595 635 360 467.841796875 360 285 c 0
+ 360 221.216796875 412.247070312 190 519 190 c 0
+ 603.05859375 190 659 223.963867188 659 275 c 0
+ 659 322.936523438 564.623046875 415.797851562 410 520 c 0
+ 130.1953125 708.563476562 18 865.122070312 18 1067 c 0
+ 18 1325.97070312 226.209960938 1518 507 1518 c 0
+ 761.961914062 1518 961.484375 1366.57226562 1038 1115 c 0
+ 1065.85253906 1025.35058594 1028.7734375 946.899414062 943 914 c 0
+ 843.778320312 875.926757812 738.237304688 922.58203125 710 1017 c 0
+ 676.749023438 1127.07421875 614.283203125 1176 507 1176 c 0
+ 419.275390625 1176 360 1132.04785156 360 1067 c 0
+ 360 989.58984375 471.631835938 873.776367188 627 790 c 0
+ 865.938476562 661.161132812 1001 475.1796875 1001 275 c 0
+ 1001 24.4482421875 801.82421875 -152 519 -152 c 0
+ 223.142578125 -152 18 26.9375 18 285 c 0
+EndSplineSet
 Substitution2: "Single Substitution lookup 178 subtable" uni0668.EoA
 EndChar
 
@@ -6890,22 +7041,50 @@ EndChar
 StartChar: seven
 Encoding: 55 55 328
 GlifName: seven
-Width: 1218
+Width: 1110
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 281 1639 N 1 0 0 1 0 0 3
+SplineSet
+9 1254 m 0
+ 3 1348 75 1430 169 1436 c 2
+ 923 1485 l 2
+ 1021 1491 1106 1411 1105 1312 c 0
+ 1105 1286 1097 1255 1088 1238 c 0
+ 919 900 805 418 732 -27 c 0
+ 717 -120 628 -184 535 -169 c 0
+ 442 -154 378 -66 393 27 c 0
+ 452 391 535 780 664 1124 c 1
+ 191 1094 l 2
+ 97 1088 15 1160 9 1254 c 0
+EndSplineSet
 Substitution2: "Single Substitution lookup 178 subtable" uni0667.EoA
 EndChar
 
 StartChar: nine
 Encoding: 57 57 329
 GlifName: nine
-Width: 1062
+Width: 1088
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 283 1641 N 1 0 0 1 0 0 3
+SplineSet
+538 1483 m 0
+ 906 1483 1071 1162 1071 795 c 0
+ 1071 365 860 -10 553 -157 c 0
+ 457 -205 357 -155 321 -73 c 0
+ 279 22 337 116 404 148 c 0
+ 597 241 731 520 731 795 c 0
+ 731 963 694 1143 538 1143 c 0
+ 408 1143 351 1036 351 906 c 0
+ 351 744 411 702 555 702 c 0
+ 654 702 725.49609375 734.977539062 804.620117188 774.84375 c 0
+ 879.28515625 812.44921875 995.204101562 778.80859375 1035.18652344 694.586914062 c 0
+ 1071.92480469 614.998046875 1042.68457031 512.518554688 956.95703125 469.754882812 c 0
+ 799.866210938 390.834960938 706 362 555 362 c 0
+ 212 362 11 581 11 906 c 0
+ 11 1232 209 1483 538 1483 c 0
+EndSplineSet
 Substitution2: "Single Substitution lookup 178 subtable" uni0669.EoA
 EndChar
 

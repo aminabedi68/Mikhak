@@ -179,132 +179,132 @@
    </location>
    </instance>
    <!-- DS1 -->
-   <instance name="Mikhak-DS1 Thin" familyname="Mikhak-DS1" stylename="Thin" filename="instance_ufo/Mikhak-DS1-Thin.ufo">
-   <location>
-    <dimension xvalue="100" name="weight"/>
-	<dimension xvalue="100" name="kashida"/>
-    <dimension xvalue="2" name="dot-style"/>
-   </location>
-  </instance>
-  <instance name="Mikhak-DS1 ExtraLight" familyname="Mikhak-DS1" stylename="ExtraLight" filename="instance_ufo/Mikhak-DS1-ExtraLight.ufo">
-   <location>
-    <dimension xvalue="200" name="weight"/>
-	<dimension xvalue="100" name="kashida"/>	
-    <dimension xvalue="2" name="dot-style"/>
-   </location>
-  </instance>
-   <instance name="Mikhak-DS1 Light" familyname="Mikhak-DS1" stylename="Light" filename="instance_ufo/Mikhak-DS1-Light.ufo">
-   <location>
-    <dimension xvalue="300" name="weight"/>
-	<dimension xvalue="100" name="kashida"/>
-    <dimension xvalue="2" name="dot-style"/>
-   </location>
-  </instance>
-  <instance name="Mikhak-DS1 Regular" familyname="Mikhak-DS1" stylename="Regular" filename="instance_ufo/Mikhak-DS1-Regular.ufo">
-   <location>
-    <dimension xvalue="400" name="weight"/>
-	<dimension xvalue="100" name="kashida"/>
-    <dimension xvalue="2" name="dot-style"/>
-   </location>
-  </instance>
-  <instance name="Mikhak-DS1 Medium" familyname="Mikhak-DS1" stylename="Medium" filename="instance_ufo/Mikhak-DS1-Medium.ufo">
-   <location>
-    <dimension xvalue="500" name="weight"/>
-	<dimension xvalue="100" name="kashida"/>
-    <dimension xvalue="2" name="dot-style"/>
-   </location>
-  </instance>
-  <instance name="Mikhak-DS1 SemiBold" familyname="Mikhak-DS1" stylename="SemiBold" filename="instance_ufo/Mikhak-DS1-SemiBold.ufo">
-   <location>
-    <dimension xvalue="600" name="weight"/>
-	<dimension xvalue="100" name="kashida"/>
-    <dimension xvalue="2" name="dot-style"/>
-   </location>
-  </instance>
-  <instance name="Mikhak-DS1 Bold" familyname="Mikhak-DS1" stylename="Bold" filename="instance_ufo/Mikhak-DS1-Bold.ufo">
-   <location>
-    <dimension xvalue="700" name="weight"/>
-	<dimension xvalue="100" name="kashida"/>
-    <dimension xvalue="2" name="dot-style"/>
-   </location>
-  </instance>
-  <instance name="Mikhak-DS1 ExtraBold" familyname="Mikhak-DS1" stylename="ExtraBold" filename="instance_ufo/Mikhak-DS1-ExtraBold.ufo">
-   <location>
-    <dimension xvalue="800" name="weight"/>
-	<dimension xvalue="100" name="kashida"/>
-    <dimension xvalue="2" name="dot-style"/>
-   </location>
-  </instance>
-   <instance name="Mikhak-DS1 Black" familyname="Mikhak-DS1" stylename="Black" filename="instance_ufo/Mikhak-DS1-Black.ufo">
-   <location>
-    <dimension xvalue="900" name="weight"/>
-	<dimension xvalue="100" name="kashida"/>
-    <dimension xvalue="2" name="dot-style"/>
-   </location>
-  </instance>
+   <!-- <instance name="Mikhak-DS1 Thin" familyname="Mikhak-DS1" stylename="Thin" filename="instance_ufo/Mikhak-DS1-Thin.ufo"> -->
+   <!-- <location> -->
+    <!-- <dimension xvalue="100" name="weight"/> -->
+	<!-- <dimension xvalue="100" name="kashida"/> -->
+    <!-- <dimension xvalue="2" name="dot-style"/> -->
+   <!-- </location> -->
+  <!-- </instance> -->
+  <!-- <instance name="Mikhak-DS1 ExtraLight" familyname="Mikhak-DS1" stylename="ExtraLight" filename="instance_ufo/Mikhak-DS1-ExtraLight.ufo"> -->
+   <!-- <location> -->
+    <!-- <dimension xvalue="200" name="weight"/> -->
+	<!-- <dimension xvalue="100" name="kashida"/>	 -->
+    <!-- <dimension xvalue="2" name="dot-style"/> -->
+   <!-- </location> -->
+  <!-- </instance> -->
+   <!-- <instance name="Mikhak-DS1 Light" familyname="Mikhak-DS1" stylename="Light" filename="instance_ufo/Mikhak-DS1-Light.ufo"> -->
+   <!-- <location> -->
+    <!-- <dimension xvalue="300" name="weight"/> -->
+	<!-- <dimension xvalue="100" name="kashida"/> -->
+    <!-- <dimension xvalue="2" name="dot-style"/> -->
+   <!-- </location> -->
+  <!-- </instance> -->
+  <!-- <instance name="Mikhak-DS1 Regular" familyname="Mikhak-DS1" stylename="Regular" filename="instance_ufo/Mikhak-DS1-Regular.ufo"> -->
+   <!-- <location> -->
+    <!-- <dimension xvalue="400" name="weight"/> -->
+	<!-- <dimension xvalue="100" name="kashida"/> -->
+    <!-- <dimension xvalue="2" name="dot-style"/> -->
+   <!-- </location> -->
+  <!-- </instance> -->
+  <!-- <instance name="Mikhak-DS1 Medium" familyname="Mikhak-DS1" stylename="Medium" filename="instance_ufo/Mikhak-DS1-Medium.ufo"> -->
+   <!-- <location> -->
+    <!-- <dimension xvalue="500" name="weight"/> -->
+	<!-- <dimension xvalue="100" name="kashida"/> -->
+    <!-- <dimension xvalue="2" name="dot-style"/> -->
+   <!-- </location> -->
+  <!-- </instance> -->
+  <!-- <instance name="Mikhak-DS1 SemiBold" familyname="Mikhak-DS1" stylename="SemiBold" filename="instance_ufo/Mikhak-DS1-SemiBold.ufo"> -->
+   <!-- <location> -->
+    <!-- <dimension xvalue="600" name="weight"/> -->
+	<!-- <dimension xvalue="100" name="kashida"/> -->
+    <!-- <dimension xvalue="2" name="dot-style"/> -->
+   <!-- </location> -->
+  <!-- </instance> -->
+  <!-- <instance name="Mikhak-DS1 Bold" familyname="Mikhak-DS1" stylename="Bold" filename="instance_ufo/Mikhak-DS1-Bold.ufo"> -->
+   <!-- <location> -->
+    <!-- <dimension xvalue="700" name="weight"/> -->
+	<!-- <dimension xvalue="100" name="kashida"/> -->
+    <!-- <dimension xvalue="2" name="dot-style"/> -->
+   <!-- </location> -->
+  <!-- </instance> -->
+  <!-- <instance name="Mikhak-DS1 ExtraBold" familyname="Mikhak-DS1" stylename="ExtraBold" filename="instance_ufo/Mikhak-DS1-ExtraBold.ufo"> -->
+   <!-- <location> -->
+    <!-- <dimension xvalue="800" name="weight"/> -->
+	<!-- <dimension xvalue="100" name="kashida"/> -->
+    <!-- <dimension xvalue="2" name="dot-style"/> -->
+   <!-- </location> -->
+  <!-- </instance> -->
+   <!-- <instance name="Mikhak-DS1 Black" familyname="Mikhak-DS1" stylename="Black" filename="instance_ufo/Mikhak-DS1-Black.ufo"> -->
+   <!-- <location> -->
+    <!-- <dimension xvalue="900" name="weight"/> -->
+	<!-- <dimension xvalue="100" name="kashida"/> -->
+    <!-- <dimension xvalue="2" name="dot-style"/> -->
+   <!-- </location> -->
+  <!-- </instance> -->
   <!-- DS2 -->
-  <instance name="Mikhak-DS2 Thin" familyname="Mikhak-DS2" stylename="Thin" filename="instance_ufo/Mikhak-DS2-Thin.ufo">
-   <location>
-    <dimension xvalue="100" name="weight"/>
-	<dimension xvalue="100" name="kashida"/>
-    <dimension xvalue="3" name="dot-style"/>
-   </location>
-  </instance>
-  <instance name="Mikhak-DS2 ExtraLight" familyname="Mikhak-DS2" stylename="ExtraLight" filename="instance_ufo/Mikhak-DS2-ExtraLight.ufo">
-   <location>
-    <dimension xvalue="200" name="weight"/>
-	<dimension xvalue="100" name="kashida"/>	
-    <dimension xvalue="3" name="dot-style"/>
-   </location>
-  </instance>
-   <instance name="Mikhak-DS2 Light" familyname="Mikhak-DS2" stylename="Light" filename="instance_ufo/Mikhak-DS2-Light.ufo">
-   <location>
-    <dimension xvalue="300" name="weight"/>
-	<dimension xvalue="100" name="kashida"/>
-    <dimension xvalue="3" name="dot-style"/>
-   </location>
-  </instance>
-  <instance name="Mikhak-DS2 Regular" familyname="Mikhak-DS2" stylename="Regular" filename="instance_ufo/Mikhak-DS2-Regular.ufo">
-   <location>
-    <dimension xvalue="400" name="weight"/>
-	<dimension xvalue="100" name="kashida"/>
-    <dimension xvalue="3" name="dot-style"/>
-   </location>
-  </instance>
-  <instance name="Mikhak-DS2 Medium" familyname="Mikhak-DS2" stylename="Medium" filename="instance_ufo/Mikhak-DS2-Medium.ufo">
-   <location>
-    <dimension xvalue="500" name="weight"/>
-	<dimension xvalue="100" name="kashida"/>
-    <dimension xvalue="3" name="dot-style"/>
-   </location>
-  </instance>
-  <instance name="Mikhak-DS2 SemiBold" familyname="Mikhak-DS2" stylename="SemiBold" filename="instance_ufo/Mikhak-DS2-SemiBold.ufo">
-   <location>
-    <dimension xvalue="600" name="weight"/>
-	<dimension xvalue="100" name="kashida"/>
-    <dimension xvalue="3" name="dot-style"/>
-   </location>
-  </instance>
-  <instance name="Mikhak-DS2 Bold" familyname="Mikhak-DS2" stylename="Bold" filename="instance_ufo/Mikhak-DS2-Bold.ufo">
-   <location>
-    <dimension xvalue="700" name="weight"/>
-	<dimension xvalue="100" name="kashida"/>
-    <dimension xvalue="3" name="dot-style"/>
-   </location>
-  </instance>
-  <instance name="Mikhak-DS2 ExtraBold" familyname="Mikhak-DS2" stylename="ExtraBold" filename="instance_ufo/Mikhak-DS2-ExtraBold.ufo">
-   <location>
-    <dimension xvalue="800" name="weight"/>
-	<dimension xvalue="100" name="kashida"/>
-    <dimension xvalue="3" name="dot-style"/>
-   </location>
-  </instance>
-   <instance name="Mikhak-DS2 Black" familyname="Mikhak-DS2" stylename="Black" filename="instance_ufo/Mikhak-DS2-Black.ufo">
-   <location>
-    <dimension xvalue="900" name="weight"/>
-	<dimension xvalue="100" name="kashida"/>
-    <dimension xvalue="3" name="dot-style"/>
-   </location>
-  </instance>
+  <!-- <instance name="Mikhak-DS2 Thin" familyname="Mikhak-DS2" stylename="Thin" filename="instance_ufo/Mikhak-DS2-Thin.ufo"> -->
+   <!-- <location> -->
+    <!-- <dimension xvalue="100" name="weight"/> -->
+	<!-- <dimension xvalue="100" name="kashida"/> -->
+    <!-- <dimension xvalue="3" name="dot-style"/> -->
+   <!-- </location> -->
+  <!-- </instance> -->
+  <!-- <instance name="Mikhak-DS2 ExtraLight" familyname="Mikhak-DS2" stylename="ExtraLight" filename="instance_ufo/Mikhak-DS2-ExtraLight.ufo"> -->
+   <!-- <location> -->
+    <!-- <dimension xvalue="200" name="weight"/> -->
+	<!-- <dimension xvalue="100" name="kashida"/>	 -->
+    <!-- <dimension xvalue="3" name="dot-style"/> -->
+   <!-- </location> -->
+  <!-- </instance> -->
+   <!-- <instance name="Mikhak-DS2 Light" familyname="Mikhak-DS2" stylename="Light" filename="instance_ufo/Mikhak-DS2-Light.ufo"> -->
+   <!-- <location> -->
+    <!-- <dimension xvalue="300" name="weight"/> -->
+	<!-- <dimension xvalue="100" name="kashida"/> -->
+    <!-- <dimension xvalue="3" name="dot-style"/> -->
+   <!-- </location> -->
+  <!-- </instance> -->
+  <!-- <instance name="Mikhak-DS2 Regular" familyname="Mikhak-DS2" stylename="Regular" filename="instance_ufo/Mikhak-DS2-Regular.ufo"> -->
+   <!-- <location> -->
+    <!-- <dimension xvalue="400" name="weight"/> -->
+	<!-- <dimension xvalue="100" name="kashida"/> -->
+    <!-- <dimension xvalue="3" name="dot-style"/> -->
+   <!-- </location> -->
+  <!-- </instance> -->
+  <!-- <instance name="Mikhak-DS2 Medium" familyname="Mikhak-DS2" stylename="Medium" filename="instance_ufo/Mikhak-DS2-Medium.ufo"> -->
+   <!-- <location> -->
+    <!-- <dimension xvalue="500" name="weight"/> -->
+	<!-- <dimension xvalue="100" name="kashida"/> -->
+    <!-- <dimension xvalue="3" name="dot-style"/> -->
+   <!-- </location> -->
+  <!-- </instance> -->
+  <!-- <instance name="Mikhak-DS2 SemiBold" familyname="Mikhak-DS2" stylename="SemiBold" filename="instance_ufo/Mikhak-DS2-SemiBold.ufo"> -->
+   <!-- <location> -->
+    <!-- <dimension xvalue="600" name="weight"/> -->
+	<!-- <dimension xvalue="100" name="kashida"/> -->
+    <!-- <dimension xvalue="3" name="dot-style"/> -->
+   <!-- </location> -->
+  <!-- </instance> -->
+  <!-- <instance name="Mikhak-DS2 Bold" familyname="Mikhak-DS2" stylename="Bold" filename="instance_ufo/Mikhak-DS2-Bold.ufo"> -->
+   <!-- <location> -->
+    <!-- <dimension xvalue="700" name="weight"/> -->
+	<!-- <dimension xvalue="100" name="kashida"/> -->
+    <!-- <dimension xvalue="3" name="dot-style"/> -->
+   <!-- </location> -->
+  <!-- </instance> -->
+  <!-- <instance name="Mikhak-DS2 ExtraBold" familyname="Mikhak-DS2" stylename="ExtraBold" filename="instance_ufo/Mikhak-DS2-ExtraBold.ufo"> -->
+   <!-- <location> -->
+    <!-- <dimension xvalue="800" name="weight"/> -->
+	<!-- <dimension xvalue="100" name="kashida"/> -->
+    <!-- <dimension xvalue="3" name="dot-style"/> -->
+   <!-- </location> -->
+  <!-- </instance> -->
+   <!-- <instance name="Mikhak-DS2 Black" familyname="Mikhak-DS2" stylename="Black" filename="instance_ufo/Mikhak-DS2-Black.ufo"> -->
+   <!-- <location> -->
+    <!-- <dimension xvalue="900" name="weight"/> -->
+	<!-- <dimension xvalue="100" name="kashida"/> -->
+    <!-- <dimension xvalue="3" name="dot-style"/> -->
+   <!-- </location> -->
+  <!-- </instance> -->
  </instances>
 </designspace>
