@@ -2,7 +2,7 @@
 <designspace format="5.0">
   <axes elidedfallbackname="Regular">
 	  <axis maximum="3" minimum="1" tag="DSTY" default="1" name="dot-style">
-		    <map input="1" output="1" />
+	    <map input="1" output="1" />
             <map input="1.999" output="1" />
             <map input="2" output="2" />
             <map input="2.999" output="2" />
