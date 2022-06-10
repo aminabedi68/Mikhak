@@ -88,8 +88,8 @@ echo Done!
 echo.
 echo add meta/prep/avar:
 echo ===================
-CMD /c ttx -m variable_ttf\Mikhak-VF.ttf meta-prep.ttx
-python rename_move.py \meta-prep.ttf \Mikhak[DSTY,KSHD,wght].ttf \variable_ttf
+CMD /c ttx -m variable_ttf\Mikhak-VF.ttf meta-prep-avar.ttx
+python rename_move.py \meta-prep-avar.ttf \Mikhak[DSTY,KSHD,wght].ttf \variable_ttf
 echo Done!
 echo.
 echo Delete Junk Files:
