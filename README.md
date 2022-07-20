@@ -10,7 +10,7 @@ Mikhak has 9 Weights and 3 Axes:
 ### Axes:
 Weight[wght]:100-900
 <br>Kashida[KSHD]:100-200
-<br>Dot Styles[DSTY]:1.0-3.0
+<br>Dot Styles[DSTY]:0.0-2.9(0-0.999 mapped to normal dots, 1.000 to 1.999 mapped to DS1 and 2 to 2.9 mapped to DS2)
 ![designspace](https://user-images.githubusercontent.com/25493297/166118285-cd8ff921-5b9e-42d8-9e36-b389f1ef4265.png)
 
 ## Build(Windows):
