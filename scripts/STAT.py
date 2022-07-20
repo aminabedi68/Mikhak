@@ -31,7 +31,7 @@ AXES = [
     ),
     dict(
         tag="DSTY",
-        name="kashida",
+        name="dot-style",
         ordering=1,
         values=[
             dict(nominalValue=1.5, rangeMinValue=1, rangeMaxValue=1.99, name="Normal", flags=0x2),

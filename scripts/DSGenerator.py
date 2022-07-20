@@ -7,7 +7,7 @@ FWeight = str(sys.argv[2])
 DS = str(sys.argv[3])
 
 font = fontforge.open(FName + "-" + FWeight + ".sfd")
-dsfont = fontforge.open("P-dots.sfd")
+dsfont = fontforge.open("M-dots.sfd")
 DGlyphs = []
 DSGlyphs = []
 
