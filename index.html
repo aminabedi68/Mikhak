@@ -1,1041 +1,557 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>فونت میخک - صفحه رسمی پروژه</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-                <meta name="description" content="صفحه رسمی پروژه فونت متن میخک | تایپ‌فیس میخک مجموعه فونت ۹
- وزنی سازگار با وب و منتشر شده تحت مجوز آزاد است. ">
-		<meta name="keywords" content="فونت,فارسی,میخک,persian,farsi,font,typeface,Mikhak,Mikhak">
-		<meta name="theme-color" content="#222">
-						<script src="./js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-						<style>
-      html {
-        overflow-y: scroll;
-        }
-      @font-face {
-       font-family: MikhakThin;
-       src: url('Mikhak/Mikhak-Thin.woff2') format('woff2');
-      }
-	  @font-face {
-        font-family: MikhakExtraLight;
-        src: url('Mikhak/Mikhak-ExtraLight.woff2') format('woff2');
-      }
-      @font-face {
-        font-family: MikhakLight;
-        src: url('Mikhak/Mikhak-Light.woff2') format('woff2');
-      }
-	  @font-face {
-        font-family: MikhakRegular;
-        src: url('Mikhak/Mikhak-Regular.woff2') format('woff2');
-      }
-      @font-face {
-        font-family: MikhakMedium;
-        src: url('Mikhak/Mikhak-Medium.woff2') format('woff2');
-      }
-	  @font-face {
-        font-family: MikhakSemiBold;
-        src: url('Mikhak/Mikhak-SemiBold.woff2') format('woff2');
-      }
-      @font-face {
-        font-family: MikhakBold;
-        src: url('Mikhak/Mikhak-Bold.woff2') format('woff2');
-      }
-	  @font-face {
-        font-family: MikhakExtraBold;
-        src: url('Mikhak/Mikhak-ExtraBold.woff2') format('woff2');
-      }
-      @font-face {
-        font-family: MikhakBlack;
-        src: url('Mikhak/Mikhak-Black.woff2') format('woff2');
-      }
-      p.sizelabel {
-        font: normal 10px/10px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important;
-        color: #666;
-      }
-			#fixedbutton {
-			    position: fixed;
-			    bottom: 20px;
-			    left: 20px;
-					background-color: #f44336;
-					color: white;
-					padding: 14px 25px;
-					text-align: center;
-					text-decoration: none;
-					display: inline-block;
-					border-radius: 5px;
-					font-size: 16px;
-					padding: 5px 10px;
-					outline: none;
-			}
-      #scroll {
-          position:fixed;
-					left: 180px;
-					top: 60%;
-					top: -webkit-calc(50% + 50px);
-					top: calc(50% + 50px);
-          cursor:pointer;
-          width:40px;
-          height:40px;
-          text-indent:-9999px;
-          display:none;
-          z-index: 1000;
-					fill:#888;
-      }
-      #download-icon {
-          position:fixed;
-					left: 180px;
-					top: 50%;
-          cursor:pointer;
-          width:40px;
-          height:40px;
-          display:block;
-          z-index: 2000;
-					fill:#888;
-          }
-			#btnFullscreen {
-          position:fixed;
-					left: 180px;
-					top: 40%;
-					top: -webkit-calc(50% - 50px);
-					top: calc(50% - 50px);
-					cursor:pointer;
-          width:40px;
-          height:40px;
-          display:block;
-          z-index: 2000;
-					fill:#888;
-          }
-      sup {
-          vertical-align: super;
-          font-size: 10px;
-          color:#222;
-      }
+<html lang="en" translate="no">
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <meta name="google" content="notranslate">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Mikhak Font Testing Page</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="jquery.min.js" type="text/javascript" charset="utf-8"></script>
+      <script src="otfeatures.js" type="text/javascript" charset="utf-8"></script>
+      <script src="script.js" defer="defer"></script>
+      <script type="text/javascript">
+         localStorage.clear();
+         $(document).ready(function(){
+         refreshFeatures();
+         });
+      </script>
+   </head>
+   <body spellcheck="false">
+      <header>
+         <p style="margin-top: 15px;">
+            <span><a class="fontheader" href="https://aminabedi68.github.io/Estedad/">Estedad</a></span>&nbsp;&nbsp;
+            <span class="fontheader">Mikhak</span>&nbsp;&nbsp;
+            <span><a class="fontheader" href="https://aminabedi68.github.io/Dabir/">Dabir</a></span>&nbsp;&nbsp;
+         </p>
+         <form autocomplete="off">
+            <select id="tabcontentselector" onchange="resizeSelect(this)">
+               <optgroup label="arab">
+                  <option value="Farsi">فارسی</option>
+                  <option value="Arabic">عربی</option>
+                  <option value="Quran">قرآن</option>
+                  <option value="Kurdi">کوردی</option>
+                  <option value="Urdu">اردو</option>
+               </optgroup>
+               <optgroup label="latn">
+                  <option value="Albanian">Albanian</option>
+                  <option value="Danish">Danish</option>
+                  <option value="Dutch">Dutch</option>
+                  <option value="English">English</option>
+                  <option value="Estonian">Estonian</option>
+                  <option value="Filipino">Filipino</option>
+                  <option value="Finnish">Finnish</option>
+                  <option value="French">French</option>
+                  <option value="German">German</option>
+                  <option value="Hungarian">Hungarian</option>
+                  <option value="Icelandic">Icelandic</option>
+                  <option value="Irish">Irish</option>
+                  <option value="Italian">Italian</option>
+                  <option value="Norwegian">Norwegian</option>
+                  <option value="Portuguese">Portuguese</option>
+                  <option value="Spanish">Spanish</option>
+                  <option value="Swedish">Swedish</option>
+                  <option value="WestFrisian">West Frisian</option>
+               </optgroup>
+               <optgroup label="test">
+                  <option value="numbers">Numbers</option>
+               </optgroup>
+               <optgroup label="info">
+                  <option value="about">About</option>
+               </optgroup>
+            </select>
+         </form>
+         <div class="dynamic" >
+            <div id="Farsi" class="tabcontent" style="display:flex; text-align:right; direction:rtl;">
+               <p contenteditable="true">
+                   فرهنگ نوشتاری هر جامعه، بازتابی از شیوه‌ی اندیشیدن(thinking)، احساسات(emotions) و تعاملات اجتماعی(Social interactions) آن است. نوشتن(writing) فقط ثبت کلمات ﻿لازم روی کاغذ یا صفحه‌ی نمایش نیست؛ بلکه نوعی ارتباط (communication) عمیق میان نویسنده و خواننده است. در جوامع گوناگون، این ارتباط می‌تواند رسمی، شاعرانه، انتقادی یا حتی طنزآمیز باشد. برای مثال، در فرهنگ ایرانی نوشتار اغلب با نوعی احساس بالا همراه است؛ چه در نامه‌های قدیمی، چه در پیام‌های امروزی در شبکه‌های اجتماعی. این احساس‌گرایی سبب می‌شود نوشته‌ها نه تنها معنا بلکه «روح» نیز داشته باشند. در مقابل، در فرهنگ‌های غربی، به‌ویژه در academic writing، دقت منطقی و استدلالی اهمیت بیشتری دارد. هدف انتقال داده‌ها و مفاهیم با وضوح و ساختار بدون آلایش است، نه لزوماً با احساس. این تفاوت باعث می‌شود که وقتی متنی ترجمه یا بین فرهنگی جابه‌جا می‌شود، بخشی از بار فرهنگی و احساسی آن گم شود. امروزه با گسترش ارتباطات دیجیتال، مرز میان سبک‌های نوشتاری در حال تغییر است. ایموجی‌ها، لحن غیررسمی و اختصارها نوعی زبان جهانی جدید ساخته‌اند. با این حال، ریشه‌ی هر نوشتار در فرهنگ همان جامعه باقی می‌ماند؛ جایی که واژه‌ها نه فقط معنی، بلکه هویت دارند.  
+               </p>
+            </div>
+            <div id="Quran" class="tabcontent" style="text-align:right; direction:rtl;">
+               <p class="changesize" contenteditable="true">
+                  بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
+                  <br>
+                  وَالْفَجْرِ ﴿۱﴾
+                  وَلَيَالٍ عَشْرٍ ﴿۲﴾
+                  وَالشَّفْعِ وَالْوَتْرِ ﴿۳﴾
+                  وَاللَّيْلِ إِذَا يَسْرِ ﴿۴﴾
+                  هَلْ فِي ذَلِكَ قَسَمٌ لِذِي حِجْرٍ ﴿۵﴾
+                  أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ ﴿۶﴾
+                  إِرَمَ ذَاتِ الْعِمَادِ ﴿۷﴾
+                  الَّتِي لَمْ يُخْلَقْ مِثْلُهَا فِي الْبِلَادِ ﴿۸﴾
+                  وَثَمُودَ الَّذِينَ جَابُوا الصَّخْرَ بِالْوَادِ ﴿۹﴾
+                  وَفِرْعَوْنَ ذِي الْأَوْتَادِ ﴿۱۰﴾
+                  الَّذِينَ طَغَوْا فِي الْبِلَادِ ﴿۱۱﴾
+                  فَأَكْثَرُوا فِيهَا الْفَسَادَ ﴿۱۲﴾
+                  فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ ﴿۱۳﴾
+                  إِنَّ رَبَّكَ لَبِالْمِرْصَادِ ﴿۱۴﴾
+                  فَأَمَّا الْإِنْسَانُ إِذَا مَا ابْتَلَاهُ رَبُّهُ فَأَكْرَمَهُ وَنَعَّمَهُ فَيَقُولُ رَبِّي أَكْرَمَنِ ﴿۱۵﴾
+                  وَأَمَّا إِذَا مَا ابْتَلَاهُ فَقَدَرَ عَلَيْهِ رِزْقَهُ فَيَقُولُ رَبِّي أَهَانَنِ ﴿۱۶﴾
+                  كَلَّا بَلْ لَا تُكْرِمُونَ الْيَتِيمَ ﴿۱۷﴾
+                  وَلَا تَحَاضُّونَ عَلَى طَعَامِ الْمِسْكِينِ ﴿۱۸﴾
+                  وَتَأْكُلُونَ التُّرَاثَ أَكْلًا لَمًّا ﴿۱۹﴾
+                  وَتُحِبُّونَ الْمَالَ حُبًّا جَمًّا ﴿۲۰﴾
+                  كَلَّا إِذَا دُكَّتِ الْأَرْضُ دَكًّا دَكًّا ﴿۲۱﴾
+                  وَجَاءَ رَبُّكَ وَالْمَلَكُ صَفًّا صَفًّا ﴿۲۲﴾
+                  وَجِيءَ يَوْمَئِذٍ بِجَهَنَّمَ يَوْمَئِذٍ يَتَذَكَّرُ الْإِنْسَانُ وَأَنَّى لَهُ الذِّكْرَى ﴿۲۳﴾
+                  يَقُولُ يَا لَيْتَنِي قَدَّمْتُ لِحَيَاتِي ﴿۲۴﴾
+                  فَيَوْمَئِذٍ لَا يُعَذِّبُ عَذَابَهُ أَحَدٌ ﴿۲۵﴾
+                  وَلَا يُوثِقُ وَثَاقَهُ أَحَدٌ ﴿۲۶﴾
+                  يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ ﴿۲۷﴾
+                  ارْجِعِي إِلَى رَبِّكِ رَاضِيَةً مَرْضِيَّةً ﴿۲۸﴾
+                  فَادْخُلِي فِي عِبَادِي ﴿۲۹﴾
+                  وَادْخُلِي جَنَّتِي ﴿۳۰﴾
+               </p>
+            </div>
+            <div id="Kurdi" class="tabcontent"  style="text-align:right; direction:rtl;">
+               <p class="changesize" contenteditable="true">
+                  فۆنت بریتییە لە کۆی هەندێک پیت (حرف)، وشە، شێوە و نیگار کە لە زمانێکی تایبەتیدا وەک زمانی کوردی، فارسی یان ئینگلیسیدا دیاری دەکرێن کە هێمای تایبەتی خۆیان هەیە و نیشاندەری پیتەکانی ئەو زمانانەن. فۆنتەکان دەتوانن زیاتر لە یەک زمان لەخۆیان بگرن و هەڵگری فۆنتی زمانێکی تریش بن. فۆنت سەرەکی‌ترین ئامێری جوانکاری لە بەکارهێنانی ڕۆژنامە، گۆڤار و شێوەی تری گڕافیکیدایە. بەکارهێنانی فۆنتی جۆراوجۆر دەبێتە هۆی چێژبەخشین بە خوێندنەوە. قەبارەی فۆنتەکان لەسەر بنەما و یەکەی «پیکسێڵ» داڕێژراوە. فۆڕمەتی فۆنتەکان بەچەند جۆرێکی تایبەتە کە بریتین لە TTF، OTF و ... و دوای داونلۆدکردن و دابەزاندن دەتوانی کەڵکیان لێوەربگری. نەبوونی فۆنتی ستاندارد و یونیکۆدی کوردی لە ماوەی چەند ساڵی رابردوودا یەکێک بووە لە سەرەکیترین هۆکارەکانی پێشنەکەوتنی باشتربوونی نووسین و خوێندنەوە لە کۆمەڵگای کوردیدا و نەبوونی داهێنەری فۆنتی کوردی یەکێکە لەو کێشانە کە پێویستە بە زووترین کات داهێنەران و دیزاینەرانی کورد هەوڵ و کۆششی خۆیان بخەنە گەڕ بۆ درووستکردنی فۆنتی ستاندارد و یونیکۆدی کوردی. لەگەڵ هەموو ئەو کەند و کۆسپانەی رێگربوون لە بەرەوپێشچوونی فۆنتی کوردی و بەکارهێنانی یونیکۆد وەکوو ستانداردێک، بەڵام دیسان لەلایەن چەند دڵسۆزانێکەوە بە خۆبەخشانە هەوڵی کارلەسەرکردنی فۆنت و کیبۆردی کوردی هەر بەردەوام بووە و هیوادارین لەمەودوا زۆر بە تایبەتیتر کاری لەسەر بکرێت. یەکێک لە کێشە سەرەکیەکانی نەبوونی کیبۆرد و فۆنتی کوردی ئەوە بووە کە ناچاری درووست کردووە کە کیبۆرد و فۆنتی ناکوردی بەکار بهێنرێت و ئەوەش لە کۆکردنەوە و دۆزینەوە زانیاری و داتاکان لەسەر هێڵی ئینتەرنێتیش بووەتە کۆسپ و تاکی کورد ناتوانێت بە تەواوەتی کەڵکی لێوەربگرێت.
+               </p>
+            </div>
+            <div id="Arabic" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:right; direction:rtl;">
+                  الفولاذ الدمشقي أو الفولاذ المدمشق هو نوع من الفولاذ المستخدم لصناعة نصل السيوف، والذي اشتهرت به مدينة دمشق وإليها ينسب. كانت السيوف الدمشقية تصنع من الفولاذ الهندواني (فولاذ بلاد الهند)؛ وكانت تتميّز بنقوشها الفريدة المبرقشة والمحزّمة؛ كما أنّها اشتهرت بصرامتها ومقاومتها للاهتراء، وبقابلية الشحذ والسَّنّ إلى حدّ مطواع شديد القطع. نال السيف الدمشقي شهرةً واسعةً عبر التاريخ، وأحاطت به العديد من القصص والروايات، كالقدرة على قطع شعرةٍ ساقطةٍ على نصله.
+                  <br>
+                  سمّي هذا النوع من الفولاذ بالدمشقي نسبة إلى العاصمة السورية دمشق، والتي كانت هذه السيوف تصنع وتباع فيها، كما أنّ النموذج النمطي المميّز لها أصبح مشهوراً بشكل أصبح يطلق تسميته أيضاً على أيّ فولاذٍ يحمل تلك المواصفات، مثلما هو الحال مع زخارف البروكار الدمشقي.كانت صناعة السيوف الدمشقية حرفةً يحوطها الكثير من السرّية، وكان المهرة من الحرفيين يتناقلونها من جيلٍ إلى جيل، إلى أن اندثرت، ولا يوجد تدوينات للطريقة الأصلية التي كانت تستخدم في الماضي.
+                  <br>
+                  رغم اختلاف المواد الأولية المستخدمة وطرق وتقنيات التصنيع إلّا أنّه جرت محاولات حديثة لكشف سر التركيب وطريقة التحضير؛
+                  إذ بيّنت الأبحاث باستخدام وسائل تقنية حديثة وجود أسلاك وأنابيب نانوية كربونية في تركيب سيفٍ مصنوعٍ من الفولاذ الدمشقي. وخلصت الدراسات أنّه خلال عملية الصهر لتشكيل صبّات الفولاذ الهندواني المستخدم في صناعة السيوف الدمشقية كانت أجزاء نباتية معروفة من الأوراق والأغصان الخشبية تضاف بمقدارٍ محدّدٍ إلى الخلطة، وذلك كمصدر كربوني، بالإضافة إلى استخدام أنواع من الخامات الغنيّة بالحديد والمشوبة بعناصر كيميائية أخرى؛ وفي مرحلة لاحقة كانت الصبّات تخضع للتطريق وتشكّل على هيئة أنصال. على الرغم من أنّه توجد حالياً أنواع تفوق الفولاذ الدمشقي القديم في أدائها، إلّا أنّ التفاعلات الكيميائية المرافقة لعملية التصنيع آنذاك جعلت السيوف الدمشقية مميّزة عن أقرانها في عصرها، إذ كان الفولاذ الدمشقي فائق اللدونة وفائق الصلابة في نفس الوقت. 
+               </p>
+            </div>
+            <div id="Urdu" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:right; direction:rtl;">
+                  کراچی (سندھی: ڪراچي) (انگریزی: Karachi) پاکستان کا سب سے بڑا شہر اور صنعتی، تجارتی، تعلیمی، مواصلاتی و اقتصادی مرکز ہے۔ کراچی دنیا کاچهٹا بڑا شہر ہے۔[4] کراچی پاکستان کے صوبہ سندھ کا دارالحکومت ہے۔ شہر دریائے سندھ کے مغرب میں بحیرہ عرب کی شمالی ساحل پر واقع ہے۔ پاکستان کی سب سے بڑی بندرگاہ اور ہوائی اڈا بھی کراچی میں قائم ہے۔ کراچی 1947ء سے 1960ء تک پاکستان کا دار الحکومت بھی رہا۔ موجودہ کراچی کی جگہ پر واقع قدیم ماہی گیروں کی بستی کا نام مائی کولاچی تھا۔ جو بعد میں بگڑ کر کراچی بن گیا انگریزوں نے انیسویں صدی میں اس شہر کی تعمیر و ترقی کی بنیادیں ڈالیں۔ 1947ء میں پاکستان کی آزادی کے وقت کراچی کو نو آموز مملکت کا دار الحکومت منتخب کیا گیا۔ اس کی وجہ سے شہر میں لاکھوں مہاجرین کا دخول ہوا۔ پاکستان کا دار الحکومت اور بین الاقوامی بندرگاہ ہونے کی وجہ سے شہر میں صنعتی سرگرمیاں دیگر شہروں سے قبل شروع ہو گئیں۔ 1959ء میں پاکستان کے دار الحکومت کی اسلام آباد منتقلی کے باوجود کراچی کی آبادی اور معیشت میں ترقی کی رفتار کم نہیں ہوئی۔
+                  پورے پاکستان سے لوگ روزگار کی تلاش میں کراچی آتے ہیں اور اس وجہ سے یہاں مختلف مذہبی، نسلی اور لسانی گروہ آباد ہیں۔ کراچی کو اسی وجہ سے چھوٹا پاکستان بھی کہتے ہیں۔ ان گروہوں کی باہمی کشیدگی کی وجہ سے 80 اور 90 کی دہائیوں میں کراچی لسانی فسادات، تشدد اور دہشت گردی کا شکار رہا۔ بگڑتے ہوئے حالات کو سنبھالنے کے ليے پاک فوج کو بھی کراچی میں مداخلت کرنی پڑی۔ اکیسویں صدی میں تیز قومی معاشی ترقی کے ساتھ ساتھ کراچی کے حالات میں بہت تبدیلی آئی ہے۔ کراچی کی امن عامہ کی صورت حال کافی بہتر ہوئی ہے اور شہر میں مختلف شعبوں میں ترقی کی رفتار میں بہت اضافہ ہوا ہے۔
+               </p>
+            </div>
+            <div id="English" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">
+                  Although typically applied to printed, published, broadcast, and reproduced materials in contemporary times, all words, letters, symbols, and numbers written alongside the earliest naturalistic drawings by humans may be called typography. The uneven spacing of the impressions on brick stamps found in the Mesopotamian cities of Uruk and Larsa, dating from the second millennium B.C., may be evidence of type, wherein the reuse of identical characters was applied to create cuneiform text. Babylonian cylinder seals were used to create an impression on a surface by rolling the seal on wet clay. Typography also was implemented in the Phaistos Disc, an enigmatic Minoan printed item from Crete, which dates to between 1850 and 1600 B.C. It has been proposed that Roman lead pipe inscriptions were created with movable type printing, but German typographer Herbert Brekle recently dismissed this view.(from Wikipedia)
+                  0123456789!@#$%^&*()_+-={}[]:"'?/<>,.
+               </p>
+            </div>
+            <div id="Albanian" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">
+                  Mbasi njohja e dinjitetit të lindur të të drejtave të barabarta dhe të patjetërsueshme të të gjithë anëtarëve të familjes njerëzore është themeli i lirisë, drejtësisë dhe paqes në botë; mbasi mosrespektimi dhe përbuzja e të drejtave të njeriut ka cuar drejt akteve barbare, të cilat kanë ofenduar ndërgjegjen e njerëzimit, dhe mbasi krijimi i botës në të cilën njerëzit do të gëzojnë lirinë e fjalës, të besimit dhe lirinë nga frika e skamja është proklamuar si dëshira më e lartë e cdo njeriu; mbasi është e nevojshme që të drejtat e njeriut të mbrohen me dispozita juridike, kështu që njeriu të mos jetë i shtrënguar që në pikën e fundit t’i përvishet kryengritjes kundër tiranisë dhe shtypjes; mbasi është e nevojshme që të nxitet zhvillimi i marrëdhënieve miqësore midis kombeve; mbasi popujt e Kombeve të Bashkuara vërtetuan përsëri në Kartë besimin e tyre në të drejtat themelore të njeriut, në dinjitetin dhe vlerën e personit të njeriut dhe barazinë midis burrave dhe grave dhe mbasi vendosën që të nxitin përparimin shoqëror dhe të përmirësojnë nivelin e jetës në liri të plotë; mbasi shtetet anëtare u detyruan që, në bashkëpunim me Kombet
+               </p>
+            </div>
+            <div id="Danish" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">
+                  Høj bly gom vandt fræk sexquiz på wc     
+               </p>
+            </div>
+            <div id="Dutch" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">
+                  Overwegende, dat erkenning van de inherente waardigheid en van de gelijke en onvervreemdbare rechten van alle leden van de mensengemeenschap grondslag is voor de vrijheid, gerechtigheid en vrede in de wereld; overwegende, dat terzijdestelling van en minachting voor de rechten van de mens geleid hebben tot barbaarse handelingen, die het geweten van de mensheid geweld hebben aangedaan en dat de komst van een wereld, waarin de mensen vrijheid van meningsuiting en geloof zullen genieten, en vrij zullen zijn van vrees en gebrek, is verkondigd als het hoogste ideaal van iedere mens; overwegende, dat het van het grootste belang is, dat de rechten van de mens beschermd worden door de suprematie van het recht, opdat de mens niet gedwongen worde om in laatste instantie zijn toevlucht te nemen tot opstand tegen tyrannie en onderdrukking; overwegende, dat het van het grootste belang is om de ontwikkeling van vriendschappelijke betrekkingen tussen de naties te bevorderen; overwegende, dat de volkeren van de Verenigde Naties in het Handvest hun vertrouwen in de fundamentele rechten van de     
+               </p>
+            </div>
+            <div id="Estonian" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">
+                  Pidades silmas, et inimkonna kõigi liikmete väärikuse, nende võrdsuse ning võõrandamatute õiguste tunnustamine on vabaduse, õigluse ja üldise rahu alus; ja pidades silmas, et inimõiguste põlastamine ja hülgamine on viinud barbaarsusteni, mis piinavad inimkonna südametunnistust, ja et sellise maailma loomine, kus inimestel on veendumuste ja sõnavabadus ning kus nad ei tarvitse tunda hirmu ega puudust, on inimeste üllaks püüdluseks kuulutatud; ja pidades silmas vajadust, et inimõigusi kaitseks seaduse võim selleks, et inimene ei oleks sunnitud viimase abinõuna üles tõusma türannia ja rõhumise vastu; ja pidades silmas, et on vaja kaasa aidata sõbralike suhete arendamisele rahvaste vahel ja; pidades silmas,et ühinenud rahvaste perre kuuluvad rahavad on põhikirjas kinnitanud oma usku inimese põhiõigustesse, inimisiksuse väärikusse ja väärtusse ning meeste ja naiste võrdõiguslikkusesse ning on otsustanud kaasa aidata sotsiaalsele progressile ja elutingimuste parandamisele suurema vabaduse juures; ja pidades silmas,et liikmesriigid on kohustatud koostöös Ühinenud Rahvaste     
+               </p>
+            </div>
+            <div id="Filipino" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">
+                  Ang buko ay para sa tao dahil wala nang pwedeng mainom na gatas.     
+               </p>
+            </div>
+            <div id="Finnish" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">
+                  Kun ihmiskunnan kaikkien jäsenten luonnollisen arvon ja heidän yhtäläisten ja luovuttamattomien oikeuksiensa tunnustaminen on vapauden, oikeudenmukaisuuden ja rauhan perustana maailmassa, kun ihmisoikeuksia on väheksytty tai ne on jätetty huomiota vaille, on tapahtunut raakalaistekoja, jotka ovat järkyttäneet ihmiskunnan omaatuntoa, ja kun kansojen korkeimmaksi päämääräksi on julistettu sellaisen maailman luominen, missä ihmiset voivat vapaasti nauttia sanan ja uskon vapautta sekä elää vapaina pelosta ja puutteesta, kun on välttämätöntä, että ihmisoikeudet turvataan oikeusjärjestyksellä, jotta ihmisten ei olisi pakko viimeisenä keinona nousta kapinaan pakkovaltaa ja sortoa vastaan, kun on tähdellistä edistää ystävällisten suhteiden kehittymistä kansojen välille, kun Yhdistyneiden Kansakuntien kansat ovat peruskirjassa vahvistaneet uskonsa ihmisten perusoikeuksiin, ihmisyksilön arvoon ja merkitykseen sekä miesten ja naisten yhtäläisiin oikeuksiin ja kun ne ovat ilmaisseet vakaan tahtonsa edistää sosiaalista kehitystä ja parempien elämisen ehtojen aikaansaamista vapaammissa oloissa     
+               </p>
+            </div>
+            <div id="French" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">
+                  Considérant que la reconnaissance de la dignité inhérente à tous les membres de la famille humaine et de leurs droits égaux et inaliénables constitue le fondement de la liberté, de la justice et de la paix dans le monde, considérant que la méconnaissance et le mépris des droits de l’homme ont conduit à des actes de barbarie qui révoltent la conscience de l’humanité et que l’avènement d’un monde où les êtres humains seront libres de parler et de croire, libérés de la terreur et de la misère, a été proclamé comme la plus haute aspiration de l’homme, considérant qu’il est essentiel que les droits de l’homme soient protégés par un régime de droit pour que l’homme ne soit pas contraint, en suprême recours, à la révolte contre la tyrannie et l’oppression, considérant qu’il est essentiel d’encourager le développement de relations amicales entre nations, considérant que dans la charte les peuples des Nations Unies ont proclamé à nouveau leur foi dans les droits fondamentaux de l’homme, dans la dignité et la valeur de la personne humaine, dans l’égalité des droits des hommes et des femmes, et qu’ils se sont déclarés résolus à favoriser le progrès social     
+               </p>
+            </div>
+            <div id="WestFrisian" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">
+                  Alve bazige froulju wachtsje op dyn komst      
+               </p>
+            </div>
+            <div id="German" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">
+                  Da die Anerkennung der angeborenen Würde und der gleichen und unveräußerlichen Rechte aller Mitglieder der Gemeinschaft der Menschen die Grundlage von Freiheit, Gerechtigkeit und Frieden in der Welt bildet, da die Nichtanerkennung und Verachtung der Menschenrechte zu Akten der Barbarei geführt haben, die das Gewissen der Menschheit mit Empörung erfüllen, und da verkündet worden ist, daß einer Welt, in der die Menschen Rede- und Glaubensfreiheit und Freiheit von Furcht und Not genießen, das höchste Streben des Menschen gilt, da es notwendig ist, die Menschenrechte durch die Herrschaft des Rechtes zu schützen, damit der Mensch nicht gezwungen wird, als letztes Mittel zum Aufstand gegen Tyrannei und Unterdrückung zu greifen, da es notwendig ist, die Entwicklung freundschaftlicher Beziehungen zwischen den Nationen zu fördern, da die Völker der Vereinten Nationen in der Charta ihren Glauben an die grundlegenden Menschenrechte, an die Würde und den Wert der menschlichen Person und an die Gleichberechtigung von Mann und Frau erneut bekräftigt und beschlossen haben, den sozialen     
+               </p>
+            </div>
+            <div id="Hungarian" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">
+                  Tekintettel arra, hogy az emberiség családja minden egyes tagja méltóságának, valamint egyenlő és elidegeníthetetlen jogainak elismerése alkotja a szabadság, az igazság és a béke alapját a világon, tekintettel arra, hogy az emberi jogok el nem ismerése és semmibevevése az emberiség lelkiismeretét fellázító barbár cselekményekhez vezetett, és hogy az ember legfőbb vágya egy olyan világ eljövetele, amelyben az elnyomástól, valamint a nyomortól megszabadult emberi lények szava és meggyőződése szabad lesz, tekintettel annak fontosságára, hogy az emberi jogokat a jog uralma védelmezze, nehogy az ember végső szükségében a zsarnokság és az elnyomás elleni lázadásra kényszerüljön, tekintettel arra, hogy igen lényeges a nemzetek közötti baráti kapcsolatok kifejeződésének előmozdítása, tekintettel arra, hogy az Alapokmányban az Egyesült Nemzetek népei újból hitet tettek az alapvető emberi jogok, az emberi személyiség méltósága és értéke, a férfiak és nők egyenjogúsága mellett, valamint kinyilvánították azt az elhatározásukat, hogy elősegítik a szociális haladást és nagyobb szabadság mellett
+               </p>
+            </div>
+            <div id="Icelandic" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">
+                  Það ber að viðurkenna, að hver maður sé jafnborinn til virðingar og réttinda, er eigi verði af honum tekin, og er þetta undirstaða frelsis, réttlætis og friðar i heiminum. Hafi mannréttindi verið fyrir borð borin og lítilsvirt, hefur slíkt haft í för með sér siðlausar athafnir, er ofboðið hafa samvizku mannkynsins, enda hefur því verið yfir lýst, að æðsta markmið almennings um heim allan sé að skapa veröld, þar sem menn fái notið málfrelsis, trúfrelsis og óttaleysis um einkalíf afkomu. Mannréttindi á að vernda með lögum. Að öðrum kosti hljóta menn að grípa til þess örþrifaráðs að rísa upp gegn kúgun og ofbeldi. Það er mikilsvert að efla vinsamleg samskipti þjóða í milli. Í stofnskrá sinni hafa Sameinuðu þjóðdirnar lýst yfir trú sinni á grundvallaratriði mannréttinda, á göfgi og gildi mannsins og jafnrétti karla og kvernna, enda munu þær beita sér fyrir félagslegum framförum og betri lífsafkomu með auknu frelsi manna. Aðildarríkin hafa bundizt samtökum um að efla almenna virðingu fyrir og gæzlu hinna mikilsverðustu mannréttinda í samráði við Sameinuðu þjóðirnar. Til þess að slík samtök megi sem
+               </p>
+            </div>
+            <div id="Irish" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">
+                  De Bhrí gurb é aithint dínte dúchais agus chearta comhionanna do-shannta an uile dhuine den chine daonna is foras don tsaorise, don cheartas agus don tsíocháin sa domhan, de Bhrí gur thionscain a neamhaird agus an mí-mheas ar chearta an duine gníomhartha barbartha a chuir uafás ar choinsias an chine daonna, agus go bhfuil forógartha gurb é meanmarc is uaisle ag an gcoitiantacht saol a thabhairt i réim a bhéarfas don duine saoirse chainte agus chreidimh agus saoirse ó eagla agus ó amhgar, de Bhrí go ndearna pobail na Náisiúin Aontaithe sa Chairt dearbhú athuair ar a gcreideamh i gcearta bunúsacha an duine, i ndínit agus i bhfiúntas pearsan an duine agus i gcearta comhionanna fear agus bean, agus gur chinneadar tacú leis an ascnamh sóisalach agus réim maireachtana níos fearr a thabhairt i gcrích faoi shaoirse níos fairsinge, de Bhrí gur ghabhadar na Stát-Chomhaltaí faoi chuing ghealltanais go ndéanfaid, i gcomhar leis na Náisiúin Aontaithe, urraim uile-choiteann éifeachtach d’áirithiú do chearta agus do shaoirsí bunúsacha an duine. De Bhrí go bhfuil sé fíor-thábhachtach, chun an
+               </p>
+            </div>
+            <div id="Italian" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">
+                  Considerato che il riconoscimento della dignità inerente a tutti i membri della famiglia umana e dei loro diritti, uguali ed inalienabili, costituisce il fondamento della libertà, della giustizia e della pace nel mondo; considerato che il disconoscimento e il disprezzo dei diritti umani hanno portato ad atti di barbarie che offendono la coscienza dell’umanità, e che l’avvento di un mondo in cui gli esseri umani godano della libertà di parola e di credo e della libertà dal timore e dal bisogno è stato proclamato come la più alta aspirazione dell’uomo; considerato che è indispensabile che i diritti umani siano protetti da norme giuridiche, se si vuole evitare che l’uomo sia costretto a ricorrere, come ultima istanza, alla ribellione contro la tirannia e l’oppressione; considerato che è indispensabile promuovere lo sviluppo di rapporti amichevoli tra le Nazioni; considerato che i popoli delle Nazioni Unite hanno riaffermato nello Statuto la loro fede nei diritti umani fondamentali, nella dignità e nel valore della persona umana, nell’uguaglianza dei diritti dell’uomo e della donna, ed hanno deciso di promuovere il progresso sociale e un miglior tenore di vita in
+               </p>
+            </div>
+            <div id="Norwegian" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">
+                  Da anerkjennelsen av menneskeverd og like og umistelige rettigheter for alle medlemmer av menneskeslekten er grunnlaget for frihet, rettferdighet og fred i verden, da tilsidesettelse av og forakt for menneskerettighetene har ført til barbariske handlinger som har rystet menneskehetens samvittighet, og da framveksten av en verden hvor menneskene har tale- og trosfrihet og frihet fra frykt og nød, er blitt kunngjort som folkenes høyeste mål, da det er nødvendig at menneskerettighetene blir beskyttet av loven for at menneskene ikke skal tvinges til som siste utvei å gjøre opprør mot tyranni og undertrykkelse, da det er viktig å fremme utviklingen av vennskapelige forhold mellom nasjonene, da De Forente Nasjoners folk i Pakten på ny har bekreftet sin tro på grunnleggende menneskerettigheter, på menneskeverd og på like rett for menn og kvinner og har besluttet å arbeide for sosialt framskritt og bedre levevilkår under større Frihet, da medlemsstatene har forpliktet seg til i samarbeid med De Forente Nasjoner å sikre at menneskerettighetene og de grunnleggende friheter blir alminnelig respektert og overholdt, da en allmenn
+               </p>
+            </div>
+            <div id="Portuguese" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">
+                  Considerando que o reconhecimento da dignidade inerente a todos os membros da família humana e dos seus direitos iguais e inalienáveis constitui o fundamento da liberdade, da justiça e da paz no mundo; considerando que o desconhecimento e o desprezo dos direitos do Homen conduziram a actos de barbárie que revoltam a consciência daHumanidade e que o advento de um mundo em que os seres humanos sejam livres de falar e de crer, libertos do terror e da miséria, foi proclamado como a mais alta inspiração do Homem; considerando que é essencial a proteção dos direitos do Homem através de um regime de direito, para que o Homem não seja compelido, em supremo recurso, à revolta contra a tirania e a opressão; considerando que é essencial encorajar o desenvolvimento de relações amistosas entre as nações; considerando que, na Carta, os povos das Nações Unidas proclamam, de novo, a sua fé nos direitos fundamentais do Homem, na dignidade e no valor da pessoa humana, na igualdade de direitos dos homens e das mulheres e se declaram resolvidos a favorecer o progresso social e a instaurar melhores condições
+               </p>
+            </div>
+            <div id="Spanish" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">
+                  Considerando que la libertad, la justicia y la paz en el mundo tienen por base el reconocimiento de la dignidad intrínseca y de los derechos iguales e inalienables de todos los miembros de la familia humana, Considerando que el desconocimiento y el menosprecio de los derechos humanos han originado actos de barbarie ultrajantes para la conciencia de la humanidad; y que se ha proclamado, como la aspiración más elevada del hombre, el advenimiento de un mundo en que los seres humanos, liberados del temor y de la miseria, disfruten de la libertad de palabra y de la libertad de creencias, Considerando esencial que los derechos humanos sean protegidos por un régimen de Derecho, a fin de que el hombre no se vea compelido al supremo recurso de la rebelión contra la tiranía y la opresión, Considerando también esencial promover el desarrollo de relaciones amistosas entre las naciones, Considerando que los pueblos de las Naciones Unidas han reafirmado en la Carta su fe en los derechos fundamentales del hombre, en la dignidad y el valor de la persona humana y en la igualdad de derechos de hombres y mujeres; y se han
+               </p>
+            </div>
+            <div id="Swedish" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">
+                  Enär erkännandet av det inneboende värdet hos alla medlemmar av människosläktet och av deras lika och oförytterliga rättigheter är grundvalen för frihet, rättvisa och fred i världen, enär ringaktning och förakt för de mänskliga rättigheterna lett till barbariska gärningar, som upprört mänsklighetens samvete, och enär skapandet av en värld, där människorna åtnjuta yttrandefrihet, trosfrihet samt frihet från fruktan och nöd, kungjorts som folkens högsta strävan, enär det är väsentligt för att icke människan skall tvingas att som en sista utväg tillgripa uppror mot tyranni och förtryck, att de mänskliga rättigheterna skyddas genom lagens överhöghet, enär det är väsentligt att främja utvecklandet av vänskapliga förbindelser mellan nationerna, enär Förenta Nationernas folk i stadgan ånyo uttryckt sin tro på de grundläggande mänskliga rättigheterna, den enskilda människans värdighet och värde samt männens och kvinnornas lika rättigheter, ävensom beslutat främja socialt framåtskridande och bättre levnadsvillkor under större frihet,
+               </p>
+            </div>
+            <div id="Welsh " class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">
+                  Gan mai cydnabod urddas cynhenid a hawliau cydradd a phriod holl aelodau’r teulu dynol yw sylfaen rhyddid, cyfiawnder a heddwch yn y byd, gan i anwybyddu a dirmygu hawliau dynol arwain at weithredoedd barbaraidd a dreisiodd gydwybod dynolryw, a bod dyfodiad byd lle y gall pob unigolyn fwynhau rhyddid i siarad a chredu a rhyddid rhag ofn ac angau wedi ei gyhoeddi yn ddyhead uchaf y bobl gyffredin, gan fod yn rhaid amddiffyn hawliau dynol a rheolaeth cyfraith, os nad yw pob unigolyn dan orfod yn y pendraw i wrthryfela yn erbyn gormes a thrais, gan fod yn rhaid hyrwyddo cysylltiadau cyfeillgar rhwng Cenhedloedd, gan fod pobloedd y Cenhedloedd Unedig yn y Siarter wedi ail ddatgan ffydd mewn hawliau sylfaenol yr unigolyn, mewn urddas a gwerth y person dynol ac mewn hawliau cydradd gŵr a gwragedd, ac wedi penderfynu hyrwyddo cynnydd cymdeithasol a safonau byw gwell mewn rhyddid helaethach, gan fod y Gwladwriaethau sy’n Aelodau wedi ymrwymo, mewn cydweithrediad â’r Cenhedloedd Unedig, i sicrhau hyrwyddo parch cyffredinol i hawliau dynol a’r rhyddfreintiau sylfaenol,
+               </p>
+            </div>
+            <div id="numbers" class="tabcontent">
+               <p class="changesize" contenteditable="true" style="text-align:left; direction:ltr;">Rosario, 22 de Diciembre de 1976
+                  <br>El 18 de enero de 1738 a las 4 de la tarde
+                  <br>TPL2012 - MP3 - PHP5
+                  <br>d = 1.050 g/cm³ O² N¹ @ 15°C (read "at" for @), density of a gas d = 0,150 g/L @ 20°C, 1 bar, or noise of a car
+                  <br>18:32–20:18
+                  <br>06:12–11:07
+                  <br>12 Crescent Lane #5, Boston MA 02115
+                  <br>7 Garden Walk, Cambridge CB4 3EW UK
+                  <br>(§§ 13–21) ¶ Then, all standing.
+                  <br>$32 | 23¢ | £42 | ¥6200 | €59
+                  <br>42°21′29″N 71°03′49″W / 42.35806°N 71.06361°W / 42.35806; -71.06361
+                  <br>The density* of saltwater¹ may read; d² = 1.050 g/cm³ @ 15°C / 26°F
+                  <br>Type 1900–2000 (London, 1967) p.45.
+                  <br>1812† | 1824‡ | 45§23 | ¶67 | ·3,567 | •1,678
+                  <br>Nov 22, 1645 | 10.23.77 | 12/10/88 | 10-6-01
+                  <br>1½ 1¼ 1¾ 
+                  <br>primo" 1º "prima" 1ª, "secondo" 2º "seconda" 2ª, "terzo" 3º "terza" 3ª 1.º
+               </p>
+            </div>
+         </div>
+         <script>
+            $(function() {
+                $('#tabcontentselector').change(function(){
+                    $('.tabcontent').hide();
+                    $('#' + $(this).val()).show();
+                });
+            });
+         </script>
+      </header>
+	              <div id="about" class="tabcontent" style="user-select: text;">
+               <p style="font-family:monospace; font-size: 18px; padding: 0px 15px 15px 15px;margin-top: -30px; line-height: 1.35em;text-align:left; direction:ltr;">
+                  Mikhak(means Clove in Farsi) is a simple semi-handwriting Arabic-Latin sans uniwidth typeface in 9 weights and a variable version. Mikhak has 3 Arabic Dot styles. variable font has 3 axes: wght(weight): 9 weights from thin to black with round cap and low contrast in both low/high weight masters, and high saturation thickness in black master. KSHD(Arabic Kashida): simple Arabic Kashida which increases the connection length of Arabic medial and final letter forms. DSTY(dot style): switch style of Arabic dotted letters to separated and Line Double dots. The design of the type is round in caps and joints, smooth, low contrast,legible, friendly and optimized to web-like environments.this typeface is designed inside fontforge(in two thin and black masters). variable font and static instances build with fontmake and help of python scripts(fontforge python api and fonttools). The whole project is licensed to be free under open font licence v1.1.</br></br></br>About This Page:</br>Specimen texts are taken from <a style="color: #222; font-size: 18px;" href="https://www.wikipedia.org/" target='blank'>Wikipedia</a> and <a style="color: #222; font-size: 18px;" href="https://www.cyreal.org/Font-Testing-Page/index.php" target='blank'>Impallari Font Testing Project</a> (by Pablo Impallari).</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+			<p>&nbsp;</p>
+            </div>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+      <footer>
+         <div class="footer-container">
+         <div class="pc-tab">
+            <input checked="checked" id="tab1" type="radio" name="pct" />
+            <input id="tab2" type="radio" name="pct" />
+            <input id="tab3" type="radio" name="pct" />
+            <input id="tab4" type="radio" name="pct" />
+            <nav>
+               <ul>
+                  <li class="tab1">
+                     <label for="tab1" style="padding-top:10px;padding-bottom:10px;">Layout</label>
+                  </li>
+                  <li class="tab2">
+                     <label for="tab2" style="padding-top:10px;padding-bottom:10px;">Variation</label>
+                  </li>
+                  <li class="tab3">
+                     <label for="tab3" style="padding-top:10px;padding-bottom:10px;">OpenType</label>
+                  </li>
+                  <li class="tab4">
+                     <label for="tab4" style="padding-top:10px;padding-bottom:10px;">About</label>
+                  </li>
+               </ul>
+            </nav>
+            <section style="padding-top:5px;">
+               <div class="tab1">
+                  <p class="font-slider">
+                     <label>Size:</label>
+                     <span>
+                     <input class="slider" autocomplete="off" id="fontsizeinput" type="range" min="10" max="72" value="26" step="1" Style="height:4px;">
+                     </span>
+                  </p>
+                  <p class="font-slider">
+                     <label>Hight:</label>
+                     <span>
+                     <input class="slider" autocomplete="off" id="fontheightinput" type="range" min="1" max="2" value="1.5" step="0.01" Style="height:4px;">
+                     </span>
+                  <p class="font-slider"><input class="hidden" type="checkbox" id="outline" onchange="colortoggle()"></input><label for="outline">Outline</label></p>
+                  <p class="right-side-header" id="text3" onclick="copyElementText(this.id); ShowSecond();"></p>
+                  </p>
+               </div>
+               <div class="tab2" style="padding-top: 3px;">
+                  <button id="randbutton" type="button" onclick="window.dice();" style="font-size: 20px;">🎲</button> 
+                  <p class="font-slider">
+                     <label for="wght">Weight:</label>
+                     <span>
+                     <input class="slider" autocomplete="off" type="range" id="wght" step="1" min="100" max="900" value="400" aria-valuemin="100" aria-valuemax="900" aria-valuenow="400" Style="height:4px;">
+                     </span>
+                  </p>
+                  <p class="font-slider">
+                     <label for="KSHD">Kashida:</label>
+                     <span>
+                     <input class="slider" autocomplete="off" type="range" id="KSHD" step="1" min="100" max="200" value="100" aria-valuemin="100" aria-valuemax="200" aria-valuenow="100" Style="height:4px;">
+                     </span>
+                  </p>
+                  <p class="font-slider">
+                     <label for="DSTY">Dot Style:</label>
+                     <span>
+                     <input class="slider" autocomplete="off" type="range" id="DSTY" step="1" min="0" max="2" value="0" aria-valuemin="0" aria-valuemax="2" aria-valuenow="0" Style="height:4px;">
+                     </span>
+                  </p>
+                  <br>
+                  <div Style="align-content: center;">
+                     <p class="right-side-header" id="text1" onclick="copyElementText(this.id); ShowSecond();"></p>
+                  </div>
+               </div>
+               <div class="tab3">
+                  <p class="font-slider"><input class="hidden" type="checkbox" id="ss01" onchange="refreshFeatures()" autocomplete="off"></input><label for="ss01">Style Set 1: <span><span style="font-feature-settings: 'ss01' on" class="SS">گ → </span><span style="font-feature-settings: 'ss01' off" class="SS">گ</span></span></label></p>
+                  <p class="font-slider"> <a href="https://abcdinamo.com/news/tutorial-a-guide-to-opentype-features" target="_blank">??</a></p>
+                  <p class="right-side-header" id="text2" onclick="copyElementText(this.id); ShowSecond();"></p>
+               </div>
+               <div class="tab4">
+                  <div style="direction:ltr;text-align:center;!important">
+                     <a href="https://fontamin.com/" target="blank"><img class="fontamin-logo" src="fontamin-logo.svg" style="width:30px;"></a><br>
+                     Mikhak V3.4 - a <a href="https://fontamin.com" target="_blank">fontamin</a> product.
+                  </div>
+               </div>
+            </section>
+            <a href="https://github.com/aminabedi68/Mikhak/releases" target="blank"><img class="DownloadIcon" src="download-font-icon.svg"></a>
+         </div>
+         <div id="div2" class="hide">Copied</div>
+      </footer>
+      <input type="checkbox" id="negative" class="toggle" onchange="colortoggle()" autocomplete="off">
+      <label class="DarkModeLabel" for="negative">
+      <img class="icon off" src="DarkMode-moon.svg" style="width:30px;">
+      <img class="icon on" src="DarkMode-sun.svg" style="width:30px;">
+      </label>
+      <script>
+         (function () {
+           window.refreshFeatures = function () {
+             const target = document.querySelector('.dynamic');
+             if (!target) return;
+         
+             const wght = +document.getElementById('wght').value;
+             const kshd = +document.getElementById('KSHD').value;
+             const dsty = +document.getElementById('DSTY').value;
+             const fs   = +document.getElementById('fontsizeinput').value;
+             const fh   = +document.getElementById('fontheightinput').value;
+         
+             // variation axes
+             target.style.fontVariationSettings = `"wght" ${wght}, "KSHD" ${kshd}, "DSTY" ${dsty}`;
+             target.style.fontSize = fs + 'px';
+             target.style.lineHeight = fh + 'em';
+         
+             // feature toggles
+             const features = [
+               "'ss01' " + (document.getElementById('ss01').checked ? 'on' : 'off')
+             ];
+             target.style.fontFeatureSettings = features.join(', ');
+         
+             // update text block
+             document.getElementById('text1').textContent =
+               `font-variation-settings: "wght" ${wght},"KSHD" ${kshd}, "DSTY" ${dsty};`;
+         
+             document.getElementById('text2').textContent =
+               `font-feature-settings: ${features.join(', ')};`;
+         
+             document.getElementById('text3').textContent =
+         `font-size: ${fs}px; line-height: ${fh}em;`;
+           };
+         
+           // attach listeners
+           ['wght','KSHD','DSTY','fontsizeinput','fontheightinput'].forEach(id => {
+             document.getElementById(id).addEventListener('input', refreshFeatures);
+           });
+           ['ss01'].forEach(id => {
+             document.getElementById(id).addEventListener('change', refreshFeatures);
+           });
+         
+           // initial update
+           refreshFeatures();
+         })();
+         
+         
+         function colortoggle() {
+         var negativecheckBox = document.getElementById("negative");
+         var outlinecheckBox = document.getElementById("outline");
+         
+         if (negativecheckBox.checked) {
+           // Dark mode
+           $('body').addClass('darkmode');   // کلاس اضافه می‌کنیم
+           $('body').css('background-color', '#222');
+           $('p').css('color', 'white');
+           $('.fontheader').css('color', 'white');
+           $('footer').css('border-top', '1.5px solid #444');
+           $('.tooltip').css('background-color', 'black');
+           $('.tooltiptext').css({'color':'white','background-color':'black'});
+           $('form').css('border', '1.5px solid #444');
+           $('form').css({'background':'black'});
+           $('option').css({'background-color':'black'});
+           $('option').css({'color':'white'});
+           $('optgroup').css({'background-color':'black'});
+           $('optgroup').css({'color':'white'});
+         
+         } else {
+           // Light mode
+           $('body').removeClass('darkmode');  // کلاس رو برمی‌داریم
+           $('body').css('background-color', '#f5f5f1');
+           $('p').css('color', 'black');
+           $('.fontheader').css('color', 'black');
+           $('footer').css('border-top', '1.5px solid #AAA');
+           $('.tooltip').css('background-color', 'white');
+           $('.tooltiptext').css({'color':'black','background-color':'white'});
+           $('form').css('border', '1.5px solid #AAA');
+           $('form').css({'background':'white'});
+           $('option').css({'background-color':'#f5f5f1'});
+           $('option').css({'color':'black'});
+           $('optgroup').css({'background-color':'#f5f5f1'});
+           $('optgroup').css({'color':'black'});
+         }
+         
+         // Outline handling
+         if (outlinecheckBox.checked) {
+           $('.dynamic').css({
+             '-webkit-text-stroke-width': '1px',
+             '-webkit-text-fill-color': 'transparent',
+             '-webkit-text-stroke-color': negativecheckBox.checked ? 'white' : 'black'
+           });
+         } else {
+           $('.dynamic').css({
+             '-webkit-text-stroke-width': '0px',
+             '-webkit-text-stroke-color': 'transparent',
+             '-webkit-text-fill-color': negativecheckBox.checked ? 'white' : 'black'
+           });
+         }
+         }
+         
+      </script>
+      <script>
+         function resizeSelect(sel) {
+           // Create a hidden span to measure the text width
+           const span = document.createElement("span");
+           span.style.visibility = "hidden";
+           span.style.position = "fixed";
+           span.style.whiteSpace = "pre";
+           span.textContent = sel.options[sel.selectedIndex].text;
+           document.body.appendChild(span);
+           
+           // Add small extra padding (optional)
+           sel.style.width = span.offsetWidth + 20 + "px";
+           
+           span.remove();
+         }
+         
+         // Initialize once on load
+         window.addEventListener("load", () => {
+           const sel = document.getElementById("tabcontentselector");
+           resizeSelect(sel);
+         });
+      </script>
+      <script>
+         document.addEventListener("DOMContentLoaded", function() {
+         
+           function autoScrollSection(section) {
+             const maxScroll = section.scrollWidth - section.clientWidth;
+             if (maxScroll <= 0) return;
+         
+             section.scrollTo({ left: maxScroll, behavior: "smooth" });
+             setTimeout(() => {
+               section.scrollTo({ left: 0, behavior: "smooth" });
+             }, 1000 + (maxScroll / 2));
+           }
+         
+           function handleTabChange(tabId) {
+             const section = document.querySelector(".pc-tab > section");
+             const tab = document.getElementById(tabId);
+         
+             tab.addEventListener("change", function() {
+               if (tab.checked && !tab.dataset.scrolled) {
+                 tab.dataset.scrolled = "true"; // mark this tab as done
+                 autoScrollSection(section);
+               }
+             });
+           }
+         
+           // Activate per-tab one-time scroll
+           handleTabChange("tab2");
+           handleTabChange("tab3");
+         
+         });
+      </script>
+	  	  <script>
+document.addEventListener("DOMContentLoaded", function() {
+  const sliders = document.querySelectorAll('.slider');
 
-      footer a {
-        text-decoration: none;
-        color: #fff;
-      }
-      hr {
-        border: none;
-        background-color: #000;
-        height: 1px;
-      }
-      body {
-        background-color: #222;
-        color: #000;
-        direction: rtl;
-        line-height: 30px;
-        font:20px/30px MikhakMedium, sans-serif;
-      }
-      .bg-white #main {
-        color: #222;
-        background-color: #fbfbfb;
-      }
-      .bg-black #main {
-        color: #fff;
-        background-color: #222;
-      }
-      .bg-blue #main {
-        color: #fff;
-        background-color: #3f51b5;
-      }
-      .bg-yellow #main {
-        color: #211e08;
-        background-color: #ffeb3b;
-      }
-      .toolbar{
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: 100%;
-        background-color: #fbfbfb;
-        opacity: 0;
-        z-index: 1000;
-      }
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      .toolbar:hover{
-        opacity: 1 !important;
-      }
-      h1,h2 {
-        font-size: 1.13em;
-        font-weight: normal;
-        line-height: 0.8em;
-      }
-      footer {
-        margin: auto;
-        padding: 40px 20%;
-      }
-      .changesizeOldNick {
-        margin: auto;
-        top: 0;
-        padding: 150px 20% 100px;
-      }
-      .font-selection li {
-        display: inline-block;
-        margin: 0 10px;
-        font-size: 15px;
-      }
-      .font-selection a {
-        text-decoration: none;
-        color: #ff3a3a;
-      }
-      .p,.changesizeOldNick {
-        background-color: #fbfbfb;
-        color: #101010;
-      }
-      .changesizeOldNick p {
-        margin-bottom: 10px;
-      }
-      .changesizeOldNick a { color: #0b6db3; }
-      .MikhakThin-font {
-        font: 20px/30px MikhakThin, sans-serif;
-      }
-      .MikhakLight-font {
-        font: 20px/30px MikhakLight, sans-serif;
-      }
-      .MikhakMedium-font {
-        font: 20px/30px MikhakMedium, sans-serif;
-      }
-      .MikhakBold-font {
-        font: 20px/30px MikhakBold, sans-serif;
-      }
-      .MikhakBlack-font {
-        font: 20px/30px MikhakBlack, sans-serif;
-      }
-      .MikhakExtraLight-font {
-        font: 20px/30px MikhakExtraLight, sans-serif;
-      }
-      .MikhakRegular-font {
-        font: 20px/30px MikhakRegular, sans-serif;
-      }
-      .MikhakSemiBold-font {
-        font: 20px/30px MikhakSemiBold, sans-serif;
-      }
-      .MikhakExtraBold-font {
-        font: 20px/30px MikhakExtraBold, sans-serif;
-      }
-      footer {
-        color: #888;
-        text-align: center;
-        font: 13px/22px MikhakMedium, sans-serif;
-        min-width: 100px;
-      }
-      *, *::after, *::before {
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-      }
-      .social-list {
-        text-align: center;
-        font-size: 0;
-        margin: 10px auto;
-      }
-      .social-list li {
-        display: inline-block;
-        margin-right: 1%;
-        width: 45px;
-        height: 45px;
-        position: relative;
-      }
-      .social-list li > a {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border: 5px solid transparent;
-      }
-      .social-list li>a>svg {
-        position: absolute;
-        top: 10%;
-        left: 20%;
-        width: 60%;
-        height: 60%;
-        fill: #888;
-        -webkit-transition: 0.1s;
-        transition: 0.1s;
-      }
-      .social-list li>a:hover>svg {
-        fill: #fff;
-      }
-      .social-list li>a>span {
-        font-size: 1rem;
-        font-weight: bold;
-        white-space: nowrap;
-        position: absolute;
-        top: 125%;
-        left: 50%;
-        -webkit-transform: translate(-50%, 0);
-        -ms-transform: translate(-50%, 0);
-        transform: translate(-50%, 0);
-        background: white;
-        padding: 10px 25px;
-        text-align: center;
-        visibility: hidden;
-        z-index: 1;
-      }
-      .button-white {
-            padding: 15px;
-            display: inline-block;
-            margin: 4px 2px;
-            cursor: pointer;
-            background-color: #fbfbfb;
-            border: none;
-            border-radius: 50%;
-            outline: none;
-      }
-      .button-black {
-            padding: 15px;
-            display: inline-block;
-            margin: 4px 2px;
-            cursor: pointer;
-            background-color: #222;
-            border: none;
-            border-radius: 50%;
-            outline: none;
-      }
-      .button-blue {
-            padding: 15px;
-            display: inline-block;
-            margin: 4px 2px;
-            cursor: pointer;
-            background-color: #3f51b5;
-            border: none;
-            border-radius: 50%;
-            outline: none;
-      }
-      .button-yellow {
-            padding: 15px;
-            display: inline-block;
-            margin: 4px 2px;
-            cursor: pointer;
-            background-color: #ffeb3b;
-            border: none;
-            border-radius: 50%;
-            outline: none;
-      }
-      .column1 {
-          float: right;
-          width: 35%;
-          padding-left: 0;
-          left: 0;
-          padding: 20px 150px 20px 20px;
-      }
-      .column2 {
-          float: right;
-          width: 40%;
-          padding: 20px;
-      }
-      .column3 {
-          float: right;
-          width: 25%;
-          padding: 20px;
-      }
+  sliders.forEach(slider => {
+    const valueBubble = document.createElement('span');
+    valueBubble.className = 'slider-value';
+    valueBubble.textContent = slider.value;
+    slider.parentElement.style.position = 'relative';
+    slider.parentElement.appendChild(valueBubble);
 
-      .row:after {
-          content: "";
-          display: table;
-          clear: both;
-          z-index: 1;
-        }
-			.fontname{
-			    position: fixed;
-			    top: 20px;
-			    right: 40px;
-			    color: #222;
-			    z-index: 100000;
-			}
-			.mobile{
-			display: none;
-			}
-			.input-slider-1 {
-			    -webkit-appearance: none;
-			    width: 300px;
-			}
-			.input-slider-2 {
-			    -webkit-appearance: none;
-			    width: 300px;
-			}
-			.input-slider-3 {
-			    -webkit-appearance: none;
-			    width: 300px;
-			}
-			.input-slider-1::-webkit-slider-runnable-track {
-			    width: 300px;
-			    height: 2px;
-			    background: #ddd;
-			    border: none;
-			    border-radius: 2px;
-			}
-			.input-slider-2::-webkit-slider-runnable-track {
-			    width: 300px;
-			    height: 2px;
-			    background: #999;
-			    border: none;
-			    border-radius: 2px;
-			}
-			.input-slider-3::-webkit-slider-runnable-track {
-			    width: 300px;
-			    height: 2px;
-			    background: #fff;
-			    border: none;
-			    border-radius: 2px;
-			}
-			.input-slider-1::-webkit-slider-thumb {
-			    -webkit-appearance: none;
-			    border: none;
-			    height: 15px;
-			    width: 15px;
-			    border-radius: 50%;
-			    background: #222;
-			    border: none;
-			    margin-top: -5px;
-			}
-			.input-slider-2::-webkit-slider-thumb {
-			    -webkit-appearance: none;
-			    border: none;
-			    height: 15px;
-			    width: 15px;
-			    border-radius: 50%;
-			    background: #fff;
-			    border: none;
-			    margin-top: -5px;
-			}
-			.input-slider-3::-webkit-slider-thumb {
-			    -webkit-appearance: none;
-			    border: none;
-			    height: 15px;
-			    width: 15px;
-			    border-radius: 50%;
-			    background: #555;
-			    border: none;
-			    margin-top: -5px;
-			}
-			.input-slider-1:focus {
-			    outline: none;
-			}
-			.input-slider-1:focus::-webkit-slider-runnable-track {
-			    background: #ccc;
-			}
-			.input-slider-1::-moz-range-track {
-			    height: 2px;
-			    background: #ddd;
-			    border: none;
-			    border-radius: 2px;
-			}
-			.input-slider-2::-moz-range-track {
-			    height: 2px;
-			    background: #999;
-			    border: none;
-			    border-radius: 2px;
-			}
-			.input-slider-3::-moz-range-track {
-			    height: 2px;
-			    background: #fff;
-			    border: none;
-			    border-radius: 2px;
-			}
-			.input-slider-1::-moz-range-thumb {
-			    border: none;
-			    height: 8px;
-			    width: 8px;
-			    border-radius: 50%;
-			    background: #222;
-			    border: none;
-			    margin-top: -4px;
-			}
-			.input-slider-2::-moz-range-thumb {
-			    border: none;
-			    height: 8px;
-			    width: 8px;
-			    border-radius: 50%;
-			    background: #fff;
-			    border: none;
-			    margin-top: -4px;
-			}
-			.input-slider-3::-moz-range-thumb {
-			    border: none;
-			    height: 8px;
-			    width: 8px;
-			    border-radius: 50%;
-			    background: #222;
-			    border: none;
-			    margin-top: -4px;
-			}
-			/*hide the outline behind the border*/
-			.input-slider-1:-moz-focusring{
-			    outline: 1px solid white;
-			    outline-offset: -1px;
-			}
-			.input-slider-1::-ms-track {
-			    width: 300px;
-			    height: 5px;
-			    /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
-			    background: transparent;
-			    /*leave room for the larger thumb to overflow with a transparent border */
-			    border-color: transparent;
-			    border-width: 6px 0;
-			    /*remove default tick marks*/
-			    color: transparent;
-			}
-			.input-slider-1::-ms-fill-lower {
-			    background: #222;
-			    border-radius: 10px;
-			}
-			.input-slider-1::-ms-fill-upper {
-			    background: #ddd;
-			    border-radius: 10px;
-			}
-			.input-slider-1::-ms-thumb {
-			    border: none;
-			    height: 8px;
-			    width: 8px;
-			    border-radius: 50%;
-			    background: #555;
-			    border: none;
-			    margin-top: 0px;
-			  }
-			.input-slider-1:focus::-ms-fill-lower {
-			    background: #222;
-			}
-			.input-slider-1:focus::-ms-fill-upper {
-			    background: #ccc;
-			}
-			.vertically-stacked-slider {
-			    padding: 8px;
-			}
-			.vertically-stacked-slider > input[type="range"] {
-			    padding: 0;
-			}
-			.horizontally-stacked-slider {
-			    display: flex;
-			    align-items: center;
-			}
-			.horizontally-stacked-slider > .title {
-			    flex: 1;
-			    padding: 8px;
-			}
-			.horizontally-stacked-slider > input[type="range"] {
-			    flex: 1;
-			}
-			.verticaltab{
-			  position: fixed;
-			  display: block;
-			  top: 45%;
-			  right: 150px;
-			}
-			.tablink{
-			  font: 16px MikhakMedium, sans-serif;
-			  color: #888;
-			  border: none;
-			  /* top: 0; */
-			  /* padding-right: 10px; */
-			  outline: none;
-			  cursor: pointer;
-			  background-color: #ffffff00;
-			}
-			ul{
-			list-style:none;
-			}
+    function updateValuePosition() {
+      const min = slider.min ? parseFloat(slider.min) : 0;
+      const max = slider.max ? parseFloat(slider.max) : 100;
+      const val = parseFloat(slider.value);
+      const percent = ((val - min) / (max - min)) * 100;
 
-			small{
-			  font-size: 13px;
-			  vertical-align: super;
-			  line-height: 0;
-			}
-            @media screen and (max-width: 600px){
-             .changesizeOldNick, .column1, .column2, .column3, footer {
-                padding: 10px 20px;
-                width: 100%;
-                }
-              .toolbar{
-                  position: relative;
-                  opacity: 1;
-              }
-              .fontname{
-                opacity: 0;
-              }
-              #scroll{
-								top: -webkit-calc(100% - 80px);
-								top: calc(100% - 80px);
-								left: 50px;
-              }
-              .mobile{
-                display: block;
-              }
-              .verticaltab{
-                display: none;
-              }
-              #download-icon{
-               display: none;
-              }
-							#btnFullscreen{
-							 display: none;
-							}
-            }
-		</style>
+      const thumbWidth = 30;
+      const halfThumb = thumbWidth / 2;
+      const trackWidth = slider.offsetWidth - thumbWidth;
+      let px = (percent / 100) * trackWidth + halfThumb;
+      px = Math.min(slider.offsetWidth - halfThumb, Math.max(halfThumb, px));
 
-
-
-
-		<meta name="google-site-verification" content="IWzvlOI_HSA5Bk6pu8MXM1R86hUVJIZEcCoi2AdvtaI" />
-						<body class="bg-white" spellcheck="false">
-							<svg id="scroll" width="7.6868596mm" height="7.6868601mm" viewBox="0 0 7.6868596 7.6868601">
-								<a title="بالا" href="#" style="display: none;"></a>
-									<path
-									 d="m 5.1203228,5.9748278 -3.654e-4,-1.699743 -0.4991468,1e-7 c -0.020795,-2.2e-6 -0.038191,-0.00677 -0.051522,-0.020098 -0.013385,-0.013325 -0.019367,-0.029971 -0.019367,-0.050791 0,-0.017908 0.0071,-0.036262 0.021924,-0.05408 L 5.3538182,3.3681435 c 0.013351,-0.013152 0.030708,-0.020097 0.051522,-0.020097 0.02081,-1.35e-5 0.037423,0.00677 0.050791,0.020098 l 0.7841566,0.7849042 c 0.013401,0.013326 0.020828,0.029969 0.020828,0.050792 -3.7e-6,0.019319 -0.00745,0.036719 -0.021558,0.050793 -0.01414,0.014402 -0.031112,0.020462 -0.050427,0.020462 l -0.499138,-9.7e-6 3.655e-4,1.699743 z"/>
-									<path
-									 d="m 3.7018988,5.9748278 -3.654e-4,-3.3771723 -0.4991468,10e-8 c -0.020795,-2.2e-6 -0.038191,-0.00677 -0.051522,-0.020098 -0.013385,-0.013325 -0.019367,-0.029971 -0.019367,-0.050791 0,-0.017908 0.0071,-0.036262 0.021924,-0.05408 L 3.9353942,1.6907142 c 0.013351,-0.013152 0.030708,-0.020097 0.051522,-0.020097 0.02081,-1.35e-5 0.037423,0.00677 0.050791,0.020098 l 0.7841566,0.7849042 c 0.013401,0.013326 0.020828,0.029969 0.020828,0.050792 -3.7e-6,0.019319 -0.00745,0.036719 -0.021558,0.050793 -0.01414,0.014402 -0.031112,0.020463 -0.050427,0.020462 l -0.499138,-9.7e-6 3.655e-4,3.3771723 z"/>
-									<path
-									 d="m 2.2834749,5.9748278 -3.654e-4,-2.3511719 -0.4991468,10e-8 c -0.020795,-2.2e-6 -0.038191,-0.00677 -0.051522,-0.020098 -0.013385,-0.013325 -0.019367,-0.029971 -0.019367,-0.050791 0,-0.017908 0.0071,-0.036262 0.021924,-0.05408 L 2.5169703,2.7167146 c 0.013351,-0.013152 0.030708,-0.020097 0.051522,-0.020097 0.02081,-1.35e-5 0.037423,0.00677 0.050791,0.020098 l 0.7841566,0.7849042 c 0.013401,0.013326 0.020828,0.029969 0.020828,0.050792 -3.7e-6,0.019319 -0.00745,0.036719 -0.021558,0.050793 -0.01414,0.014402 -0.031112,0.020462 -0.050427,0.020462 l -0.499138,-9.7e-6 3.655e-4,2.3511719 z"/>
-						 	</svg>
-							<a title="دانلود کنید :)" href="https://github.com/aminabedi68/Mikhak/releases/download/3.2/Mikhak-v3.2.zip">
-								<svg id="download-icon" width="7.6868596mm" height="7.6868601mm" viewBox="0 0 7.6868596 7.6868601">
-										<path
-	 d="m 12.410839,4.7460938 c 1.317168,-10e-8 2.562785,0.383873 3.655323,1.1180544 0.860983,0.5784028 1.392314,1.4154933 1.857777,2.2681071 0.454557,-0.265765 0.924476,-0.5609094 1.543443,-0.5609094 0.999652,0 1.928156,0.3904096 2.633262,1.0954675 0.705033,0.7053845 1.095468,1.6306136 1.095468,2.6313806 0,0.454729 -0.183306,0.803418 -0.33504,1.146288 0.738271,0.294021 1.496001,0.617151 2.042237,1.300632 0.733984,0.918631 1.116035,2.019505 1.116173,3.194174 0,1.386136 -0.526481,2.655517 -1.50768,3.6365 -0.980804,0.980485 -2.249544,1.507679 -3.6365,1.507679 H 8.8816268 c -1.5779804,0 -3.0071631,-0.595605 -4.1258845,-1.714727 -1.1194887,-1.119578 -1.7147267,-2.555236 -1.7147267,-4.133413 0,-1.118604 0.3087739,-2.183518 0.9110073,-3.130176 0.4849564,-0.761806 1.1945407,-1.259239 1.9198916,-1.69214 -0.00255,-0.03982 -0.00565,-0.07207 -0.00565,-0.114817 4e-7,-1.7745984 0.6563632,-3.3747259 1.9123625,-4.6303265 1.2551594,-1.2551784 2.856457,-1.9217737 4.632212,-1.9217737 z m 0,1.8144856 c -1.34731,1e-7 -2.390236,0.4402028 -3.344752,1.3947448 -0.9544771,0.9541733 -1.3928626,1.9954065 -1.3928626,3.3428698 0,0.0249 0.00697,0.200778 0.020705,0.415976 l 0.028234,0.367039 c 0.00892,0.147436 -0.073511,0.285093 -0.2070471,0.348215 L 7.1781937,12.59318 c -0.7251328,0.336352 -1.2621082,0.814403 -1.6902575,1.486975 -0.4295093,0.675147 -0.6399639,1.361694 -0.6399639,2.155172 4e-7,1.147941 0.3756771,2.026343 1.1952266,2.845957 0.8205825,0.820876 1.6903581,1.195226 2.8384279,1.195226 H 20.875302 c 0.957709,0 1.67412,-0.302181 2.35469,-0.982532 0.679124,-0.678983 0.967476,-1.393295 0.967476,-2.35469 -9.6e-5,-0.801888 -0.211858,-1.432446 -0.709608,-2.055414 -0.498888,-0.624238 -1.086859,-0.994532 -1.865306,-1.180168 l -0.760428,-0.186343 c -0.240083,-0.06118 -0.349991,-0.340254 -0.214576,-0.547734 l 0.434799,-0.65314 c 0.210526,-0.318096 0.306806,-0.619911 0.306806,-1.018295 0,-0.573451 -0.155826,-0.944285 -0.562791,-1.351453 C 20.419871,9.5402749 20.041,9.3839494 19.467382,9.3839494 c -0.508759,-1e-7 -0.855584,0.1351119 -1.230989,0.4630321 l -0.583497,0.4987965 c -0.188516,0.159375 -0.477102,0.08629 -0.568439,-0.143052 L 16.800238,9.5062954 C 16.430691,8.6039078 15.864133,7.9189248 15.049749,7.3718277 14.23598,6.8249795 13.389822,6.5605794 12.410839,6.5605794 Z m 0.730311,4.1014156 h 1.870954 c 0.08458,0 0.158181,0.03053 0.220223,0.09223 0.06156,0.06182 0.09223,0.135774 0.09223,0.220222 v 3.429454 h 2.183406 c 0.09097,0 0.165684,0.03005 0.223987,0.08847 0.0585,0.05841 0.08658,0.132982 0.08658,0.223987 0,0.07831 -0.03119,0.155568 -0.09599,0.233398 l -3.421925,3.421925 c -0.05841,0.05828 -0.132974,0.08658 -0.223986,0.08658 -0.09093,0 -0.16552,-0.02832 -0.223988,-0.08658 l -3.429453,-3.431335 c -0.05846,-0.05841 -0.08847,-0.132984 -0.08847,-0.223988 0,-0.08446 0.03052,-0.158547 0.09223,-0.220223 0.06184,-0.06171 0.135774,-0.09223 0.220223,-0.09223 h 2.183406 v -3.429454 c 0,-0.08445 0.0305,-0.1584 0.09223,-0.220222 0.06176,-0.0616 0.133882,-0.09223 0.21834,-0.09223 z"
-	 transform="scale(0.26458333)">
-								</svg>
-					  	</a>
-							<svg id="btnFullscreen" document.onclick="myFunction1(event)" width="7.6868596mm" height="7.6868601mm" viewBox="0 0 7.6868596 7.6868601">
-								<path
-	 d="m 19.210938,5.3867188 h 4.179687 c 0.07083,5.329e-4 0.135779,0.028357 0.191406,0.083984 0.05565,0.055578 0.08193,0.1180994 0.08203,0.1894531 l -0.002,4.1933594 c 2.01e-4,0.071429 -0.02443,0.1357565 -0.08008,0.1914064 -0.05164,0.05162 -0.118044,0.07822 -0.193359,0.07813 -0.07628,6.99e-4 -0.137836,-0.02846 -0.189453,-0.08008 L 21.865234,8.7089844 18.472656,12.103516 19.806641,13.4375 c 0.05159,0.05162 0.07883,0.113163 0.07813,0.189453 7.9e-5,0.07531 -0.02453,0.139767 -0.07617,0.191406 -0.05565,0.05569 -0.123865,0.08419 -0.195313,0.08399 h -4.191406 c -0.07133,-1.1e-4 -0.133879,-0.02841 -0.189453,-0.08399 -0.05565,-0.05562 -0.0815,-0.11859 -0.08203,-0.189453 V 9.4492188 c 0.008,-0.087243 0.03612,-0.1552649 0.08398,-0.203125 0.05565,-0.055601 0.116139,-0.086117 0.1875,-0.085938 0.07124,1.89e-5 0.137785,0.030363 0.193359,0.085938 l 1.333985,1.3339842 3.392578,-3.3945311 -1.333985,-1.3339844 c -0.05557,-0.055582 -0.08398,-0.1201508 -0.08398,-0.1914063 -1.59e-4,-0.071384 0.02834,-0.1318577 0.08398,-0.1875 0.04786,-0.04786 0.115898,-0.077925 0.203126,-0.085937 z m -8.736329,1.0878906 h 3.314453 v 2 h -3.314453 c -1.1252961,0 -1.9999996,0.8747035 -1.9999996,1.9999996 v 8.105469 c 0,1.125297 0.8747035,2 1.9999996,2 h 8.105469 c 1.125297,0 2,-0.874703 2,-2 v -3.322266 h 2.001953 v 3.322266 c 0,2.198703 -1.80325,4.001953 -4.001953,4.001953 h -8.105469 c -2.1987016,0 -3.9999996,-1.80325 -3.9999996,-4.001953 v -8.105469 c 0,-2.1987016 1.801298,-3.9999996 3.9999996,-3.9999996 z"
-	 transform="scale(0.26458333)">
-							</svg>
-						<script>
-						function toggleFullscreen(elem) {
-						elem = elem || document.documentElement;
-						if (!document.fullscreenElement && !document.mozFullScreenElement &&
-						!document.webkitFullscreenElement && !document.msFullscreenElement) {
-						if (elem.requestFullscreen) {
-							elem.requestFullscreen();
-						} else if (elem.msRequestFullscreen) {
-							elem.msRequestFullscreen();
-						} else if (elem.mozRequestFullScreen) {
-							elem.mozRequestFullScreen();
-						} else if (elem.webkitRequestFullscreen) {
-							elem.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
-						}
-						} else {
-						if (document.exitFullscreen) {
-							document.exitFullscreen();
-						} else if (document.msExitFullscreen) {
-							document.msExitFullscreen();
-						} else if (document.mozCancelFullScreen) {
-							document.mozCancelFullScreen();
-						} else if (document.webkitExitFullscreen) {
-							document.webkitExitFullscreen();
-						}
-						}
-						}
-						document.getElementById('btnFullscreen').addEventListener('click', function() {
-						toggleFullscreen();
-						});
-						document.getElementById('exampleImage').addEventListener('click', function() {
-						toggleFullscreen(this);
-						});
-						</script>
-
-
-							<div class="fontname">
-								<h1>میخک
-									<sup>نسخۀ ۳٫۴</sup>
-								</h1>
-							</div>
-							<div class="toolbar" align="center">
-								<div class="row">
-									<div class="column1"  align="center">
-										<ul class="font-selection">
-											<div class="mobile">
-												<p>&nbsp</p>
-												<h2 >میخک
-													<sup>نسخۀ ۳٫۴</sup>
-												</h2>
-												<small>
-													<a href="https://github.com/aminabedi68/Mikhak/archive/master.zip">دانلود▼</a>
-												</small>
-											</div>
-											<li style="font: 18px MikhakThin, sans-serif;">
-												<a href="#" id="MikhakThin" onclick="changeFont('MikhakThin', this); return false;">1</a>
-											</li>
-											<li style="font: 18px MikhakExtraLight, sans-serif;">
-												<a href="#" id="MikhakExtraLight" onclick="changeFont('MikhakExtraLight', this); return false;">2</a>
-											</li>
-											<li style="font: 18px MikhakLight, sans-serif;">
-												<a href="#" id="MikhakLight" onclick="changeFont('MikhakLight', this); return false;">3</a>
-											</li>
-											<li style="font: 18px MikhakRegular, sans-serif;">
-												<a href="#" id="MikhakRegular" onclick="changeFont('MikhakRegular', this); return false;">4</a>
-											</li>
-											<li style="font: 18px MikhakMedium, sans-serif;">
-												<a href="#" id="MikhakMedium" onclick="changeFont('MikhakMedium', this); return false;">5</a>
-											</li>
-											<li style="font: 18px MikhakSemiBold, sans-serif;">
-												<a href="#" id="MikhakSemiBold" onclick="changeFont('MikhakSemiBold', this); return false;">6</a>
-											</li>
-											<li style="font: 18px MikhakBold, sans-serif;">
-												<a href="#" id="MikhakBold" onclick="changeFont('MikhakBold', this); return false;">7</a>
-											</li>
-											<li style="font: 18px MikhakExtraBold, sans-serif;">
-												<a href="#" id="MikhakExtraBold" onclick="changeFont('MikhakExtraBold', this); return false;">8</a>
-											</li>
-											<li style="font: 18px MikhakBlack, sans-serif;">
-												<a href="#" id="MikhakBlack" onclick="changeFont('MikhakBlack', this); return false;">9</a>
-											</li>
-										</ul>
-									</div>
-									<div class="column2">
-										<input autocomplete="off" type="range" min="10" max="200" value="22" step="1" oninput="changeFontSizeOldNick(this.value)" onchange="changeFontSizeOldNick(this.value)" id="input1" class="input-slider-1" style="width: 80%; max-width: 300px; background:transparent;">
-											<input autocomplete="off" type="range" min="1" max="2" value="1.5" step="0.1" oninput="changeLineHeigthOldNick(this.value)" onchange="changeLineHeigthOldNick(this.value)" id="input2" class="input-slider-1" style="width: 80%; max-width: 200px; background:transparent;">
-												<script type="text/javascript">
-            function changeFontSizeOldNick(newValue) {
-              document.getElementById("changedfontsizeOldNick").innerHTML=newValue;
-              $('.changesizeOldNick').css('font-size',newValue + 'px');
-            };
-            function changeLineHeigthOldNick(newValue) {
-              document.getElementById("changedlineheigthOldNick").innerHTML=newValue;
-              $('.changesizeOldNick').css('line-height',newValue);
-            };
-          </script>
-												<p class="sizelabel" class="column3" align="center">
-													<span id="changedlineheigthOldNick" >1.5</span>em /
-													<span id="changedfontsizeOldNick">22</span>px
-												</p>
-											</div>
-											<div class="column3">
-												<ul class="font-selection">
-													<li>
-														<button class="button-white" onclick="myFunction1()"></button>
-														<script>
-        function myFunction1() {
-            $('body').removeClass('bg-yellow bg-blue bg-black').addClass('bg-white')
-            $(".toolbar").css('background-color', '#fbfbfb')
-            $(".toolbar").css('color', '#000')
-            $("p.sizelabel").css('color', '#666')
-            $("#scroll").css('fill', '#888')
-            $(".tablink").css('color', '#888')
-            $(".fontname").css('color', '#222')
-            $(".mobile").css('color', 'black')
-            $("sup").css('color', '#222')
-            $(".font-selection a").css('color', '#ff3a3a')
-            $('#input1').removeClass('input-slider-2 input-slider-3').addClass('input-slider-1')
-            $('#input2').removeClass('input-slider-2 input-slider-3').addClass('input-slider-1')
-            $("#download-icon").css('fill', '#888')
-						$("footer").css('background-color', '#222')
-						$("footer").css('color', '#888')
-						$("footer a").css('color', '#fff')
-						$("#btnFullscreen").css('fill', '#888')
-					}
-						</script>
-													</li>
-													<li>
-														<button class="button-black" onclick="myFunction2()"></button>
-														<script>
-        function myFunction2() {
-          $('body').removeClass('bg-yellow bg-blue bg-white').addClass('bg-black')
-          $(".toolbar").css('background-color', '#222222')
-          $(".toolbar").css('color', '#fff')
-          $("p.sizelabel").css('color', '#eee')
-          $("#scroll").css('fill', '#fff')
-          $(".tablink").css('color', '#fff')
-          $(".fontname").css('color', 'white')
-          $(".mobile").css('color', 'white')
-          $("sup").css('color', 'white')
-          $(".font-selection a").css('color', 'white')
-          $('#input1').removeClass('input-slider-1 input-slider-3').addClass('input-slider-2')
-          $('#input2').removeClass('input-slider-1 input-slider-3').addClass('input-slider-2')
-          $("#download-icon").css('fill', '#fff')
-					$("footer").css('background-color', '#000')
-					$("footer").css('color', '#888')
-					$("footer a").css('color', '#fff')
-					$("#btnFullscreen").css('fill', '#fff')
-        }
-        </script>
-													</li>
-													<li>
-														<button class="button-blue" onclick="myFunction3()"></button>
-														<script>
-        function myFunction3() {
-          $('body').removeClass('bg-yellow bg-black bg-white').addClass('bg-blue')
-          $(".toolbar").css('background-color', '#3f51b5')
-          $(".toolbar").css('color', '#fff')
-          $("p.sizelabel").css('color', '#eee')
-					$("#scroll").css('fill', '#fff')
-          $(".tablink").css('color', '#fff')
-          $(".fontname").css('color', 'white')
-          $(".mobile").css('color', 'white')
-          $("sup").css('color', 'white')
-          $(".font-selection a").css('color', 'white')
-          $('#input1').removeClass('input-slider-1 input-slider-3').addClass('input-slider-2')
-          $('#input2').removeClass('input-slider-1 input-slider-3').addClass('input-slider-2')
-					$("#download-icon").css('fill', '#fff')
-					$("footer").css('background-color', '#00112b')
-					$("footer").css('color', '#888')
-					$("footer a").css('color', '#0ff')
-					$("#btnFullscreen").css('fill', '#fff')
-        }
-        </script>
-													</li>
-													<li>
-														<button class="button-yellow" onclick="myFunction4()"></button>
-														<script>
-        function myFunction4() {
-          $('body').removeClass('bg-blue bg-black bg-white').addClass('bg-yellow')
-          $(".toolbar").css('background-color', '#ffeb3b')
-          $(".toolbar").css('color', '#000')
-          $("p.sizelabel").css('color', '#222')
-          $("#scroll").css('fill', '#444')
-          $(".tablink").css('color', '#444')
-          $(".fontname").css('color', '#222')
-          $(".mobile").css('color', 'black')
-          $("sup").css('color', '#222')
-          $(".font-selection a").css('color', '#222')
-          $('#input1').removeClass('input-slider-2 input-slider-3').addClass('input-slider-3')
-          $('#input2').removeClass('input-slider-2 input-slider-3').addClass('input-slider-3')
-          $("#download-icon").css('fill', '#444')
-					$("footer").css('background-color', '#2b2200')
-					$("footer").css('color', '#888')
-					$("footer a").css('color', '#ff0')
-					$("#btnFullscreen").css('fill', '#444')
-        }
-        </script>
-													</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="verticaltab" style="width:100px">
-										<ul>
-											<li>
-												<button class="tablink" onclick="openText(event, 'persian')">فارسی</button>
-											</li>
-											<li>
-												<button class="tablink" onclick="openText(event, 'latin')">لاتین</button>
-											</li>
-											<li>
-												<button class="tablink" onclick="openText(event, 'arabic')">عربی</button>
-											</li>
-											<li>
-												<button class="tablink" onclick="openText(event, 'kurdish')">کوردی</button>
-											</li>
-											<li>
-												<button class="tablink" onclick="openText(event, 'Urdo')">اردو</button>
-											</li>
-										</ul>
-									</div>
-									<script>
-
-    function openText(evt, cityName) {
-			var i, x, tablinks;
-      x = document.getElementsByClassName("text");
-      for (i = 0; i < x.length; i++) {
-         x[i].style.display = "none";
-      }
-      tablinks = document.getElementsByClassName("tablink");
-      for (i = 0; i < x.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
-      }
-      document.getElementById(cityName).style.display = "block";
-      evt.currentTarget.className += " w3-red";
+      valueBubble.textContent = slider.value;
+      valueBubble.style.left = px + "px";
     }
-									</script>
 
-									<section id="main" class="changesizeOldNick" class="changesizeOldNick" style="font-size: 22px; line-height: 1.5em;">
-										<p contenteditable="true"  id="persian" class="w3-container text" style="display:block">
-											بیشتر تاریخ‌دانان از ابن‌مقله به‌عنوان اولین مبتکر خوشنویسی اسلامی نام می‌برند و او را اولین کسی ذکر می‌کنند که کتابت را به یک هنر ارتقاء داد. در واقع ابن‌مقله با بررسی و نظام بخشیدن به خطوط مختلف رایج در زمان خود خطوط ششگانه را انتظام داد و به آن‌ها هویت واقعی بخشید و برای آن‌ها قواعدی وضع کرد.
+    updateValuePosition();
+    slider.addEventListener('input', updateValuePosition);
+    window.addEventListener('resize', updateValuePosition);
+  });
 
-											ابن‌مقله وزیر خط محقق را از خط کوفی و نسخ قدیمی بیرون کشید و آن را قاعده‌مند کرد. سپس خط ریحان را ایجاد کرد. بعد از آن خط ثلث را از خط ریحان اخذ کرده و قاعده‌مند ساخت. بعد از آن‌ها به شکل‌دادن و منزه کردن خط نسخ پرداخت. ابن‌مقله قرآنی به خط نسخ نوشت و خطوط محقق و ریحانی و کوفی را در سر سوره‌ها قرار داد و هنگامی که خواست کتابت قرآن با سایر خطوط فرق داشته باشد خط توقیع را ابداع کرد.
-
-											ابن مقله ۱۲ قاعده برای زیبایی خط تعیین کرد که به اصول دوازده‌گانه خوشنویسی معروفند و تاکنون، پس از گذشت بیش از ۱۰۰۰ سال، اعتبار خود را حفظ کرده‌اند. این قواعد عبارتند از: ترکیب، کرسی، نسبت، ضعف، قوت، سطح، دور، صعود مجاز، نزول مجاز، اصول، صفا و شأن.
-
-											پس از ابن‌مقله افرادی چون محمد بن سمسانی و محمد بن اسعد شیوه او را فرا گرفتند و یک سده بعد، ابوالحسن علی بن هلال معروف به ابن بواب، این شیوه را از آن دو آموخت و تکمیل کرد و تمامی خطوطی که ابن‌مقله پدیدآورده بود را کمال بخشید.
-											<br>
-											<span style="float:left">از ویکیپدیا</span>
-										</p>
-										<p dir="ltr" contenteditable="true" id="latin" class="w3-container text" style="display:none;">
-
-  Although typically applied to printed, published, broadcast, and reproduced materials in contemporary times, all words, letters, symbols, and numbers written alongside the earliest naturalistic drawings by humans may be called typography. The uneven spacing of the impressions on brick stamps found in the Mesopotamian cities of Uruk and Larsa, dating from the second millennium B.C., may be evidence of type, wherein the reuse of identical characters was applied to create cuneiform text. Babylonian cylinder seals were used to create an impression on a surface by rolling the seal on wet clay. Typography also was implemented in the Phaistos Disc, an enigmatic Minoan printed item from Crete, which dates to between 1850 and 1600 B.C. It has been proposed that Roman lead pipe inscriptions were created with movable type printing, but German typographer Herbert Brekle recently dismissed this view.(from Wikipedia)
-											<br>0123456789!@#$%^&*()_+-={}[]:"'?/<>,.
-												<br>Pangram Example:
-													<br>SPHINX OF BLACK QUARTZ, JUDGE MY VOW.
-														<br>Sphinx of black quartz, judge my vow.
-														</p>
-														<p contenteditable="true"  id="arabic" class="w3-container text" style="display:none">
-  بِسْمِ اللّهِ الرَّحْمَنِ الرَّحیم
-															<br>
-															وَالنَّازِعَاتِ غَرْ‌قًا ﴿١﴾ وَالنَّاشِطَاتِ نَشْطًا ﴿٢﴾ وَالسَّابِحَاتِ سَبْحًا ﴿٣﴾ فَالسَّابِقَاتِ سَبْقًا ﴿٤﴾ فَالْمُدَبِّرَ‌اتِ أَمْرً‌ا ﴿٥﴾ يَوْمَ تَرْ‌جُفُ الرَّ‌اجِفَةُ ﴿٦﴾ تَتْبَعُهَا الرَّ‌ادِفَةُ ﴿٧﴾ قُلُوبٌ يَوْمَئِذٍ وَاجِفَةٌ ﴿٨﴾ أَبْصَارُ‌هَا خَاشِعَةٌ ﴿٩﴾ يَقُولُونَ أَإِنَّا لَمَرْ‌دُودُونَ فِي الْحَافِرَ‌ةِ ﴿١٠﴾ أَإِذَا كُنَّا عِظَامًا نَّخِرَ‌ةً ﴿١١﴾ قَالُوا تِلْكَ إِذًا كَرَّ‌ةٌ خَاسِرَ‌ةٌ ﴿١٢﴾ فَإِنَّمَا هِيَ زَجْرَ‌ةٌ وَاحِدَةٌ ﴿١٣﴾ فَإِذَا هُم بِالسَّاهِرَ‌ةِ ﴿١٤﴾ هَلْ أَتَاكَ حَدِيثُ مُوسَىٰ ﴿١٥﴾ إِذْ نَادَاهُ رَ‌بُّهُ بِالْوَادِ الْمُقَدَّسِ طُوًى ﴿١٦﴾ اذْهَبْ إِلَىٰ فِرْ‌عَوْنَ إِنَّهُ طَغَىٰ ﴿١٧﴾ فَقُلْ هَل لَّكَ إِلَىٰ أَن تَزَكَّىٰ ﴿١٨﴾ وَأَهْدِيَكَ إِلَىٰ رَ‌بِّكَ فَتَخْشَىٰ ﴿١٩﴾ فَأَرَ‌اهُ الْآيَةَ الْكُبْرَ‌ىٰ ﴿٢٠﴾ فَكَذَّبَ وَعَصَىٰ ﴿٢١﴾ ثُمَّ أَدْبَرَ‌ يَسْعَىٰ ﴿٢٢﴾ فَحَشَرَ‌ فَنَادَىٰ ﴿٢٣﴾ فَقَالَ أَنَا رَ‌بُّكُمُ الْأَعْلَىٰ ﴿٢٤﴾ فَأَخَذَهُ اللَّـهُ نَكَالَ الْآخِرَ‌ةِ وَالْأُولَىٰ ﴿٢٥﴾ إِنَّ فِي ذَٰلِكَ لَعِبْرَ‌ةً لِّمَن يَخْشَىٰ ﴿٢٦﴾ أَأَنتُمْ أَشَدُّ خَلْقًا أَمِ السَّمَاءُ ۚ بَنَاهَا ﴿٢٧﴾ رَ‌فَعَ سَمْكَهَا فَسَوَّاهَا ﴿٢٨﴾ وَأَغْطَشَ لَيْلَهَا وَأَخْرَ‌جَ ضُحَاهَا ﴿٢٩﴾ وَالْأَرْ‌ضَ بَعْدَ ذَٰلِكَ دَحَاهَا ﴿٣٠﴾ أَخْرَ‌جَ مِنْهَا مَاءَهَا وَمَرْ‌عَاهَا ﴿٣١﴾ وَالْجِبَالَ أَرْ‌سَاهَا ﴿٣٢﴾ مَتَاعًا لَّكُمْ وَلِأَنْعَامِكُمْ ﴿٣٣﴾ فَإِذَا جَاءَتِ الطَّامَّةُ الْكُبْرَ‌ىٰ ﴿٣٤﴾ يَوْمَ يَتَذَكَّرُ‌ الْإِنسَانُ مَا سَعَىٰ ﴿٣٥﴾ وَبُرِّ‌زَتِ الْجَحِيمُ لِمَن يَرَ‌ىٰ ﴿٣٦﴾ فَأَمَّا مَن طَغَىٰ ﴿٣٧﴾ وَآثَرَ‌ الْحَيَاةَ الدُّنْيَا ﴿٣٨﴾ فَإِنَّ الْجَحِيمَ هِيَ الْمَأْوَىٰ ﴿٣٩﴾ وَأَمَّا مَنْ خَافَ مَقَامَ رَ‌بِّهِ وَنَهَى النَّفْسَ عَنِ الْهَوَىٰ ﴿٤٠﴾ فَإِنَّ الْجَنَّةَ هِيَ الْمَأْوَىٰ ﴿٤١﴾ يَسْأَلُونَكَ عَنِ السَّاعَةِ أَيَّانَ مُرْ‌سَاهَا ﴿٤٢﴾ فِيمَ أَنتَ مِن ذِكْرَ‌اهَا ﴿٤٣﴾ إِلَىٰ رَ‌بِّكَ مُنتَهَاهَا ﴿٤٤﴾ إِنَّمَا أَنتَ مُنذِرُ‌ مَن يَخْشَاهَا ﴿٤٥﴾ كَأَنَّهُمْ يَوْمَ يَرَ‌وْنَهَا لَمْ يَلْبَثُوا إِلَّا عَشِيَّةً أَوْ ضُحَاهَا ﴿٤٦﴾
-															</p>
-															<p contenteditable="true"  id="kurdish" class="w3-container text" style="display:none">
-فۆنت بریتییە لە کۆی هەندێک پیت (حرف)، وشە، شێوە و نیگار کە لە زمانێکی تایبەتیدا وەک زمانی کوردی، فارسی یان ئینگلیسیدا دیاری دەکرێن کە هێمای تایبەتی خۆیان هەیە و نیشاندەری پیتەکانی ئەو زمانانەن. فۆنتەکان دەتوانن زیاتر لە یەک زمان لەخۆیان بگرن و هەڵگری فۆنتی زمانێکی تریش بن. فۆنت سەرەکی‌ترین ئامێری جوانکاری لە بەکارهێنانی ڕۆژنامە، گۆڤار و شێوەی تری گڕافیکیدایە. بەکارهێنانی فۆنتی جۆراوجۆر دەبێتە هۆی چێژبەخشین بە خوێندنەوە. قەبارەی فۆنتەکان لەسەر بنەما و یەکەی «پیکسێڵ» داڕێژراوە. فۆڕمەتی فۆنتەکان بەچەند جۆرێکی تایبەتە کە بریتین لە TTF، OTF و ... و دوای داونلۆدکردن و دابەزاندن دەتوانی کەڵکیان لێوەربگری. نەبوونی فۆنتی ستاندارد و یونیکۆدی کوردی لە ماوەی چەند ساڵی رابردوودا یەکێک بووە لە سەرەکیترین هۆکارەکانی پێشنەکەوتنی باشتربوونی نووسین و خوێندنەوە لە کۆمەڵگای کوردیدا و نەبوونی داهێنەری فۆنتی کوردی یەکێکە لەو کێشانە کە پێویستە بە زووترین کات داهێنەران و دیزاینەرانی کورد هەوڵ و کۆششی خۆیان بخەنە گەڕ بۆ درووستکردنی فۆنتی ستاندارد و یونیکۆدی کوردی. لەگەڵ هەموو ئەو کەند و کۆسپانەی رێگربوون لە بەرەوپێشچوونی فۆنتی کوردی و بەکارهێنانی یونیکۆد وەکوو ستانداردێک، بەڵام دیسان لەلایەن چەند دڵسۆزانێکەوە بە خۆبەخشانە هەوڵی کارلەسەرکردنی فۆنت و کیبۆردی کوردی هەر بەردەوام بووە و هیوادارین لەمەودوا زۆر بە تایبەتیتر کاری لەسەر بکرێت. یەکێک لە کێشە سەرەکیەکانی نەبوونی کیبۆرد و فۆنتی کوردی ئەوە بووە کە ناچاری درووست کردووە کە کیبۆرد و فۆنتی ناکوردی بەکار بهێنرێت و ئەوەش لە کۆکردنەوە و دۆزینەوە زانیاری و داتاکان لەسەر هێڵی ئینتەرنێتیش بووەتە کۆسپ و تاکی کورد ناتوانێت بە تەواوەتی کەڵکی لێوەربگرێت.
-</p>
-															<p contenteditable="true"  id="Urdo" class="w3-container text" style="display:none">
-کراچی (سندھی: ڪراچي) (انگریزی: Karachi) پاکستان کا سب سے بڑا شہر اور صنعتی، تجارتی، تعلیمی، مواصلاتی و اقتصادی مرکز ہے۔ کراچی دنیا کاچهٹا بڑا شہر ہے۔ کراچی پاکستان کے صوبہ سندھ کا دارالحکومت ہے۔ شہر دریائے سندھ کے مغرب میں بحیرہ عرب کی شمالی ساحل پر واقع ہے۔ پاکستان کی سب سے بڑی بندرگاہ اور ہوائی اڈا بھی کراچی میں قائم ہے۔ کراچی 1947ء سے 1960ء تک پاکستان کا دار الحکومت بھی رہا۔ موجودہ کراچی کی جگہ پر واقع قدیم ماہی گیروں کی بستی کا نام مائی کولاچی تھا۔ جو بعد میں بگڑ کر کراچی بن گیا انگریزوں نے انیسویں صدی میں اس شہر کی تعمیر و ترقی کی بنیادیں ڈالیں۔ 1947ء میں پاکستان کی آزادی کے وقت کراچی کو نو آموز مملکت کا دار الحکومت منتخب کیا گیا۔ اس کی وجہ سے شہر میں لاکھوں مہاجرین کا دخول ہوا۔ پاکستان کا دار الحکومت اور بین الاقوامی بندرگاہ ہونے کی وجہ سے شہر میں صنعتی سرگرمیاں دیگر شہروں سے قبل شروع ہو گئیں۔ 1959ء میں پاکستان کے دار الحکومت کی اسلام آباد منتقلی کے باوجود کراچی کی آبادی اور معیشت میں ترقی کی رفتار کم نہیں ہوئی۔ پورے پاکستان سے لوگ روزگار کی تلاش میں کراچی آتے ہیں اور اس وجہ سے یہاں مختلف مذہبی، نسلی اور لسانی گروہ آباد ہیں۔ کراچی کو اسی وجہ سے چھوٹا پاکستان بھی کہتے ہیں۔ ان گروہوں کی باہمی کشیدگی کی وجہ سے 80 اور 90 کی دہائیوں میں کراچی لسانی فسادات، تشدد اور دہشت گردی کا شکار رہا۔ بگڑتے ہوئے حالات کو سنبھالنے کے ليے پاک فوج کو بھی کراچی میں مداخلت کرنی پڑی۔ اکیسویں صدی میں تیز قومی معاشی ترقی کے ساتھ ساتھ کراچی کے حالات میں بہت تبدیلی آئی ہے۔ کراچی کی امن عامہ کی صورت حال کافی بہتر ہوئی ہے اور شہر میں مختلف شعبوں میں ترقی کی رفتار میں بہت اضافہ ہوا ہے۔ </p>
-														</section>
-														<footer>
-															تایپ‌فیس میخک مجموعه فونت ۹ وزنی سازگار با وب، طراحی شده برای استفاده در متون بلند و منتشر شده تحت مجوز آزاد است
-															<br>
-      با تشکر از کمک‌های بی‌دریغ
-															<a href="http://github.com/rastikerdar" target="_blank">صابر راستی‌کردار</a> و
-															<a href="http://github.com/zoghal/" target="_blank">صالح سوزنچی</a>
-															<br>
-      و با سپاس از
-																<a href="https://github.com/arashmilani" target="_blank">آرش میلانی</a> برای رفع اشکالات این صفحه
-																<br>
-      طراحی شده توسط
-																	<a href="http://github.com/aminabedi68" target="_blank">امین عابدی</a> /
-															تاریخ اولین انتشار: ۱۳۹۶/۰۱/۱۰
-																	<br>
-															<br>
-																		<p>فونت‌های آزاد:
-																			<a href="https://aminabedi68.github.io/Estedad/" target="_blank">استعداد</a>،
-																			<a href="https://aminabedi68.github.io/Mikhak/" target="_blank">میخک</a>،
-																			<a href="http://github.com/aminabedi68/AzarMehrMonospaced/" target="_blank">آذرمهر مونواسپیست</a>،
-																			<a href="http://github.com/aminabedi68/Fandogh/" target="_blank">فندق</a>
-																		</p>
-																		<p>فونت‌های تجاری:
-																			<a href="https://fontamin.com/product/%d9%81%d9%88%d9%86%d8%aa-%d8%aa%db%8c%d8%aa%d8%b1-%d9%81%d8%a7%d9%86%d8%aa%d8%b2%db%8c-%d9%be%db%8c%d9%86%d8%a7%d8%b1/" target="_blank">پینار</a>،
-																			<a href="https://fontamin.com/product/%d9%81%d9%88%d9%86%d8%aa-%d9%85%d8%aa%d9%86-%d8%a2%d8%b0%d8%b1%d9%85%d9%87%d8%b1/" target="_blank">آذرمهر</a>،
-																			<a href="https://fontamin.com/product/%d9%81%d9%88%d9%86%d8%aa-%d8%aa%db%8c%d8%aa%d8%b1-%d8%b9%d9%86%d9%88%d8%a7%d9%86/" target="_blank">عنوان</a>،
-																			<a href="https://fontamin.com/product/%d9%81%d9%88%d9%86%d8%aa-%d8%a8%d8%af%db%8c%d8%b9/" target="_blank">بدیع</a>
-																		</p>
-																		<ul class="social-list">
-																			<li>
-																				<a href="mailto:aminabedi68@gmail.com" class="social-gmail">
-																					<svg viewBox="0 0 100 100" class="gmail">
-																						<use
-																							xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#gmail">
-																						</use>
-																					</svg>
-																				</a>
-																			</li>
-																			<li>
-																				<a href="https://instagram.com/fontamin" class="social-instagram" target="_blank">
-																					<svg viewBox="0 0 100 100" class="shape-instagram">
-																						<use
-																							xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-instagram">
-																						</use>
-																					</svg>
-																				</a>
-																			</li>
-																			<li>
-																				<a href="https://fontamin.com" class="social-fontamin" target="_blank">
-																					<svg viewBox="0 0 100 100" class="shape-fontamin">
-																						<use
-																							xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fontamin">
-																						</use>
-																					</svg>
-																				</a>
-																			</li>
-																			<li>
-																				<a href="https://twitter.com/aminabedi68" class="social-twitter" target="_blank">
-																					<svg viewBox="0 0 100 100" class="shape-twitter">
-																						<use
-																							xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-twitter">
-																						</use>
-																					</svg>
-																				</a>
-																			</li>
-																			<li>
-																				<a href="https://github.com/aminabedi68" class="social-github" target="_blank">
-																					<svg viewBox="0 0 100 100" class="shape-github">
-																						<use
-																							xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-github">
-																						</use>
-																					</svg>
-																				</a>
-																			</li>
-																			<li>
-																				<a href="https://telegram.me/aminabedi68" class="social-telegram" target="_blank">
-																					<svg viewBox="0 0 100 100" class="telegram">
-																						<use
-																							xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram">
-																						</use>
-																					</svg>
-																				</a>
-																			</li>
-																		</ul>
-																		<svg width="0" height="0">
-																			<defs>
-																				<path id="gmail" d="m 11.53846,13.461537 c -1.18077,0 -2.29615,0.228961 -3.36538,0.555888 L 19.381,21.153844 H 80.619 L 91.82693,14.017425 C 90.75769,13.690502 89.64231,13.461537 88.46154,13.461537 Z M 4.28185,16.105768 C 1.68954,18.224998 0,21.403845 0,24.999998 v 49.999999 c 0,6.361538 5.17693,11.538466 11.53846,11.538466 H 88.46154 C 94.82308,86.538463 100,81.361535 100,74.999997 V 24.999998 c 0,-3.596153 -1.68953,-6.775 -4.28184,-8.89423 L 50,45.199817 Z M 11.53846,34.284852 50,58.766524 88.46154,34.284852 V 78.846155 H 11.53846 Z"></path>
-																				<path id="telegram" d="M 79.16663,100 H 20.83338 C 9.32916,100 0,90.670831 0,79.166662 V 20.833333 C 0,9.3291683 9.32916,-9.9999999e-7 20.83338,-9.9999999e-7 H 79.16663 C 90.67502,-9.9999999e-7 100,9.3291683 100,20.833333 V 79.166662 C 100,90.670831 90.67502,100 79.16663,100 Z M 67.73338,78.55 c 0.89578,0.637502 2.04578,0.795831 3.07493,0.404219 1.02507,-0.387468 1.78338,-1.266666 2.01254,-2.333337 2.41253,-11.341663 8.27084,-40.05833 10.46662,-50.375 0.16202,-0.779169 -0.11266,-1.587498 -0.72084,-2.10833 C 81.95422,23.620881 81.10422,23.470881 80.35,23.750084 68.70422,28.058417 32.83338,41.516746 18.17084,46.945915 c -0.92915,0.341688 -1.53337,1.237502 -1.50421,2.220832 0.0337,0.979168 0.6959,1.833337 1.6459,2.120835 6.57494,1.962502 15.20831,4.7 15.20831,4.7 0,0 4.02916,12.183333 6.13338,18.375004 0.26203,0.779161 0.87494,1.391667 1.67494,1.6 0.80422,0.208313 1.65422,-0.0084 2.25422,-0.575 3.37915,-3.187502 8.6,-8.116671 8.6,-8.116671 0,0 9.92084,7.275 15.55,11.279169 z M 37.15,54.45 41.81253,69.833333 42.85,60.091662 c 0,0 18.01663,-16.25 28.29169,-25.516662 0.3,-0.270844 0.34219,-0.725 0.0916,-1.045832 -0.24979,-0.320843 -0.70422,-0.395822 -1.04591,-0.179156 -11.90409,7.604169 -33.03747,21.1 -33.03747,21.1 z"></path>
-																				<path id="shape-instagram" d="M 49.999996,0 C 33.71246,0 31.80036,0.0484 25.36278,0.363022 19.40924,0.62924 16.19073,1.645508 14.0368,2.4683546 11.18104,3.5574199 9.14812,4.8886854 7.0184,7.0184096 4.88867,9.1481325 3.58161,11.181051 2.46834,14.036815 1.62129,16.190739 0.62923,19.409243 0.36302,25.362788 0.0726,31.800362 0,33.71246 0,50.000004 c 0,16.287542 0.0726,18.199642 0.36302,24.637215 0.26621,5.953546 1.28248,9.172047 2.10532,11.325973 1.08906,2.855766 2.42033,4.888682 4.55006,7.018406 2.12972,2.129723 4.16264,3.43679 7.0184,4.550053 2.15393,0.84705 5.37244,1.839117 11.32598,2.105334 C 31.80036,99.927401 33.71246,100 49.999996,100 c 16.287536,0 18.199633,-0.07261 24.637209,-0.363015 5.953542,-0.266217 9.172054,-1.282487 11.32598,-2.105334 2.855762,-1.089064 4.88868,-2.42033 7.018404,-4.550053 2.129724,-2.129724 3.436792,-4.16264 4.550043,-7.018406 0.847061,-2.153926 1.83913,-5.372427 2.105335,-11.325973 0.29042,-6.437573 0.363026,-8.349673 0.363026,-24.637215 0,-16.287544 -0.07265,-18.199642 -0.363026,-24.637216 C 99.370762,19.409243 98.354492,16.190739 97.531632,14.036815 96.442569,11.181051 95.111313,9.1481325 92.981589,7.0184096 90.851865,4.8886854 88.818947,3.5816202 85.963185,2.4683546 83.809259,1.621307 80.590747,0.62924 74.637205,0.363022 68.199629,0.072605 66.287532,0 49.999996,0 Z M 82.55087,10.140484 a 7.3088238,7.3088238 0 0 1 7.308636,7.308636 7.3088238,7.3088238 0 0 1 -7.308636,7.308633 7.3088238,7.3088238 0 0 1 -7.308621,-7.308633 7.3088238,7.3088238 0 0 1 7.308621,-7.308636 z m -32.550874,8.542811 c 17.279793,0 31.316702,14.036909 31.316702,31.316709 0,17.2798 -14.036909,31.316709 -31.316702,31.316709 -17.279796,0 -31.316706,-14.012709 -31.316706,-31.316709 0,-17.304003 14.03691,-31.316709 31.316706,-31.316709 z m 0,8.574482 c -12.562476,0 -22.742226,10.17976 -22.742226,22.742227 0,12.562464 10.17975,22.742224 22.742226,22.742224 12.562459,0 22.742223,-10.17976 22.742223,-22.742224 0,-12.562467 -10.179764,-22.742227 -22.742223,-22.742227 z"></path>
-																				<path id="shape-github" d="M50.049,0.3c14.18,0.332,25.969,5.307,35.366,14.923S99.675,36.9,100,51.409c-0.195,11.445-3.415,21.494-9.658,30.146
-													              c-6.244,8.65-14.406,14.772-24.488,18.366c-1.234,0.199-2.112,0.017-2.633-0.549c-0.521-0.565-0.781-1.215-0.781-1.946
-													              l0.098-14.074c0-2.396-0.342-4.377-1.023-5.939c-0.684-1.564-1.479-2.745-2.391-3.544c5.788-0.399,10.977-2.312,15.561-5.739
-													              c4.586-3.428,7.01-9.934,7.27-19.517c0-2.795-0.455-5.324-1.366-7.586c-0.91-2.263-2.179-4.293-3.805-6.09
-													              c0.391-0.665,0.716-2.196,0.976-4.592c0.262-2.396-0.229-5.391-1.463-8.983c0-0.2-1.105-0.15-3.316,0.149
-													              c-2.211,0.299-5.691,2.013-10.439,5.141c-4.032-1.131-8.18-1.697-12.438-1.697c-4.26,0-8.439,0.566-12.537,1.697
-													              c-4.748-3.128-8.228-4.841-10.439-5.141c-2.211-0.3-3.317-0.35-3.317-0.149c-1.235,3.593-1.723,6.588-1.463,8.983
-													              c0.26,2.396,0.585,3.927,0.976,4.592c-1.626,1.73-2.894,3.743-3.805,6.039c-0.911,2.296-1.366,4.842-1.366,7.637
-													              c0.26,9.518,2.667,16.006,7.219,19.466c4.553,3.461,9.724,5.391,15.512,5.79c-0.715,0.599-1.366,1.464-1.951,2.596
-													              s-1.008,2.528-1.268,4.192c-1.561,0.865-3.772,1.281-6.634,1.248c-2.862-0.033-5.496-1.881-7.902-5.54
-													              c0-0.2-0.65-1.032-1.951-2.496c-1.301-1.464-3.187-2.396-5.659-2.795c-0.325-0.066-0.976,0.05-1.951,0.35
-													              c-0.976,0.3-0.456,1.214,1.561,2.745c0.065-0.066,0.699,0.449,1.902,1.547c1.203,1.1,2.423,3.078,3.659,5.939
-													              c-0.195,0.466,0.862,1.863,3.17,4.191c2.309,2.329,6.846,2.93,13.61,1.797l0.098,9.483c0,0.731-0.26,1.381-0.781,1.946
-													              c-0.52,0.564-1.398,0.748-2.634,0.549c-10.082-3.594-18.244-9.716-24.488-18.367C3.415,72.604,0.195,62.556,0,51.11
-													              C0.325,36.602,5.187,24.54,14.585,14.923C23.984,5.308,35.772,0.333,49.951,0L50.049,0.3z"></path>
-																				<path id="fontamin" d="m 75.860395,1.252619 -2.0411,3.439598 c 8.3424,4.951638 13.39138,11.952008 16.45379,20.360184 3.06238,8.408177 4.0607,18.223179 4.0607,28.462079 0,16.676787 -2.93934,26.561702 -9.88321,32.434887 -6.94387,5.873185 -18.5865,8.115565 -36.67919,8.115565 -11.60993,0 -22.2094,-1.375725 -29.63596,-5.576393 C 10.708855,84.287861 6.1701028,77.52723 6.1701028,65.380184 h -4.00016 c 0,13.203228 5.502639,21.784502 13.9966522,26.588954 8.49401,4.804462 19.69244,6.095954 31.60479,6.095954 18.41127,0 31.0505,-2.118065 39.26133,-9.062863 8.21083,-6.944798 11.30123,-18.335703 11.30123,-35.487749 0,-10.49514 -0.99544,-20.75025 -4.3029,-29.831274 -3.30746,-9.081023 -9.00266,-16.988909 -18.17065,-22.430587 z m -31.21219,0.414087 c -31.344354,0 -39.8592212,15.547222 -40.3063002,38.399966 v 0.425797 l 14.0103302,3.205208 c -1.06749,4.471799 -1.66804,8.7432 -1.66804,13.682187 0,12.097224 16.47968,14.297452 30.22386,14.297452 13.14374,0 24.27161,-0.838503 34.62835,-2.920037 l -0.86723,-9.109744 c -4.20331,1.802072 -11.94243,3.00403 -17.27999,3.00403 -11.8093,0 -19.88361,-5.339173 -19.88361,-22.291912 0,-12.690067 3.58067,-25.178587 10.66645,-32.237619 1.07818,-1.074123 2.09354,-2.00742 3.27747,-2.892686 L 55.916235,2.248759 C 51.867285,1.856623 48.117705,1.666706 44.648205,1.666706 Z m 20.27425,21.672737 c -5.33756,0 -7.93978,5.406286 -7.93978,11.680157 0,4.071323 3.13554,6.00805 8.87341,6.00805 3.13581,0 7.00651,-0.535331 11.54343,-1.669987 0,-7.942427 -5.40482,-16.01822 -12.47706,-16.01822 z"</path>
-																			  <path id="shape-twitter" d="M100.001,17.942c-3.681,1.688-7.633,2.826-11.783,3.339
-														            c4.236-2.624,7.49-6.779,9.021-11.73c-3.965,2.432-8.354,4.193-13.026,5.146C80.47,10.575,75.138,8,69.234,8
-														            c-11.33,0-20.518,9.494-20.518,21.205c0,1.662,0.183,3.281,0.533,4.833c-17.052-0.884-32.168-9.326-42.288-22.155
-														            c-1.767,3.133-2.778,6.773-2.778,10.659c0,7.357,3.622,13.849,9.127,17.65c-3.363-0.109-6.525-1.064-9.293-2.651
-														            c-0.002,0.089-0.002,0.178-0.002,0.268c0,10.272,7.072,18.845,16.458,20.793c-1.721,0.484-3.534,0.744-5.405,0.744
-														            c-1.322,0-2.606-0.134-3.859-0.379c2.609,8.424,10.187,14.555,19.166,14.726c-7.021,5.688-15.867,9.077-25.48,9.077
-														            c-1.656,0-3.289-0.102-4.895-0.297C9.08,88.491,19.865,92,31.449,92c37.737,0,58.374-32.312,58.374-60.336
-														            c0-0.92-0.02-1.834-0.059-2.743C93.771,25.929,97.251,22.195,100.001,17.942L100.001,17.942z"></path>
-																				</defs>
-																		</svg>
-																	</footer>
-																	<script>
-      "use strict";
-      function changeFont(name, event) {
-        var testText = document.getElementsByClassName('changesizeOldNick')[0];
-        testText.className = 'changesizeOldNick ' + name + '-font';
+  // 👇 Fix: Recalculate all slider positions whenever any tab changes
+  const tabs = document.querySelectorAll('#tab1, #tab2, #tab3, #tab4');
+  tabs.forEach(tab => {
+    tab.addEventListener('change', () => {
+      if (tab.checked) {
+        requestAnimationFrame(() => {
+          document.querySelectorAll('.slider').forEach(sl => {
+            const event = new Event('input');
+            sl.dispatchEvent(event);
+          });
+        });
       }
-    </script>
-																	<script>
-    $(document).ready(function () {
-      'use strict';
-       var c, currentScrollTop = 0,
-           navbar = $('nav');
-       $(window).scroll(function () {
-          var a = $(window).scrollTop();
-          var b = navbar.height();
-          currentScrollTop = a;
-          if (c < currentScrollTop && a > b + b) {
-            navbar.addClass("scrollUp");
-          } else if (c > currentScrollTop && !(a <= b)) {
-            navbar.removeClass("scrollUp");
-          }
-          c = currentScrollTop;
-      });
     });
-																	</script>
-																	<script type="text/javascript">
-$(document).ready(function(){
-    $(window).scroll(function(){
-        if ($(this).scrollTop() > 100) {
-            $('#scroll').fadeIn();
-        } else {
-            $('#scroll').fadeOut();
-        }
-    });
-    $('#scroll').click(function(){
-        $("html, body").animate({ scrollTop: 0 }, 600);
-        return false;
-    });
+  });
 });
 </script>
-<script type="text/javascript">
-if($('div.verticaltab').css('display') === 'none'){
-	var i, x;
-	x = document.getElementsByClassName("text");
-	for (i = 0; i < x.length; i++) {
-		 x[i].style.display = "block";
-	} }
-</script>
-<a href="https://aminabedi68.github.io/Mikhak/VF.html" id="fixedbutton">نسخۀ متغیر</a>
-</body>
+   </body>
 </html>
